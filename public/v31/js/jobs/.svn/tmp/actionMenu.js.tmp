@@ -1,0 +1,596 @@
+//Dashboard Functions
+function box_hover(clickClass, hoverClass)
+{
+	$("."+clickClass).hover(
+		function () {
+			$(this).addClass(hoverClass);
+		}, 
+		function () {
+			$(this).removeClass(hoverClass);
+		}
+	);
+}
+function closeBox()
+{
+	$(".close-button a").click(function(){
+		removeOddEven();
+		$(this).parent().parent().remove();
+		//$(this).parent().parent().fadeOut("slow");
+		addOddEven();
+	});
+}
+function removeOddEven()
+{
+	$(".content div.box:odd").removeClass("green-bg");
+	$(".content div.box:even").removeClass("grey-bg");
+}
+function addOddEven()
+{
+	$(".content div.box:odd").addClass("green-bg");
+	$(".content div.box:even").addClass("grey-bg");
+}
+
+//Message Board Function
+function showMessageResponse(responseText, statusText, xhr, $form)  {
+	//alert(responseText);
+	messageJob($("#orderNumber").val());
+	$("#formOutput").html("Your message sent successfully.");
+}
+//Ajai
+function showPopup(clickID , popupID)
+{
+	var clickIDArrays = clickID.split(",")
+	var status;
+	var relJobDetailsWithSeparator;
+	
+	$.each(clickIDArrays, function(){
+		$("#"+this).click(function(){
+			var offset = $(this).offset();
+			$("#"+popupID).show();
+			
+			var jobIDArrays = $(this).attr('id').split("_")
+			var jobID = jobIDArrays[1];
+			
+			/* Set Job Detail in JS Var */ 
+			relJobDetailsWithSeparator = $(this).attr('rel');
+			JobDetailsArray = relJobDetailsWithSeparator.split("##");
+			status = JobDetailsArray[0];
+			submittedBy = JobDetailsArray[1];
+			
+			//alert('clicked');
+			
+			createMenuDivHtmlTxt  = createMenuDivHtml(status,jobID);
+			$("#"+popupID).html(createMenuDivHtmlTxt);
+			$("#"+popupID).offset({ top: offset.top, left: offset.left});
+			$("#"+popupID).css("z-index", "10");
+			$("#"+popupID).hover(
+				function () {
+					$(this).show();
+				}, 
+				function () {
+					$(this).hide();
+				}
+			);
+			$('#pickupJob_'+jobID).click(function(){
+				
+				pickupJob();
+			});
+			$('#cancelJob_'+jobID).click(function(){	
+				//--
+				$('#jobId').val(jobID);
+				$('#requester').val(submittedBy);
+				cancelJob();
+				//--
+			});
+			$('#changeOwner_'+jobID).click(function(){	
+				//--
+				$('#jobId').val(jobID);
+				$('#currentOwner').val(submittedBy);
+				changeOwner();
+				//--
+			});
+			$('#messageJob_'+jobID).click(function(){	
+				//--
+				messageJob(jobID);
+				//--
+			});
+			$('#feedBack_'+jobID).click(function(){	
+				//--
+				$('#jobId').val(jobID);
+				$.ajax({
+                            url: '/orders/fetchfeedback',
+                            type: 'POSt',
+						data: "form_action=feedbacks&jobno="+jobID,
+						dataType: 'json',
+                            beforeSend: function() {
+                                $('#emailproofLoading').html('<img src="http://www.jquery4u.com/function-demos/functions/ajax/images/loading.gif" />');
+                            },
+                            success: function(jsondata) {
+						    //$('#emailproofLoading').html('');
+						   	//alert(jsondata)
+                                //$('#Subject').val(jsondata.subject);
+							//$('#Message').val(jsondata.message);
+						},
+						error: function(errorThrown) {
+                                //$('#'+id+' .contentarea').html(textStatus);
+                            }
+				});						
+				feedBack();
+				//--
+			});
+			$('#accept_'+jobID).click(function(){	
+				//--
+				$('#jobId').val(jobID);
+				accept();
+				//--
+			});
+			$('#emailProof_'+jobID).click(function(){	
+				//--
+				$('#jobId').val(jobID);
+					
+				$.ajax({
+                            url: '/view/emailproofget',
+                            type: 'POSt',
+						data: "action=loadjson&id="+jobID,
+						dataType: 'json',
+                            beforeSend: function() {
+                                $('#emailproofLoading').html('<img src="http://www.jquery4u.com/function-demos/functions/ajax/images/loading.gif" />');
+                            },
+                            success: function(jsondata) {
+						    $('#emailproofLoading').html('');
+                                $('#Subject').val(jsondata.subject);
+							$('#Message').val(jsondata.message);
+						},
+						error: function(errorThrown) {
+                                //$('#'+id+' .contentarea').html(textStatus);
+                            }
+				});
+				//var json = '{"subject":"Your ad ROF is available for proof","message":"You"}';
+				emailProof();
+				
+				//data = $.parseJSON(data);
+				//alert(json);
+				
+				//-- 
+			});
+			$('#revise_'+jobID).click(function(){	
+				//--
+				$('#jobId').val(jobID);
+				revise();
+				//--
+			});
+			$('#assignJob_'+jobID).click(function(){	
+				//--
+				$('#jobId').val(jobID);
+				assignJob();
+				//--
+			});
+		});
+	});
+}
+
+function createMenuDivHtml(status,jobID)
+{
+	var createMenuDivHtml = '';
+	/**/
+	var StartTable  = '<ul>';
+	var EndTable  =  '</ul>';
+	var changeLI 		=  '<li><a href="#" id="changeJob_'+jobID+'" ><img src="/images/change.png" />Change</a></li>';
+	var pickupLI 		=  '<li><a href="#" id="pickupJob_'+jobID+'" ><img src="/images/pickup.png" />Pickup</a></li>';
+	var changeOwnerLI 	=  '<li><a href="#" id="changeOwner_'+jobID+'"><img src="/images/change.png" width="13" height="15"/>Change Owner</a></li>';
+	var printLI 	  	=  '<li><a href="#" id="printJob_'+jobID+'" ><img src="/images/print.png" width="16" height="12"/>Print</a></li>';
+	var messageLI 	  	=  '<li><a href="#" id="messageJob_'+jobID+'" ><img src="/images/message.png" width="16" height="11"/>Message</a></li>';
+	var cancelJobLI 	=  '<li><a href="#" id="cancelJob_'+jobID+'" ><img src="/images/cancel.png" width="16" height="11"/>Cancel</a></li>';
+	var assignJobLI 	=  '<li><a href="#" id="assignJob_'+jobID+'" ><img src="/images/pickup.png" width="16" height="12"/>Assign</a></li>';
+	
+	var acceptLI 		=  '<li><a href="#" id="accept_'+jobID+'" ><img height="12" width="13" src="/images/accept.png"> Accept</a></li>';
+	var feedBackLI 		=  '<li><a href="#" id="feedBack_'+jobID+'" ><img src="/images/feedback.png" width="13" height="15"/>FeedBack</a></li>';
+	var emailProofLI 	=  '<li><a href="#" id="emailProof_'+jobID+'" ><img src="/images/email-proof.png" width="14" height="11"/>E-Mail Proof</a></li>';
+	var reviseLI 		=  '<li><a href="#" id="revise_'+jobID+'" ><img src="/images/revise.png" width="13" height="12"/>Revise</a></li>';
+	var archiveVisualsLI=  '<li><a href="#" id="archiveVisuals_'+jobID+'" ><img src="/images/revise.png" width="13" height="12"/>Archive Visuals</a></li>';
+	
+	if (status == 'Order Entry') {
+		//Order Entry
+		createMenuDivHtml = StartTable + changeLI + pickupLI + changeOwnerLI + printLI +  cancelJobLI + messageLI + EndTable;
+	
+	} else if (status == 'Submitted' || status == 'Revised' || status == 'In Production' || status == 'Cancelled') { 
+		//-Submitted || Revised || In Production || Cancelled
+		createMenuDivHtml = StartTable + pickupLI + changeOwnerLI + printLI + messageLI ;
+			if (status != 'Cancelled') {
+				createMenuDivHtml =	createMenuDivHtml +	cancelJobLI;
+			}
+			if (status == 'Submitted' || status == 'Revised') {
+				createMenuDivHtml =	createMenuDivHtml +	assignJobLI;
+			}
+		createMenuDivHtml =	createMenuDivHtml +	EndTable;
+	
+	}  else if (status == 'Ready for Proof') {
+		//Ready for Proof
+		//createMenuDivHtml = StartTable + acceptLI + feedBackLI + emailProofLI + reviseLI + archiveVisualsLI + pickupLI + changeOwnerLI + printLI + messageLI + EndTable;
+		createMenuDivHtml = StartTable + acceptLI + feedBackLI + emailProofLI + changeOwnerLI + printLI + messageLI + EndTable;
+		
+	} else if (status == 'Non Compliance-On Hold') {
+		//Non Compliance-On Hold
+		createMenuDivHtml = StartTable + pickupLI + changeOwnerLI + printLI + cancelJobLI + messageLI +	EndTable;
+	
+	} else if (status == 'Complete' || status == 'Accepted' || status == 'Archive' || status == 'Quote Requested' || status == 'Quote Submitted' || status == 'Quote Accepted') {
+		//Complete || Accepted || Archive || Quote Requested || Quote Submitted || Quote Accepted
+		createMenuDivHtml = StartTable + changeOwnerLI + messageLI + printLI + EndTable;
+	} else {
+		// Else 
+		createMenuDivHtml = StartTable + messageLI + EndTable;
+	}
+	
+	return createMenuDivHtml;
+}
+
+
+function cancelJob()
+{
+	var flag = false ;
+	
+	$( "#dialog-canceljob" ).dialog({
+        resizable: false,
+        height: 350,
+        width: 300,
+        modal: true,
+        buttons: { 
+            "Yes": function() {
+            	
+            	$.post('/orders/cancelorder', {
+            		jobno: $('#jobId').val(),
+                    Comments: $('#reason').val(),
+                    requester: $('#requester').val(),
+                    form_action: 'cancel_order'
+                }, function(d){
+                    console.log(d);
+                    // Here we handle the response from the script
+                    // We are just going to alert the result for now
+                    loadOrderList();
+                    //alert(d);
+                });
+            	
+	           $(this).dialog("close");
+               	
+            	
+            },
+            Cancel: function() {
+                $(this).dialog( "close" );
+            }
+        }
+    });
+}
+/**
+ * Function (assignJob) is used to assign Job. 
+ * 
+ * @return null.
+*/
+function assignJob()
+{
+	//alert('assignJob');
+}
+
+/**
+ * Function (accept) is used to accept The Order. 
+ * 
+ * @return null.
+*/
+function accept()
+{
+	var flag = false ;
+	$( "#dialog-accept" ).dialog({
+	    resizable: false,
+	    height: 150,
+	    width : 300,
+	    modal: true,
+	    buttons: { 
+	        "Accept": function() {
+	        	//----
+	        	var res = $.ajax({
+		    		url: '/orders/acceptorder',
+		    		type: 'POST',
+		    		data: "form_action=accept_order&jobno="+$('#jobId').val(),
+		    		dataType: 'json',
+		    		beforeSend: function() {
+		    			//$('#dialog').html('<img src="http://www.jquery4u.com/function-demos/functions/ajax/images/loading.gif" />');
+		    		},
+		    		success: function(jsondata) {
+		    			$("#dialog-accept").dialog("close");
+		    			loadOrderList();
+		    		},
+		    		error: function(errorThrown) {
+		    			//$('#'+id+' .contentarea').html(textStatus);
+		    		}
+				});
+		    	
+	        },
+	        Cancel: function() {
+	            $(this).dialog( "close" );
+	        }
+	    }
+	});		
+}
+
+/**
+ * Function (feedBack) is used to accept and feedBack The Order. 
+ * 
+ * @return null.
+*/
+function feedBack()
+{
+	var flag = false ;
+	$( "#dialog-feedback" ).dialog({
+	    resizable: false,
+	    height: 400,
+	    width: 500,
+	    modal: true,
+	    buttons: { 
+	        "Submit": function() {
+	        	
+	        	$.post('/orders/acceptorder', {
+	        		jobno: $('#jobId').val(),
+	                form_action: 'accept_order'
+	            }, function(d){
+	                console.log(d);
+	                // Here we handle the response from the script
+	                // We are just going to alert the result for now
+	                loadOrderList();
+	                //alert(d);
+	            });
+	        	
+	           $(this).dialog("close");
+	        },
+	        Cancel: function() {
+	            $(this).dialog( "close" );
+	        }
+	    }
+	});	
+}
+
+
+/**
+ * Function (emailProof) is used to send Email Proof. 
+ * 
+ * @return null.
+*/
+function emailProof()
+{
+	var flag = false ;
+	
+	$( "#dialog-emailproof" ).dialog({
+	    resizable: false,
+	    height: 600,
+	    width: 500,
+	    modal: true,
+	    buttons: { 
+	        "Accept": function() {
+	        	$.post('/orders/acceptorder', {
+	        		jobno: $('#jobId').val(),
+	                form_action: 'accept_order'
+	            }, function(d){
+	                console.log(d);
+	                // Here we handle the response from the script
+	                // We are just going to alert the result for now
+	                loadOrderList();
+	                //alert(d);
+	            });
+	           $(this).dialog("close");
+	        },
+	        Cancel: function() {
+	            $(this).dialog( "close" );
+	        }
+	    }
+	});
+}
+
+/**
+ * Function (revise) is used to revise the order. 
+ * 
+ * @return null.
+*/
+function revise()
+{
+	//alert('revise');
+}
+
+/**
+ * Function (pickupJob) is used to create duplicate Job. 
+ * 
+ * @return null.
+*/
+function pickupJob()
+{
+	//alert('pickup');
+}
+
+/**
+ * Function (messageJob) is used to show message section. 
+ * 
+ * @return null.
+*/
+function messageJob(jobID)
+{
+	jobno = jobID;
+	$.post('/orders/viewjob',{'jobno':jobno},function(data){
+		$('#order_details').html(data);
+		
+		if($('.content-main-left').css('height')!='680px')
+		{
+			$('.content-main-left').css({"height" : '680px', 'overflow-y':'scroll'});
+			$('.content-main-left').animate({"width" : '-=570px'}, "slow", function(){
+				$('#order_details').fadeIn('slow');
+				$('.content-main-left').css({"height" : '680px', 'overflow-y':'scroll'});
+				document.getElementById('job_'+jobno).scrollIntoView(false);
+			});
+			$('.content-main-left').css({"height" : '680px', 'overflow-y':'scroll'});
+		}
+		$(".noteboxes").hide();
+		$("#noteboxview").fadeIn("normal");
+		nextprev("msgbrd");
+		//document.getElementById('job_'+jobno).scrollIntoView(false);
+	});
+}
+
+
+/**
+ * Function (changeOwner) is used to change the Job owner. 
+ * 
+ * @return null.
+*/
+function changeOwner()
+{
+	$( "#dialog-changeowner" ).dialog({
+        resizable: false,
+        height: 200,
+        width: 350,
+        modal: true,
+        buttons: { 
+            "Yes": function() {
+            	$.post('/orders/changeowner', {
+            		jobno: $('#jobId').val(),
+                    requester: $('#currentOwner').val(),
+                    new_owner: $('#changeTo').val(),
+                    form_action: 'change_owner',
+                    request_product: 'JD'
+                }, function(d){
+                    console.log(d);
+                    // Here we handle the response from the script
+                    // We are just going to alert the result for now
+                    loadOrderList();
+                    alert(d);
+                });
+               $(this).dialog("close");
+            },
+            Cancel: function() {
+                $(this).dialog( "close" );
+            }
+        }
+    });
+}
+
+/**
+ * Function (loadOrderList) is used to load OrderList 
+ * 
+ * 
+ * @return null.
+*/
+function loadOrderList() {
+	$.post('/view/orderlist', function(data) {
+		$('#main_body').html('');
+		data = $.parseJSON(data);
+		var orderListDiv = $('<div/>');
+		orderListDiv.attr('id','orderlist');
+		//orderListDiv.attr('class','content-main-left');
+		var contentMainDiv = $('<div/>');
+		contentMainDiv.attr('class','content-main-left');
+		var orderFormDiv = $('<div/>');
+		orderFormDiv.attr('id','order_form');
+		contentMainDiv.append(orderFormDiv);
+		contentMainDiv.append(orderListDiv);
+		var orderDetailsDiv = $('<div/>');
+		orderDetailsDiv.attr('id','order_details');
+		orderDetailsDiv.attr('style','float:left;display:none;');
+		var containerDiv = $('<div/>');
+		containerDiv.attr('class','clear-block');
+		containerDiv.append(contentMainDiv);
+		containerDiv.append(orderDetailsDiv);
+		$("#main_body").append(containerDiv);
+		maincontentdiv_holders = new Array();
+		k = 0;
+		//createActionMenuIds = new Array();
+		var createActionMenuIds = '';
+		
+		$.each(data,function(jobNo,jobDetails)
+		{
+			var mainContentDiv = $('<div/>');
+			var createMenuDivHtml = '';
+			mainContentDiv.attr('class','content-left-box');
+			mainContentDiv.attr('style','display:none');
+			var jobContentDiv = $('<div/>');
+			jobContentDiv.attr('id','job_'+jobNo);
+			var statusDiv = $('<div/>');
+			statusDiv.attr('class','content-left-text');
+			statusDiv.html(jobDetails.Status);
+			var jobNoDivCont = $('<div/>');
+			jobNoDivCont.attr('class','content-left-text1');
+			var ordTypeDiv = $('<div/>');
+			ordTypeDiv.attr('class','content-left-text11');
+			ordTypeDiv.html('<img src="/images/note.png" width="13" height="16" border="0">');
+			var jobNoDiv = $('<div/>');
+			jobNoDiv.attr('class','no');
+			jobNoDiv.html('<b>'+jobDetails.JobNo+'</b>');
+			jobNoDivCont.append(ordTypeDiv);
+			jobNoDivCont.append(jobNoDiv);
+			var jobDetailsContainer = $("<div/>");
+			jobDetailsContainer.attr('class',"content-left-content");
+			var dateDivContainer = $('<div/>');
+			dateDivContainer.attr('class','content-left-content-text');
+			dateDivContainer.html('<h4>Ordered</h4><h3>'+jobDetails.Ordered+'</h3><h4>Due</h4><h3>'+jobDetails.Due+'</h3>');
+			jobDetailsContainer.append(dateDivContainer);
+			var jobSpecDiv = $('<div/>');
+			jobSpecDiv.attr('class','content-middle-right');
+			jobSpecDivHtml = '<h1>';
+			var jobSubmittedBy   ;
+			$.each(jobDetails,function(fieldKey, fieldValue)
+			{							
+				if(fieldKey!='Ordered' && fieldKey!='JobNo' && fieldKey != 'Due' && fieldKey != 'Status')
+				{
+					jobSpecDivHtml += "<div class='fkey'>"+fieldKey+"</div>&nbsp;&nbsp;<div class='fvalue'>"+fieldValue+"</div>";
+					if (fieldKey == 'Submitted By') {
+						jobSubmittedBy = fieldValue;
+					}
+				}
+			});
+			jobSpecDivHtml +="</h1>";
+			jobSpecDiv.html(jobSpecDivHtml);
+			var actionMenuDiv = $('<div/>');
+			actionMenuDiv.attr('class','content-right');
+			actionMenuDivHtml = '<div rel="'+jobDetails.Status+'##'+jobSubmittedBy+'" ><a id="actionMenu_'+jobNo+'" rel="'+jobDetails.Status+'##'+jobSubmittedBy+'"><div><h4>ACTION'+jobNo+'</h4></div><div class="content-right-middle"><div class="content-right-button"> <img   src="/images/dot-red.png" width="14" height="14" border="0"></div><div class="content-right-button1"><img class="act" src="/images/double-arrow.png" width="9" height="12" ></div></div></a></div>';
+			actionMenuDivHtml = actionMenuDivHtml ;
+			createActionMenuIds =  createActionMenuIds + 'actionMenu_'+jobNo+',';
+			actionMenuDiv.html(actionMenuDivHtml);
+			jobDetailsContainer.append(jobSpecDiv);
+			jobDetailsContainer.append(actionMenuDiv);
+			jobContentDiv.append(statusDiv);
+			jobContentDiv.append(jobNoDivCont);
+			jobContentDiv.append(jobDetailsContainer);
+			mainContentDiv.append(jobContentDiv);
+			orderListDiv.append(mainContentDiv);
+			k++;
+		});
+		//alert (createActionMenuIds);
+		//createActionMenuIds = createActionMenuIds + 'actionMenu_'+k + ',';
+		//var createActionMenuIdsT = createActionMenuIds;
+		
+		//$("#tmp").click(function(){alert("Clicked")});
+		//$('.act').click(function(){
+		/*$('.act').mouseover(function(){	
+			$('#act'+$(this).attr('rel')).css( "display", "block" );
+			$('#act'+$(this).attr('rel')).mouseleave(function(){
+				$(this).fadeOut();
+			})
+		});*/
+		setTimeout("$(this).showjobs("+(k-1)+");",300);
+		$('#order_details').fadeOut();
+		$('.no').click(function(){
+			jobid = $(this).parent().parent().attr('id');
+			jobno = jobid.substr(4);
+			$.post('/orders/viewjob',{'jobno':jobno},function(data){
+				$('#order_details').html(data);
+				if($('.content-main-left').css('height')!='680px')
+				{
+					$('.content-main-left').css({"height" : '680px', 'overflow-y':'scroll'});
+					$('.content-main-left').animate({"width" : '-=570px'}, "slow", function(){
+						$('#order_details').fadeIn('slow');
+						$('.content-main-left').css({"height" : '680px', 'overflow-y':'scroll'});
+						document.getElementById('job_'+jobno).scrollIntoView(false);
+					});
+					$('.content-main-left').css({"height" : '680px', 'overflow-y':'scroll'});									
+				}
+				//document.getElementById('job_'+jobno).scrollIntoView(false);
+			});
+		});
+		
+		showPopup(createActionMenuIds, "popup");
+	});
+}

@@ -1,0 +1,39 @@
+.message-board-box {background:url(/images/top-right.png) no-repeat top right; margin:10px;}
+.top-left-middle {background-color:#fff;margin:0 20px 0 20px;}
+.top-left {background-image:url(/images/top-left.png);margin:0 20px 0 -20px;width:20px;height:20px;}
+.msg-middle-area {margin:0;padding:0 10px 0 10px;background-color:#fff; min-height:62px;}
+.msg-middle-area textarea {border:none; width:100%;}
+.msg-bottom-right {background:url(/images/bottom-right.png) no-repeat top right;}
+.msg-bottom-middle {background-color:#fff;margin:0 20px 0 20px;}
+.msg-bottom-left {background-image:url(/images/bottom-left.png);margin:0 20px 0 -20px;width:20px;height:20px;}
+.column2 {width:50%; display:inline-block; margin-right:10px; font-size:12px;}
+.column2 .name {font-size:14px; font-weight:bold; display:block;}
+.column2 .msgdate {font-size:13px; color:#999; display:block;}
+.column2 p {margin:0;}
+
+.inner-content, .inner-content-red {float:left; border-left:1px solid #CCCDCE; background:#bbd65d; padding:5px; color:#fff; font-size:9px; font-weight:bold; height:20px; width:70px; font-weight:bold; text-transform:uppercase;}	
+.inner-content-red{background:#D41812;}
+	
+.inner-content_left{float:left; background:#9A9C9E; padding:6px 5px 4px 5px; color:#fff; font-size:11px; font-weight:bold; text-transform:uppercase; margin-left:1px; height:20px; width:188px; cursor:pointer;}	
+
+.inner-content1, .inner-content1_left {float:left; background:#F8F8F8; border-bottom:1px solid #CCCDCE; border-left:1px solid #CCCDCE; color:#767676; font-size:9px; padding:6px 5px; height:30px; width:70px;}	
+.inner-content1_left{width:188px;}
+.inner-content1 span{color:#000; display:block; font-weight:bold; text-transform:uppercase;}
+#from-content{margin-top:0;}
+#from-content span {margin-left:25px; color:#000; font-weight:bold; text-transform:uppercase;}
+	
+#msg-content span {margin-left:12px; background:#F8F8F8; color:#767676; font-size:11px; font-weight:normal; text-transform:none;}
+	
+.mess-main-left {float:left; width:900px; background:#F8F8F8;}
+
+.no-margin {background:#9A9C9E; list-style:none; margin-left:0; padding-left:20px;}
+.overthrow ul.no-margin {padding-left:2px;}
+
+#messlist {padding-top:10px;}
+#messlist .active-jobs-box-row1 {display:block; overflow:hidden; line-height:20px; padding:11px 3px 1px;}
+#messlist .msg-col{line-height:12px; width:280px; float:left; bottom:0; position:relative; text-align:left;}
+#messlist .status {float:left;}
+#messlist .order-block3 {line-height:10px; text-align:left; height:19px;}
+#messlist .order-block3 p, #messlist .msg-col p {margin-top:0; padding-top:0;}
+#messlist .scroll-job-div {display:block; height:650px; margin:10px 0 0 0;}
+#messlist .action-left-column {width:280px;}

@@ -1,0 +1,5 @@
+#upload_frame {border:0; height:20px; width:180px; display:none;}
+#progress_container {width:178px; height:32px; border:1px solid #ccc; background:#EBEBEB; display:block;}
+#progress_bar {position:relative; height:18px; background:#5FBB5D; width:0%; z-index:10;margin-top:7px;}
+#progress_completed {z-index:40; line-height:22px; padding-left:72px; display:block; position:absolute; text-align:center;}
+#progress_percentage {display:block; font-size:16px; line-height:20px; padding-left:4px; color:#FFDDBB;}

@@ -1,0 +1,64 @@
+<?php
+ini_set('display_errors',1);
+error_reporting(E_ALL);
+$url = basename($_SERVER['SCRIPT_FILENAME']);
+if(isset($_GET['progress_key'])) {	
+	 $status = apc_fetch('upload_'.$_GET['progress_key']);
+	 //print_r($status);
+	echo (($status['current']/$status['total']*100).'~'.($status['current']));
+	die;
+}
+?>
+<script src="/js/jquery.js" type="text/javascript"></script>
+<script type="text/javascript">
+WebFontConfig = {
+    google: { families: [ 'Source+Sans+Pro:400,600' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })();
+</script>
+<link href="/css/style_progress.css?t=<?php echo mktime();?>" rel="stylesheet" type="text/css" />
+<script>
+$(document).ready(function() { 
+//
+	
+	var intvl = setInterval(function() 
+		{
+			 $.get("<?php echo $url; ?>?progress_key=<?php echo $_GET['up_id']; ?>&randval="+ Math.random(), { 
+				//get request to the current URL (upload_frame.php) which calls the code at the top of the page.  It checks the file's progress based on the file id "progress_key=" and returns the value with the function below:
+				},
+				function(data)	//return information back from jQuery's get request
+					{
+						data = data.split('~');
+						size_uploaded = data[1];
+						data = parseInt(data[0]);
+						
+						$('#progress_container').fadeIn(100);	//fade in progress bar	
+						$('#progress_bar').width(data +"%");	//set width of progress bar based on the $status value (set at the top of this page)
+						$('#progress_completed').html(parseInt(data) +"%");	//display the % completed within the progress bar
+						//$('#progress_percentage').(parseInt(data) +"%");	//display the % completed within the progress bar
+
+						if(data>='100')
+						{
+							clearInterval(intvl);
+							window.parent.fileUploadComplete('<?php echo $_GET['up_id']; ?>', size_uploaded);
+						}
+					}
+	);},3000);	//Interval is set at 500 milliseconds (the progress bar will refresh every .5 seconds)
+
+});
+</script>
+<body style="margin:0px">
+<!--Progress bar divs-->
+<div id="progress_container" style="float:left">
+	<div id="progress_bar" style="float:left;"></div>
+</div>
+<div id="progress_completed" style="padding-top:5px;float:left;vertical-align:middle;" class="grey12"></div>
+</body>

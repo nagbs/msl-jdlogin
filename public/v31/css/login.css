@@ -1,0 +1,26 @@
+body {margin:0; padding:0; font-family: 'Source Sans Pro',arial,sans-serif;}
+
+.login-container {width:864px; margin:47px auto; background:#f9f9f9; border:solid 1px #ececec; padding:30px; overflow:hidden;}
+.login-logo {float:left; width:270px; background:#bed744; text-align:center;  display:block; position:relative; margin-right:27px;}
+.login-box {background:#9a9c9e; width:240px; height:199px; padding:36px 15px 37px 15px; float:left; margin-right:27px;}
+input:focus {outline:none;}
+.login-input {width:224px; background:url(../images/login-input-bg.png) center left no-repeat!important; padding:14px 10px; color:#9b9d9e!important; margin-bottom:17px; border:none; font-size:16px;}
+
+.login-btn {background:url(/images/login-btn.png) center center no-repeat; padding:13px; width:110px; height:43px; border:none; float:right; margin-top:8px; cursor:pointer;}
+.login-btn:hover {background:url(/images/login-btn-over.png) center center no-repeat; border:none;}
+.announcement {width:508px; float:left; height:215px; padding:30px 30px 27px 30px; background:#de6826; margin-right:27px;}
+.announcement h2 {margin:0; color:#fff; text-transform:uppercase; font-size:21px;}
+.announcement p {margin:8px 0; font-size:14px; line-height:19px; color:#fff; width:490px; text-align:justify;}
+.announcement:last-child {margin:0;}
+.add-box {width:270px; float:left; display:block; padding:0; margin-right:27px; margin-bottom:27px;}
+.scroll-div {display:block; margin:10px 0; height:180px;}
+.scroll-job-div{display:block; margin:10px 0 0 0; height:650px;}
+.scroll-div-filters-list{display:block; margin:10px 0; height:120px;}
+.forget-password {clear:both; display:block; font-size:13px; color:#fff; text-decoration:none; padding:0 5px;}
+.forget-password:hover {text-decoration:underline;}
+.error {padding:0; font-size:12px; color:#fff; margin:3px 0 0 0;}
+label.error {margin:-20px 0 10px 0;}
+#rateError .error {color:#F5743B;}
+#rateError .error {color:#F5743B;}
+#rateError #ratingError {position:absolute;}
+#blankbox .add-box img {cursor:pointer;}

@@ -1,0 +1,25 @@
+.box{position:relative; float:left; display:inline; margin-left:30px; margin-top:30px; width:271px; height:300px; z-index:1;}
+
+.close-button{font-size:20px; text-align:right; position:absolute; left:250px; top:5px; cursor:pointer;}
+.close-button a{color:#fff; text-decoration:none;}
+
+.add-box{position:absolute; width:32px; margin-left:10px; margin-top:10px;}
+.copy{position:absolute; margin-left:30px; margin-top:50px; color:#c9cdd2; font-size:20px;}
+.title{position:absolute; margin-left:25px; margin-top:38px; color:#f9f9f9; font-size:40px;}
+.subtitle{position:absolute; margin-left:25px; margin-top:82px; color:#f9f9f9; font-size:20px;}
+
+.searchfield{position:absolute; background:url(../images/searchfieldBG.png) no-repeat; width:193px; height:32px; margin-left:25px; margin-top:65px; left:3px; top:150px; font-size:12px; color:#000; text-align:left; padding-left:15px; border:none;}
+.icon{position:absolute; float:left; width:39px; height:39px; left:225px; top:252px;}
+
+.boxcontent{position:absolute; float:left; margin-left:25px; margin-top:125px; width:80%;}
+.boxcontent_1, .boxcontent_2{position:absolute; width:215px; float:left; margin-left:25px; margin-top:245px;}
+.boxcontent_1{margin-top:150px; border-bottom:#fff 1px solid;}
+.boxcontent_2 .halfbox_1{width:50%; color:#fff; float:left; font-size:25px;}
+.boxcontent_2 .halfbox_1 span{color:#fff; display:block; font-size:10px;}
+
+.halfbox {width:50%; color:#fff; float:left; font-size:40px;}
+.halfbox span {color:#fff; display:inline-block; font-size:11px;}
+
+.boxcontent ul {list-style-type:none; margin:0; padding:0; float:left; width:44%; padding:0 5px;}
+.boxcontent li {font-size:11px; color:#fff;}
+.boxcontent li a{color:#fff; text-decoration:none;}

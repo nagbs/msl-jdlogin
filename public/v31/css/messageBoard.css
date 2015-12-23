@@ -1,0 +1,38 @@
+.alertbox{width:512px; height:650px; background:#eaeaea;}
+.topradio{height:50px;}
+.topradio li{float:left; display:inline; font-size:9px; color:#999; padding:20px !important; vertical-align:middle;}
+
+.msg{width:100%;}
+.msg-item {position:relative; padding:20px; background:#eaeaea; border-bottom:#d2d2d2 1px solid;}
+.msg-item img {float:left;}
+.msg-item .msg-copy {margin-left:90px; margin-top:10px; min-height: 60px; height: auto; text-align: left;}
+.msg-item p.title{font-size:17px; color:#000; font-weight:bold; margin:0; position:relative;}
+.msg-item p.desc{font-size:13px; color:#494949; margin:0;}
+.msg-item .attach-date{width:158px; background:#fff; float:right; padding-top:5px; padding-left:5px; text-align:left; margin:0 0px 5px 5px;}
+.msg-item .attach-date span{padding-left:5px; font-size:12px; color:#727272; width:100%;}
+.msg-item .attach-date .attach-files{padding:5px 5px 5px 22px;}
+.msg-item .msg-userDetails{width:65px; float:left;}
+.msg-item .msg-userDetails .msg-postedBy{padding-top:5px; display:inline-block; color:#000000;}
+.msg-editor{margin-right: 10px; padding: 10px 0;}
+
+.msg-editor .editor{padding:15px;}
+
+.msg-editor .button-label span{font-size:12px; font-weight:bold; color:#494949; height:auto; margin-top: 0px; width:auto;}
+.msg-editor .button-label .one{float:left; margin-left:25px;}
+
+.msg-editor .button-label .two{float:right; margin-right:70px;}
+.msg-editor .button{clear:both; height:55px;}
+.msg-editor .button ul{list-style:none; margin:0; padding:0}
+.msg-editor .button li{float:left; display:inline-block; margin:5px; padding:0;}
+.msg-editor .button1 ul{list-style:none; margin:0; padding:0}
+.msg-editor .button1 li{float:left; display:inline; margin:10px 5px; padding:0;}
+
+.fsButton{background:url(../images/alert-expand-button.png) no-repeat; height:34px; width:68px; border:none;}
+
+.fstext{background:url(../images/alert-expand-textfield.png) no-repeat; text-align:left; padding-left:15px; width:260px; height:32px; border:none;}
+
+.messgdisp{max-height:300px!important;}
+
+.close2 {float:right; height:40px;}
+	
+.msg-editor #dropArea{line-height: 80px;width: 340px;border: 2px dashed #fff;float: left; text-align: center;vertical-align: middle;color: #fff; font-size:24px;}

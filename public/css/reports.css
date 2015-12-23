@@ -1,0 +1,12 @@
+.analytics-container {width:825px; margin:0 auto; background:#f9f9f9; border:solid 1px #ececec; padding:50px; overflow:hidden;}
+.analytics-container table{font-size:12px;}
+
+.grey12 label{font-size:12px; font-weight:bold;}
+.dash-icon {margin-top:48px;}
+
+.weekly-dashboard, .ad-details-dashboard, .delivery-report {width:144px; padding:22px; float:left; background:#9a9c9e; margin:0 6px 6px 0; cursor:pointer;}
+.ad-details-dashboard {clear:both;}
+.delivery-report {background:#bed744;}
+.weekly-dashboard:hover, .ad-details-dashboard:hover, .delivery-report:hover {background:#000;}
+.weekly-dashboard h1, .ad-details-dashboard h1, .delivery-report h1 {font-size:25px; text-transform:uppercase; color:#fff; margin:0;}
+.weekly-dashboard-tag, .ad-details-dashboard-tag, .delivery-report-tag {display:block; font-size:12px; text-transform:uppercase; color:#fff; padding-top:5px;}

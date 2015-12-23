@@ -1,0 +1,380 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Job Direct 3 - Enterprise</title>
+<meta name="description" content="" />
+<meta charset="utf-8">
+<style>
+ .wf-loading body, div, a, input {
+    font-family: serif
+  }
+  .wf-inactive body, div, a, input {
+    font-family: serif
+  }
+  .wf-active body, div, a, input {
+    font-family: 'Source Sans Pro',arial,sans-serif;
+  }
+  
+  #showmsg{
+  	font-size:14px;
+  	color:#ff0000;
+  }
+.overlay {
+
+    background-color: rgba(0, 0, 0, 0.8);
+    bottom: 0;
+    cursor: default;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    visibility: hidden;
+    z-index: 1;
+
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -ms-transition: opacity .5s;
+    -o-transition: opacity .5s;
+    transition: opacity .5s;
+}
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+.popup {
+    background:#bed744 url(../images/pop-bg.png) repeat-x left top;
+    border: 0px solid #fff;
+    display: inline-block;
+    left: 50%;
+	color:#fff;
+    opacity: 0;
+    padding: 15px;
+    position: fixed;
+    top: 40%;
+    visibility: hidden;
+    z-index: 10;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+
+    -webkit-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    -moz-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    -ms-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    -o-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    -webkit-transition: opacity .5s, top .5s;
+    -moz-transition: opacity .5s, top .5s;
+    -ms-transition: opacity .5s, top .5s;
+    -o-transition: opacity .5s, top .5s;
+    transition: opacity .5s, top .5s;
+}
+.popup h2 {
+color:#fff;
+font-size:18px;
+margin-bottom:15px;
+margin-top:-8px;
+/*text-transform:uppercase;*/
+}
+.popup p {
+font-weight:bold;
+color:#fff;
+font-size:14px;
+margin:2px 0px;
+}
+.overlay:target+.popup {
+    top: 50%;
+    opacity: 1;
+    visibility: visible;
+}
+.close {
+    	background:url(../images/cross-circle.png) center center no-repeat;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    right: 5px;
+    text-align: center;
+    text-decoration: none;
+    top: 4px;
+    width: 30px;
+}
+.close:before {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 24px;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+}
+.close:hover {
+   
+}
+.popup p, .popup div {
+    margin-bottom: 10px;
+}
+.popup label {
+    display: inline-block;
+    text-align: left;
+    width: 70px;
+	font-size:14px;
+	color:#fff;
+	font-weight:bold;
+}
+.submit-btn {
+    background: url("../images/submit.png") no-repeat scroll center center transparent;
+    border: medium none;
+    cursor: pointer;
+    float: right;
+    height: 37px;
+   
+    width: 66px;
+}
+.popup input[type="text"], .popup input[type="password"] {
+   background:transparent url(../images/input-forgot-bg.png); background-repeat:no-repeat; height:32px; border:none; width:150px; padding:0 15px 0 15px;font-size:12px;
+}
+.popup input[type="text"]:hover, .popup input[type="password"]:hover {
+    border-color: #555 #888 #888;
+}
+
+input:-webkit-autofill{
+background-color:none;
+}
+</style>
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="<?php echo $this->baseUrl();?>/js/jquery.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		//$('[data-role="slider"]').switchify();
+		//$('.orderform-box_popup .select_field').each(function(){			
+		//	$(this).custSelectBox2({		
+		//		selectwidth: 155
+		//	});
+		//});
+		  $(".header").hide();
+		  $(".content-main-left").hide();
+		  $('#order_details').css('background-color','#ffffff');
+
+		$('#forgot_submit').click(function(e){
+			e.preventDefault();
+			var username = $.trim($("#username").val());
+			$("#username").val($.trim($("#username").val()));
+			var regEx =  /\s/g;
+			if(regEx.test(username)){
+				$("#showmsg").html('Invalid username, No space allowed.');
+				return false;
+			}
+			$('#loading').show('fast');
+			$.post('/index/forgotpwd',$("#forgotform").serialize(),function(data){
+
+					if(data!='Please check the Username')
+					{
+						$("#fpwd_form").hide('fast');	
+					}
+					$('#loading').hide('fast');
+					$("#showmsg").html(data);
+
+					$('#forgot_Ok').click(function(){
+						
+						$("#fpwd_form").show('fast');
+						$("#showmsg").html('');
+						$("#username").val('');
+						$('.popup').hide(fast);
+					});
+			});
+		});
+
+		$("#forgotform").on('submit',function(e){
+			e.preventDefault();		
+			$("#forgot_submit").trigger('click');
+		});
+
+		$(".close").click(function(e){
+			$("#showmsg").html('');
+			$("#username").val('');
+		});
+	});
+</script>
+<link href="/css/reset.css?t=<?php echo mktime();?>" rel="stylesheet" type="text/css"/>
+<link href="/css/login.css" rel="stylesheet" type="text/css"/>
+<link href="/css/nanoscroller.css" rel="stylesheet" type="text/css"/>
+<link href="/css/style_nano.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="<?php echo $this->baseUrl();?>/css/popupstyle.css?t=<?php echo mktime();?>" />
+<link rel="stylesheet" href="<?php echo $this->baseUrl();?>/css/layout.css?t=<?php echo mktime();?>" />
+<link rel="stylesheet" href="<?php echo $this->baseUrl();?>/css/neworder.css?t=<?php echo mktime();?>" />
+</head>
+
+<body>
+<div class="login-container">
+<?php echo $this->formdata;?>
+
+<div style="display:block; float:left; width:100%; padding-bottom:23px;">
+
+	<div class="login-logo"><img src="/images/jd-logo.png"  usemap="#Map" alt="Job Direct" align="absmiddle"/></div>
+	<map name="Map" id="Map">
+
+        <area shape="rect" coords="164,234,254,261" href="http://www.2adpro.com/" target="_blank" />
+
+      </map>	
+	<div class="login-box">
+	<form name="login" id="loginform" action="/index/login" method="post" accept-charset="utf-8">
+	
+		<?php if($this->error!=''){?>
+				<div class="error"><?php echo $this->error;?></div>
+		<?php }elseif(isset($_SESSION['msg'])){ ?>
+			<div class="error"><?php echo $_SESSION['msg'];?></div>
+		<?php 		unset($_SESSION['msg']);
+				}elseif(isset($_GET['sessiontimeout'])){ ?>
+			<div class="error"><?php echo 'Your session has timed out. Please login again.';?></div>
+		<?php 		
+				} ?>
+    <input type="text" name="username" placeholder="Username"  class="login-input" value=""/>
+    <input name="password" type="password" placeholder="Password" class="login-input"/>
+	<a href="#login_form" id="login_pop" class="forget-password">Forgot Password</a>
+    <input id="login_submit" name="" type="submit" class="login-btn" value="" />
+				
+	 	</form></div>
+		
+		</div>
+		<?php if (isset($this->announcements) && $this->announcements !='') { ?>
+		 <div class="announcement"  tabindex="0" style="right: -13px;">
+
+                    
+
+			    <h2>ANNOUNCEMENT</h2>
+				<div class="scroll-div">
+				<div class="nano">
+				<div class="overthrow content description">
+			    <p>
+			   <?php echo $this->announcements; ?>  
+			</p>
+			   </div>
+			 </div>
+			  </div>
+		</div>
+		<?php } ?>
+     
+	
+	</div>
+	
+		<a href="#x" class="overlay" id="login_form"></a>
+        <div class="popup">
+        		<form id="forgotform">
+        		
+	           <h2>Forgot Password?</h2>
+	            
+	            <div>
+	            	<div id="showmsg"></div>
+	            	<div id="fpwd_form">		            	
+		                <label for="login">Username</label>
+		                <input type="text" name="id" id="username" class="o-input-s" value="" />
+	            		<span id='loading' style='display:none;'><img src='/images/transparent_loading.gif' border='0'></span>
+			            <div class="button float-right"><a id="forgot_submit" class="home" href="#"><span>Submit</span></a></div>
+		 
+			            <a class="close" href="#close"></a>
+	            	</div>
+	            </div>
+	            </form>
+	     </div>
+<div id="errorbox" style="display:none;background-color:#CCCCCC;z-index:1000;opacity:0.8;position:fixed;left:0;top:0;width:100%;height:100%;text-align:center;vertical-align:middle;">
+<div style="display:table-cell;vertical-align:middle;">
+	<table border="0" cellspacing="0" cellpadding="0" width="300px" style="z-index:2000;" align="center" id="msgbox_table">
+	  <tr>
+	    <td width="11" style="background:url(/images/box-left-t.png) no-repeat;height:13px;"></td>
+	    <td class="box-topbg"> </td>
+	    <td width="11" style="background:url(/images/box-right-t.png) no-repeat;height:13px;"></td>
+	  </tr>
+	  <tr>
+	    <td class="box-leftbg">&nbsp;</td>
+	    <td class="box-center">
+	    	<div class="dropdown-box-popup" id="errmsg_text" style="background-color:#000000;opacity:1;font-size:15px;"></div>
+	    	<div class="dropdown-box-popup" id="" style="background-color:#000000;opacity:1;font-size:15px;">
+	    		<div class="button float-right"><a id="confirm_ok" class="home" href="#"><span>Ok</span></a></div>
+	    		<!--<div class="button float-right"><a id="confirm_cancel" class="home" href="#"><span>Cancel</span></a></div>-->
+	    	</div>
+	    </td>
+	    <td class="box-rightbg">&nbsp;</td>
+	  </tr>
+	  <tr>
+	    <td><img src="/images/box-left-b.png" width="11" height="13" /></td>
+	    <td class="box-bottombg"> </td>
+	    <td><img src="/images/box-right-b.png" width="11" height="13" /></td>
+	  </tr>
+	</table>
+</div>
+</div>
+<script type="text/javascript" src="/js/jquery.nanoscroller.js"></script>
+<script type="text/javascript" src="/js/jquery.nanoscroller.min.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+	<script type="text/javascript">
+WebFontConfig = {
+    google: { families: [ 'Source+Sans+Pro:400,600' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })();
+//Stop chrome's autocomplete from making your input fields that nasty yellow. Yuck.
+  if (navigator.userAgent.toLowerCase().indexOf("chrome") >= 0) {
+  	$(window).load(function(){
+  		$('input:-webkit-autofill').each(function(){
+  			var text = $(this).val();
+  			var name = $(this).attr('name');
+  			$(this).after(this.outerHTML).remove();
+  			$('input[name=' + name + ']').val(text);
+  		});
+  	});
+  }
+
+  $(document).ready(function(){
+	  $(".header").hide();
+	  $(".content-main-left").hide();
+	  $('#order_details').css('background-color','#ffffff');
+ 	  //$("#order_details").hide();
+	  
+	  $('#login_submit').click(function(e){
+		  e.preventDefault();		 
+			if($('#loginform').find('[name="username"]').val()=='')
+			{
+				$('#errmsg_text').html("Please fill in the Username");
+
+				$('#errorbox').css('display','table');
+				$('#errorbox').fadeIn('fast');
+
+				$('#confirm_ok').click(function(){
+					$('#errorbox').fadeOut('fast');
+				});
+				
+			}
+			else if($('#loginform').find('[name="password"]').val()=='')
+			{
+				$('#errmsg_text').html("Please fill in the Password");
+
+				$('#errorbox').css('display','table');
+				$('#errorbox').fadeIn('fast');
+
+				$('#confirm_ok').click(function(){
+					$('#errorbox').fadeOut('fast');
+				});				
+			}
+			else
+			{
+				$('#loginform').submit();
+			}
+	  });
+  });
+</script> 
+  </body>
+</html>
+
+

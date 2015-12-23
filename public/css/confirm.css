@@ -1,0 +1,28 @@
+.content-table01{width:826px; height:54px; background-color:#a2b73a; float:left}
+.order-information-left{width:823px; float:left; border-bottom:1px solid #abc13d; padding-bottom:25px}
+.order-information-version{width:800px; float:left; border-bottom:1px solid #abc13d; padding-bottom:10px}
+
+.infor-publisher {padding-left:30px; padding-top:16px; float:left; width:126px; height:12px}
+.infor-publisher01{font-size:12px; color:#fff}
+.infor-publisher-text{font-size:12px; color:#fff; padding-left:30px; padding-top:16px; float:left; width:213px}
+.infor-publisher1 {font-size:12px; color:#fff; padding-left:30px; padding-top:9px; float:left; width:126px}
+
+.order-information-right{width:0; float:right; border-bottom:2px #abc13d}*/
+
+.order-information{font-size:16px; color:#fff; padding-left:300px; margin-top:2px; margin-bottom:2px; padding-bottom:10px}
+
+#example {float:left}
+.tabs {background:#eee; border-bottom:1px solid #ccc; list-style:none; margin:0; padding:10px 5px 1px 5px; zoom:1}
+.tabs:after {display:block; clear:both; content:" "}
+.tabs li {float:left; margin:0 1px 0 0; padding-left:5px}
+.tabs a {display:block; position:relative; top:1px; border:1px solid #ccc; border-bottom:0; z-index:2; padding:2px 9px 3px; color:#444; text-decoration:none; white-space:nowrap;
+}
+.tabs a:focus, .tabs a:active {outline:none}
+.tabs a:hover, .tabs a:focus, .tabs a:active {background:#666; cursor:pointer}
+.ui-tabs-active a {background:#f8f8f8; color:#000; font-weight:bold; padding:2px 8px 1px; border:1px solid #fabd23; border-bottom:1px solid #fff; border-top:3px solid #fabd23; margin-bottom:-1px; overflow:visible}
+.ui-tabs-hide {display:none; background-color:#fff}
+.ui-tabs-panel {padding:0.5em}
+.ui-tabs-paging-next {float:right!important}
+.ui-tabs-paging-prev a, .ui-tabs-paging-next a {display:block; position:relative; top:1px; border:0; z-index:2; padding:0px; color:#444; text-decoration:none; background:#eee; cursor:pointer}
+.ui-tabs-paging-next a:hover, .ui-tabs-paging-next a:focus, .ui-tabs-paging-next a:active, .ui-tabs-paging-prev a:hover, .ui-tabs-paging-prev a:focus, .ui-tabs-paging-prev a:active {background:#eee}
+.ui-tabs-paging-disabled {visibility:hidden} 

@@ -1,0 +1,11 @@
+.clock {width:101px; float:none; margin:0 0 0 608px;}
+.clock-int {position:absolute; width:141px; height:57px; background:url(../images/clock-init.png) no-repeat; top:0; padding:3px;}
+.clock-exp {position:absolute; width:488px; height:57px; background:url(../images/clock-exp.png) no-repeat; float:right; margin-left:-349px; top:0; padding-left:45px; padding-top:2px; display:none; z-index:1;}
+
+.timezone, .timevalue {font-size:11px; color:#FFF; margin-left:5px; text-align:center;}
+.timevalue {font-size:12px;}
+
+a.clock-arrow {font-size:11px; color:#bed744; margin-left:5px; text-decoration:none;}
+a.clock-arrow:hover {color:#a6a6a6; text-decoration:none;}
+
+span.int{color:#a6a6a6;}

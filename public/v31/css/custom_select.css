@@ -1,0 +1,31 @@
+.setScroll {overflow-y:scroll}
+.hideitem, .elmValue {display:none}
+.selectbox {background:url(/images/search-middle.png) no-repeat scroll 0 0; float:left; margin:0 10px 0 0; padding:0; width:135px; overflow:hidden}
+.selectbox ul {list-style:none outside none; margin:0; padding:8px 10px 2px 0; vertical-align:top}
+
+.select_wrap {clear:both; margin:0; position:relative}
+
+.select_wrap2, .select_wrap3 {position:relative}
+
+.selectboxopen {background:url(/images/search-middle.png) no-repeat scroll 0 0; float:left; margin:0 10px 0 0px; padding:0; width:135px; overflow:hidden}
+
+.selectboxopen ul {list-style:none outside none; margin:0; padding:8px 10px 6px 0; vertical-align:top}
+.selectbox ul li, .selectboxopen ul li {color:#333; cursor:pointer; font-size:12px; list-style:none outside none; margin:0; width:110px; padding:0 0 5px 10px; overflow:hidden; height:16px}
+
+.selectboxoptions_wrap {clear:both; display:none; margin:5px; padding-left:0px; width:112px; word-wrap:break-word; position:absolute; top:23px; left:5px; z-index:3000}
+
+.selectboxoptions_radio, .selectboxoptions_check {background:#333; opacity:0.8; filter:alpha(opacity=80); clear:both; list-style:none outside none; margin:0; padding:0; z-index:4000}
+.selectboxoptions_radio li, .selectboxoptions_check li {color:#fff; cursor:pointer; font-size:12px; list-style:none outside none; margin:0; padding:3px 0 2px 20px; z-index:3000}
+.hover {background-color:#8b8c90}
+.selectboxoptions_check li {background:url(/images/checkboxoff.png) no-repeat scroll 5px 6px #E6E9ED}
+.selectboxoptions_radio li {background:url(/images/radiooff.png) no-repeat scroll 5px 6px #333}
+.selectboxoptions_radio li.selected {background:url(/images/selectradio.png) no-repeat scroll 5px 6px #333; display:block!important}
+.selectboxoptions_radio li.selected_disable {background:url(/images/selectradio_disable.png) no-repeat scroll 5px 6px #F2F2F2; display:block!important}
+.selectboxoptions_check li.selected {background:url(/images/selectcheck.png) no-repeat scroll 5px 6px #F2F2F2; display:block!important}
+.selectboxoptions_check li.selected_disable {background:url(/images/selectcheck_disable.png) no-repeat scroll 5px 6px #F2F2F2; display:block!important}
+.selectboxoptions_radio li.hover, .selectboxoptions_check li.hover {background-color:#8b8c90}
+
+.selectboxfoot {background:url(/images/selectfoot.png) no-repeat scroll 0 0; float:left; padding:0 0 0 0px}
+.selectboxfoot div {background:url(/images/selectfoot.png) no-repeat scroll 0 0; margin:0}
+
+.select_grey_out{color:#c8c8c8!important}

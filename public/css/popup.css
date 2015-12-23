@@ -1,0 +1,8 @@
+.popup{background:#000; opacity:80; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; -o-border-radius:10px; display:inline-block; padding:7px 20px; position:absolute;/* behavior:url(/css/PIE.htc);*/}
+.popup ul{width:auto; list-style:none; margin:0; padding:10px 0 10px 0;}
+.popup li{font-size:10px; color:#fff; text-align:left; margin:0; padding:0 0 5px 0; vertical-align:middle;}
+.popup li a {color:#fff; display:block; font-size:10px; text-decoration:none; margin:0; padding:0; vertical-align:middle; text-align:left; text-transform:uppercase;}
+.popup li a img {padding:0 5px 0 0; vertical-align:middle;}
+.popup li.firstchild{font-size:30px; color:#fff; line-height:15px; text-align:left; margin-left:-10px; margin-bottom:5px;}
+
+.dropdown-box-popup h2 {color:#BED744; line-height:26px; padding:10px 0; text-align:left;}

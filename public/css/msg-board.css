@@ -1,0 +1,17 @@
+.message-board-cont {width:544px; padding:5px 0;}
+.ribbon {z-index:9999; position:absolute; left:3px; top:60px;}
+.message-board-cont p {margin:5px 0 0 0; line-height:16px;}
+.message-row {width:512px; display:block; margin-left:-5px; margin-right:18px; margin-bottom:10px;}
+.message-row .box-top {display:block;}
+.message-board-cont .box-middle {background:#fff; display:block; overflow:hidden; padding:0 10px; width:492px;}
+.message-row .box-bottom {display:block;}
+.message-board-cont .column1 {float:left; margin-right:10px; width:20%;}
+.message-board-cont .column2 {float:left; margin-right:10px; width:50%;}
+.message-board-cont .column2 .name { margin:0; font-size:12px; font-weight:bold;}
+.message-board-cont .column2 .date { margin:0; font-size:11px; font-weight:bold; color:#999;}
+.message-board-cont .column2 .disptext { margin:0; font-size:11px; word-wrap:break-word;}
+.message-board-cont .column3 {float:left; width:25%;}
+.message-board-cont .l-align {float:right;}
+
+.message-board-cont .message-row .column1 {width:15%;}
+.message-board-cont .message-row .column3 {width:30%;}

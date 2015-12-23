@@ -1,0 +1,95 @@
+.helpPage {width:100%; background:#F9F9F9; overflow:hidden;}
+.helpHome { width:100%; overflow:hidden;}
+.helpPage .bx {background:#9A9C9E; float:left; margin:0 0 30px 30px; width:246px; height:300px; padding-left:25px; cursor:pointer}
+
+.helpPage .bx.green-bg{background:#bed744;}
+.helpPage .bx.blackBg{background:#666666;}
+
+.helpPage .bx .hdng {font-size:34px; margin-top:33px; color:#f9f9f9; line-height:32px; text-transform:uppercase;}
+.helpPage .bx .subHdng{font-size:16px; color:#f9f9f9; text-transform:uppercase;}
+.helpPage .bx ul {margin:40px 0 0 0; padding:0; list-style:none;}
+.helpPage .bx .nano {margin:40px 0 0 0; height:150px; width:230px;}
+.helpPage .bx .nano ul{margin:0;}
+.helpPage .bx li {margin:0; padding:0 0 0 8px; background:url(/images/help/blt.png) no-repeat 0 8px; color:#fff; font-size:13px; line-height:16px;}
+.helpPage .bx li a {font-size:11px; color:#ffffff; text-decoration:none;}
+.helpPage .bx li a:hover {font-size:11px; color:#ffffff; text-decoration:underline;}
+
+.helpPage .bx .pageNo {width:39px; height:39px; background:#fff; position:absolute; margin:254px 0 0 198px; font:20px/39px Arial, Helvetica, sans-serif; text-align:center; color:#7a7a7a; z-index:1;}
+
+.helpHdng {padding:10px 30px 10px 30px; overflow:hidden;}
+.helpHdng h1 {font-size:34px; line-height:34px; color:#a3a5a8; float:left;}
+.helpHdng .btns {float:right; width:200px; text-align:right;}
+.helpHdng .btns a {width:39px; height:39px; background:url(/images/help/btns.png) no-repeat; margin:0 5px; text-align:left; text-indent:-100000px; display:inline-block;}
+.helpHdng .btns a.prev {background-position:12px 10px;}
+.helpHdng .btns a.prev:hover {background-position:12px -30px;}
+.helpHdng .btns a.next {background-position:-34px 10px;}
+.helpHdng .btns a.next:hover {background-position:-34px -30px;}
+.helpHdng .btns a.cls {background-position:-78px 10px;}
+.helpHdng .btns a.cls:hover {background-position:-78px -30px;}
+
+.btnEffect {
+-moz-border-radius: 26px;
+-webkit-border-radius: 26px;
+border-radius: 26px;
+
+-moz-box-shadow: 2px 2px 2px #666;
+-webkit-box-shadow: 2px 2px 2px #666;
+box-shadow: 2px 2px 2px #666;
+/*filter: progid:DXImageTransform.Microsoft.Shadow(strength = 2, direction = 135, color = '#999999');
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(strength = 2, Direction = 135, Color = '#999999')";
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#e3e3e3');
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#e3e3e3')";*/
+background:#fff;
+background-image: -moz-linear-gradient(top, #ffffff, #e3e3e3);
+background-image: -ms-linear-gradient(top, #ffffff, #e3e3e3);
+background-image: -o-linear-gradient(top, #ffffff, #e3e3e3);
+background-image: -webkit-gradient(linear, center top, center bottom, from(#ffffff), to(#e3e3e3));
+background-image: -webkit-linear-gradient(top, #ffffff, #e3e3e3);
+background-image: linear-gradient(top, #ffffff, #e3e3e3);
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+}
+.helpHdng .btns a {
+-moz-box-shadow: 1px 1px 1px #999;
+-webkit-box-shadow: 1px 1px 1px #999;
+box-shadow: 1px 1px 1px #999;
+/*filter: progid:DXImageTransform.Microsoft.Shadow(strength = 1, direction = 135, color = '#999999');
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(strength = 1, Direction = 135, Color = '#999999')";
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#e3e3e3');
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#e3e3e3')";*/
+}
+
+.helpContent .cont {font-size:14px; padding:0 30px 30px 30px; overflow:hidden; background:#fbfbfb; width:825px; margin:0 auto 30px auto;
+-moz-box-shadow: 0px 0px 5px #c3c3c3;
+-webkit-box-shadow: 0px 0px 5px #c3c3c3;
+box-shadow: 0px 0px 5px #c3c3c3;
+}
+.helpContent h2 {font-size:26px; line-height:26px; margin-top:0; color:#b0d240; text-transform:uppercase}
+.helpContent h2 span {font-size:14px; color:#8e8e8f; font-style:italic;}
+.helpContent h3 {font-size:20px; line-height:20px; margin:20px 0 10px 0; padding:0; color:#b0d240; text-transform:uppercase; font-weight:bold; border-bottom:1px solid #b0d240}
+.helpContent H4 {font-size:16px; line-height:16px; margin:10px 0; padding:0; color:#b0d240; text-transform:uppercase; font-weight:bold; border-bottom:1px solid #DDD}
+
+.clr {width:100%; overflow:hidden;}
+.lt {float:left;}
+.rt {float:right;}
+
+.helpContent .cont table {font-size:14px;}
+.helpContent .cont .table {border-top:1px solid #e6e6e6; border-right:1px solid #e6e6e6;}
+.helpContent .cont .table td {border-left:1px solid #e6e6e6; border-bottom:1px solid #e6e6e6;}
+.helpContent .cont .table td.mainRow {background:#f0f0f0;}
+.helpContent .cont .table td.green {background:#bad65d; color:#fff;}
+.helpContent .cont .table td.red {background:#d41812; color:#fff;}
+.helpContent .cont .table td.orange {background:#e36734; color:#fff;}
+.helpContent .cont .table td.black {background:#141414; color:#fff;}
+
+.helpContent .cont li {margin-top:5px; margin-bottom:5px;}
+.helpContent .cont a {color:#85AA00; text-decoration:none;}
+.helpContent .cont a:hover {color:#85AA00; text-decoration:underline;}
+
+.gotoTop {font-size:14px; line-height:20px; overflow:hidden; text-align:right; text-transform:uppercase; border-bottom:1px dashed #999; margin:20px 0;}
+#flashcontentImage {display:none;}
+#flashcontent .playVideo {background:url(/images/help/videobg.png); position:absolute; width:820px; height:272px; cursor:pointer;}
+#flashcontent .playVideo .bg {width:60px; height:60px; border-radius:40px; margin:100px 0 0 350px; font:normal 50px/54px Georgia, "Times New Roman", Times, serif; color:#fff; border:3px solid #fff; text-align:center;}
+
+#flashcontent .txt {background:#de6826; padding:28px; margin:0 10px 0 298px; height:215px; color:#fff; font-size:14px; text-align:justify; width:466px;}

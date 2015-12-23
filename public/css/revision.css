@@ -1,0 +1,10 @@
+.table{display:table; font-family:Arial, Helvetica, sans-serif; font-size:14px; border-bottom:2px solid #ddd; color:#8d8d8d; margin:10px 0; width:550px;}
+.table-head{ display: table-header-group;}
+.table-head .column{background:#bed744; color:#7d7d7d; border-right:1px solid #eee; border-bottom:none; font-weight:bold; font-size:13px;}
+.table-head .column a {color:#fff; text-decoration:none;}
+.table-head .column:hover{background:#bed744;}
+.row{display:table-row;}
+.row .column:nth-child(1){border-left:1px solid #eee;}
+.row:last-child .column{border-bottom:none;}
+.column{display:table-cell; padding:10px 20px; border-bottom:1px solid #eee; border-right:1px solid #eee; color:#fff;}
+.column:hover{background:#000;}

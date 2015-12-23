@@ -1,0 +1,4433 @@
+ Array
+(
+    [SALES_REP_NAME] => MONICA AARON "maaron"
+    [SALES_REP_EMAIL] => 
+    [CLIENT_NAME] => SBL ENTERTAINMENT
+    [CAMPAIGN_DOLLARS] => 1200
+    [REVIEW_DATE] => 03/19/2014
+    [START_DATE] => 03/20/2014
+    [TURNAROUND_TIME] => Overnight
+    [HISTORY] => New Build
+    [ARTISTIC_DIRECTION] => Follow Layout (AD1)
+    [AD_COUNT] => 1 AD TOTAL
+    [TRACKING_NUMBER] => BAN
+    [CAMPAIGN_KEYWORD] => 
+    [CLICK_TAG] => not sure which clickTAG
+    [CLICK-TO_LOCATION] => 
+    [BANNERS] => 
+    [Banner_#1] => Flash 300x250
+    [Banner_#2] => * none *
+    [Banner_#3] => * none *
+    [Banner_#4] => * none *
+    [Banner_#5] => * none *
+    [RICH_MEDIA] => 
+    [Rich_Media_#1] => * none *
+    [Rich_Media_#2] => * none *
+    [Rich_Media_#3] => * none *
+    [Rich_Media_(with_Video)] => * none *
+    [SACCONNECT] => 
+    [SacConnect_type] => * none *
+    [LANDING_PAGE] => 
+    [Landing_Page_needed?] => * none *
+    [Landing_Page_features] => * none *
+    [Add_click_to_client_email] => * none *
+    [MOBILE] => 
+    [Mobile_Banners] => * none *
+    [Mobile_Landing_Page_needed?] => * none *
+    [EMAIL_BLASTS] => 
+    [Select_which_Sacbee_category_or_E-target] => * none *
+    [AD_CONTENT] => 
+    [Instructions/Content] => attached ...300X250PLEASE FUSE TOGETHER IN THIS ORDER1ST SCREEN2ND SCREEN3RD SCREEN
+    [Attachment_#1] => 
+    [Attachment_#2] => 
+    [Attachment_#3] => 
+    [Attachment_#4] => 
+    [Attachment_#5] => 
+)
+<pre>Array
+(
+    [Order_Type] => Web
+    [requester] => demouser1
+    [location] => LOC1
+    [request_source] => JD_1
+    [request_product] => JD
+    [Tracking_No] => email_1
+    [Site] => Pre-Press | Digital | Mobile(Los Angeles)
+    [Advertiser] => SBL ENTERTAINMENT
+    [Book title] => SBL ENTERTAINMENT
+    [Sales_Person] => MONICA AARON 
+    [Ad_Category] => Other
+    [Proof_Date] => 2014-03-19
+    [Run_Date] => 2014-03-20
+    [Pickup_Ad] => New Build
+    [Delivery_Date] => Overnight
+    [Publication_Title] => www.sacbee.com
+    [Spec_Ad] => No
+    [Pickup_Ad_No] => 
+    [Studio_Job] => No
+    [Save_as_Template] => No
+    [Use_a_saved_Template] => No
+    [Template_Order_No] => 
+    [tmp_folder_path] => 
+    [WebSpecifications] => Array
+        (
+            [1] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Animated Flash
+                    [Type] => Banner 300(300x250)
+                    [Width] => 300
+                    [Height] => 250
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Follow Layout(AD1)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 0
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :1200</br>Click to Location :</br>
+                )
+
+        )
+
+    [order_action] => Submit
+)
+<pre>	
+Response: {"Status":"Success","Job Number":"2291322","Input File Store Path":"2\/20140326\/2291322\/input","Input File Temp Path":null,"DeliveryDate":"Friday, March 28th 08:00 am","Pickup Input File Store Path":""}	
+Array
+(
+    [SALES_REP_NAME] => BLAIR DICKEY "bdickey"
+    [SALES_REP_EMAIL] => 
+    [CLIENT_NAME] => pacific coast termite
+    [CAMPAIGN_DOLLARS] => 8000
+    [REVIEW_DATE] => 03/19/2014
+    [START_DATE] => 03/21/2014
+    [TURNAROUND_TIME] => Overnight
+    [HISTORY] => New Build
+    [ARTISTIC_DIRECTION] => Follow Layout with Changes (AD2)
+    [AD_COUNT] => 5 ADS TOTAL
+    [TRACKING_NUMBER] => BAN3_MBL2_VENDASTA
+    [CAMPAIGN_KEYWORD] => termites
+    [CLICK_TAG] => blank clickTAGs (various)
+    [CLICK-TO_LOCATION] => landing page
+    [BANNERS] => 
+    [Banner_#1] => Flash 300x250
+    [Banner_#2] => Flash 728x90
+    [Banner_#3] => Flash 160x600
+    [Banner_#4] => * none *
+    [Banner_#5] => * none *
+    [RICH_MEDIA] => 
+    [Rich_Media_#1] => * none *
+    [Rich_Media_#2] => * none *
+    [Rich_Media_#3] => * none *
+    [Rich_Media_(with_Video)] => * none *
+    [SACCONNECT] => 
+    [SacConnect_type] => * none *
+    [LANDING_PAGE] => 
+    [Landing_Page_needed?] => ImpressLOCAL/Vandasta (700px width max - let wrap to page - html with absolute paths to images.
+    [Landing_Page_features] => * none *
+    [Add_click_to_client_email] => * none *
+    [MOBILE] => 
+    [Mobile_Banners] => Standard (320x50 + 300x50)
+    [Mobile_Landing_Page_needed?] => * none *
+    [EMAIL_BLASTS] => 
+    [Select_which_Sacbee_category_or_E-target] => * none *
+    [AD_CONTENT] => 
+    [Instructions/Content] => Please create ads from attached. Instructions from repI like the "Forecast Severe Rodent Alert!"The rat with the green slash logo - Services provided copy blocktheir logoand maybe a click here for more info?
+    [Attachment_#1] => 
+    [Attachment_#2] => 
+    [Attachment_#3] => 
+    [Attachment_#4] => 
+    [Attachment_#5] => 
+)
+<pre>Array
+(
+    [Order_Type] => Web
+    [requester] => demouser1
+    [location] => LOC1
+    [request_source] => JD_2
+    [request_product] => JD
+    [Tracking_No] => email_2
+    [Site] => Pre-Press | Digital | Mobile(Los Angeles)
+    [Advertiser] => pacific coast termite
+    [Book title] => pacific coast termite
+    [Sales_Person] => BLAIR DICKEY 
+    [Ad_Category] => Other
+    [Proof_Date] => 2014-03-19
+    [Run_Date] => 2014-03-21
+    [Pickup_Ad] => New Build
+    [Delivery_Date] => Overnight
+    [Publication_Title] => www.sacbee.com
+    [Spec_Ad] => No
+    [Pickup_Ad_No] => 
+    [Studio_Job] => No
+    [Save_as_Template] => No
+    [Use_a_saved_Template] => No
+    [Template_Order_No] => 
+    [tmp_folder_path] => 
+    [WebSpecifications] => Array
+        (
+            [1] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Animated Flash
+                    [Type] => Banner 300(300x250)
+                    [Width] => 300
+                    [Height] => 250
+                    [Click Tag] => blank clickTAGs (various)
+                    [Artistic Discretion] => Follow Layout with Changes(AD2)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 5
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :8000</br>Click to Location :</br>
+                )
+
+            [2] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Animated Flash
+                    [Type] => Banner 728(728x90)
+                    [Width] => 728
+                    [Height] => 90
+                    [Click Tag] => blank clickTAGs (various)
+                    [Artistic Discretion] => Follow Layout with Changes(AD2)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 5
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :8000</br>Click to Location :</br>
+                )
+
+            [3] => Array
+                (
+                    [Product] => Mobile Banners
+                    [Output Type] => Standard 
+                    [Type] => 320x50 
+                    [Width] => 320
+                    [Height] => 50 
+                    [Click Tag] => blank clickTAGs (various)
+                    [Artistic Discretion] => Follow Layout with Changes(AD2)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 5
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :8000</br>Click to Location :</br>
+                )
+
+            [4] => Array
+                (
+                    [Product] => Mobile Banners
+                    [Output Type] => Standard 
+                    [Type] =>  300x50)
+                    [Width] =>  300
+                    [Height] => 50)
+                    [Click Tag] => blank clickTAGs (various)
+                    [Artistic Discretion] => Follow Layout with Changes(AD2)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 5
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :8000</br>Click to Location :</br>
+                )
+
+            [6] => Array
+                (
+                    [Product] => Landing Page
+                    [Click Tag] => blank clickTAGs (various)
+                    [Artistic Discretion] => Follow Layout with Changes(AD2)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 5
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :8000</br>Click to Location :</br>
+                )
+
+        )
+
+    [order_action] => Submit
+)
+<pre>	
+Response: {"Status":"Success","Job Number":"2291323","Input File Store Path":"2\/20140326\/2291323\/input","Input File Temp Path":null,"DeliveryDate":"Friday, March 28th 08:00 am","Pickup Input File Store Path":""}	
+Array
+(
+    [SALES_REP_NAME] => JAMILA SMITH "jjsmith"
+    [SALES_REP_EMAIL] => 
+    [CLIENT_NAME] => Folsom Lake Honda
+    [CAMPAIGN_DOLLARS] => 2000
+    [REVIEW_DATE] => 03/19/2014
+    [START_DATE] => 03/19/2014
+    [TURNAROUND_TIME] => Overnight
+    [HISTORY] => Pick Up w/Change
+    [ARTISTIC_DIRECTION] => Follow Layout with Changes (AD2)
+    [AD_COUNT] => 7 ADS TOTAL
+    [TRACKING_NUMBER] => BAN4_MBL2
+    [CAMPAIGN_KEYWORD] => 
+    [CLICK_TAG] => blank McCLATCHY clickTAG
+    [CLICK-TO_LOCATION] => 
+    [BANNERS] => 
+    [Banner_#1] => Flash 300x250
+    [Banner_#2] => Flash 300x250
+    [Banner_#3] => Flash 728x90
+    [Banner_#4] => Flash 728x90
+    [Banner_#5] => * none *
+    [RICH_MEDIA] => 
+    [Rich_Media_#1] => * none *
+    [Rich_Media_#2] => * none *
+    [Rich_Media_#3] => * none *
+    [Rich_Media_(with_Video)] => * none *
+    [SACCONNECT] => 
+    [SacConnect_type] => * none *
+    [LANDING_PAGE] => 
+    [Landing_Page_needed?] => * none *
+    [Landing_Page_features] => * none *
+    [Add_click_to_client_email] => * none *
+    [MOBILE] => 
+    [Mobile_Banners] => Standard (320x50 + 300x50)
+    [Mobile_Landing_Page_needed?] => * none *
+    [EMAIL_BLASTS] => 
+    [Select_which_Sacbee_category_or_E-target] => * none *
+    [AD_CONTENT] => 
+    [Instructions/Content] => Please pick up these ads and convert to blank McClatchy CLICKtagsMobile adsFolsom Lake Honda(pic of Honda Civic LX Sedan)Lease 2014 Honda Civic for only $99!
+    [Attachment_#1] => 
+    [Attachment_#2] => 
+    [Attachment_#3] => 
+    [Attachment_#4] => 
+    [Attachment_#5] => 
+)
+<pre>Array
+(
+    [Order_Type] => Web
+    [requester] => demouser1
+    [location] => LOC1
+    [request_source] => JD_3
+    [request_product] => JD
+    [Tracking_No] => email_3
+    [Site] => Pre-Press | Digital | Mobile(Los Angeles)
+    [Advertiser] => Folsom Lake Honda
+    [Book title] => Folsom Lake Honda
+    [Sales_Person] => JAMILA SMITH 
+    [Ad_Category] => Other
+    [Proof_Date] => 2014-03-19
+    [Run_Date] => 2014-03-19
+    [Pickup_Ad] => Pick Up w/Change
+    [Delivery_Date] => Overnight
+    [Publication_Title] => www.sacbee.com
+    [Spec_Ad] => No
+    [Pickup_Ad_No] => 
+    [Studio_Job] => No
+    [Save_as_Template] => No
+    [Use_a_saved_Template] => No
+    [Template_Order_No] => 
+    [tmp_folder_path] => 
+    [WebSpecifications] => Array
+        (
+            [1] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Animated Flash
+                    [Type] => Banner 300(300x250)
+                    [Width] => 300
+                    [Height] => 250
+                    [Click Tag] => blank McCLATCHY clickTAG
+                    [Artistic Discretion] => Follow Layout with Changes(AD2)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 5
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :2000</br>Click to Location :</br>
+                )
+
+            [2] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Animated Flash
+                    [Type] => Banner 300(300x250)
+                    [Width] => 300
+                    [Height] => 250
+                    [Click Tag] => blank McCLATCHY clickTAG
+                    [Artistic Discretion] => Follow Layout with Changes(AD2)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 5
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :2000</br>Click to Location :</br>
+                )
+
+            [3] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Animated Flash
+                    [Type] => Banner 728(728x90)
+                    [Width] => 728
+                    [Height] => 90
+                    [Click Tag] => blank McCLATCHY clickTAG
+                    [Artistic Discretion] => Follow Layout with Changes(AD2)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 5
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :2000</br>Click to Location :</br>
+                )
+
+            [4] => Array
+                (
+                    [Product] => Mobile Banners
+                    [Output Type] => Standard 
+                    [Type] => 320x50 
+                    [Width] => 320
+                    [Height] => 50 
+                    [Click Tag] => blank McCLATCHY clickTAG
+                    [Artistic Discretion] => Follow Layout with Changes(AD2)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 5
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :2000</br>Click to Location :</br>
+                )
+
+            [5] => Array
+                (
+                    [Product] => Mobile Banners
+                    [Output Type] => Standard 
+                    [Type] =>  300x50)
+                    [Width] =>  300
+                    [Height] => 50)
+                    [Click Tag] => blank McCLATCHY clickTAG
+                    [Artistic Discretion] => Follow Layout with Changes(AD2)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 5
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :2000</br>Click to Location :</br>
+                )
+
+        )
+
+    [order_action] => Submit
+)
+<pre>	
+Response: {"Status":"Success","Job Number":"2291324","Input File Store Path":"2\/20140326\/2291324\/input","Input File Temp Path":null,"DeliveryDate":"Friday, March 28th 08:00 am","Pickup Input File Store Path":""}	
+Array
+(
+    [SALES_REP_NAME] => JAMILA SMITH "jjsmith"
+    [SALES_REP_EMAIL] => 
+    [CLIENT_NAME] => Folsom Lake Toyota
+    [CAMPAIGN_DOLLARS] => 2000
+    [REVIEW_DATE] => 03/20/2014
+    [START_DATE] => 03/21/2014
+    [TURNAROUND_TIME] => 2 Biz Days
+    [HISTORY] => Pick Up w/Change
+    [ARTISTIC_DIRECTION] => Follow Layout with Changes (AD2)
+    [AD_COUNT] => 1 AD TOTAL
+    [TRACKING_NUMBER] => SBB
+    [CAMPAIGN_KEYWORD] => 
+    [CLICK_TAG] => blank McCLATCHY clickTAG
+    [CLICK-TO_LOCATION] => 
+    [BANNERS] => 
+    [Banner_#1] => * none *
+    [Banner_#2] => * none *
+    [Banner_#3] => * none *
+    [Banner_#4] => * none *
+    [Banner_#5] => * none *
+    [RICH_MEDIA] => 
+    [Rich_Media_#1] => Billboard 960x30 (+ 960x470)
+    [Rich_Media_#2] => * none *
+    [Rich_Media_#3] => * none *
+    [Rich_Media_(with_Video)] => * none *
+    [SACCONNECT] => 
+    [SacConnect_type] => * none *
+    [LANDING_PAGE] => 
+    [Landing_Page_needed?] => * none *
+    [Landing_Page_features] => * none *
+    [Add_click_to_client_email] => * none *
+    [MOBILE] => 
+    [Mobile_Banners] => * none *
+    [Mobile_Landing_Page_needed?] => * none *
+    [EMAIL_BLASTS] => 
+    [Select_which_Sacbee_category_or_E-target] => * none *
+    [AD_CONTENT] => 
+    [Instructions/Content] => Please pick up this ad and make the following changesPlease make the names of the cars much bigger, there is plenty of space.
+    [Attachment_#1] => 
+    [Attachment_#2] => 
+    [Attachment_#3] => 
+    [Attachment_#4] => 
+    [Attachment_#5] => 
+)
+<pre>Array
+(
+    [Order_Type] => Web
+    [requester] => demouser1
+    [location] => LOC1
+    [request_source] => JD_4
+    [request_product] => JD
+    [Tracking_No] => email_4
+    [Site] => Pre-Press | Digital | Mobile(Los Angeles)
+    [Advertiser] => Folsom Lake Toyota
+    [Book title] => Folsom Lake Toyota
+    [Sales_Person] => JAMILA SMITH 
+    [Ad_Category] => Other
+    [Proof_Date] => 2014-03-20
+    [Run_Date] => 2014-03-21
+    [Pickup_Ad] => Pick Up w/Change
+    [Delivery_Date] => 2 Biz Days
+    [Publication_Title] => www.sacbee.com
+    [Spec_Ad] => No
+    [Pickup_Ad_No] => 
+    [Studio_Job] => No
+    [Save_as_Template] => No
+    [Use_a_saved_Template] => No
+    [Template_Order_No] => 
+    [tmp_folder_path] => 
+    [WebSpecifications] => Array
+        (
+            [0] => Array
+                (
+                    [Product] => Rich Media
+                    [Output Type] => Billboard 960x30 (+ 960x470)
+                    [Type] => 
+                    [Width] => 
+                    [Height] => 
+                    [Click Tag] => blank McCLATCHY clickTAG
+                    [Artistic Discretion] => Follow Layout with Changes(AD2)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 0
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :2000</br>Click to Location :</br>
+                )
+
+        )
+
+    [order_action] => Submit
+)
+<pre>	
+Response: {"Status":"Success","Job Number":"2291325","Input File Store Path":"2\/20140326\/2291325\/input","Input File Temp Path":null,"DeliveryDate":"Friday, March 28th 08:00 am","Pickup Input File Store Path":""}	
+Array
+(
+    [SALES_REP_NAME] => JAMILA SMITH "jjsmith"
+    [SALES_REP_EMAIL] => 
+    [CLIENT_NAME] => Folsom Lake Honda
+    [CAMPAIGN_DOLLARS] => 3000
+    [REVIEW_DATE] => 03/19/2014
+    [START_DATE] => 03/19/2014
+    [TURNAROUND_TIME] => Overnight
+    [HISTORY] => New Build
+    [ARTISTIC_DIRECTION] => Follow Layout (AD1)
+    [AD_COUNT] => 1 AD TOTAL
+    [TRACKING_NUMBER] => SCA_MBL2
+    [CAMPAIGN_KEYWORD] => 
+    [CLICK_TAG] => blank McCLATCHY clickTAG
+    [CLICK-TO_LOCATION] => 
+    [BANNERS] => 
+    [Banner_#1] => * none *
+    [Banner_#2] => * none *
+    [Banner_#3] => * none *
+    [Banner_#4] => * none *
+    [Banner_#5] => * none *
+    [RICH_MEDIA] => 
+    [Rich_Media_#1] => * none *
+    [Rich_Media_#2] => * none *
+    [Rich_Media_#3] => * none *
+    [Rich_Media_(with_Video)] => * none *
+    [SACCONNECT] => 
+    [SacConnect_type] => Animated Media Alert (900x400 + 300x150)
+    [LANDING_PAGE] => 
+    [Landing_Page_needed?] => * none *
+    [Landing_Page_features] => * none *
+    [Add_click_to_client_email] => * none *
+    [MOBILE] => 
+    [Mobile_Banners] => Standard (320x50 + 300x50)
+    [Mobile_Landing_Page_needed?] => * none *
+    [EMAIL_BLASTS] => 
+    [Select_which_Sacbee_category_or_E-target] => * none *
+    [AD_CONTENT] => 
+    [Instructions/Content] => Please create a special 300X150 animated media alert with a green, extended background. SEE NOTE.300X150 copyFolsom Lake Honda Lease Specials! (Side by side factory art pictures of 2014 Honda Accord LX, 2014 Honda Civic)900X400Please pick up copy, pics, logos, style, art from this ad and reformat ad into a 900X400 ad. Feature the 2 car offers prominently on the left and right sides of the ad with car pics facing in, and 4 leaf clovers behind the rear of the cars. Keep Folsom Lake Honda with Honda logo symbol and Spring into Honda logo prominently placed across the top of the ad. Keep website, phone number and CLICK HERE button across the bottom of the ad. Use the spinning green background. Replace car pics with factory art, high res art. Pick up Spring into Honda logo from ad planner website.Guys, on this we're altering the specs a little. Build the 300x150 as normal, but at the end, instead of it the last frame being a 100x60 size, have it be a rounded corner box with a solid background color with the copy and art mentioned above. Should be a 300x60 size, sliding from the bottom of the stage up. *the top corners should be rounded *the bottom corners should be mitered and flush against the bottom. Make sense?Please try and use the sacbee fonts for these ads. See Farooq.-- Lall
+    [Attachment_#1] => 
+    [Attachment_#2] => 
+    [Attachment_#3] => 
+    [Attachment_#4] => 
+    [Attachment_#5] => 
+)
+<pre>Array
+(
+    [Order_Type] => Web
+    [requester] => demouser1
+    [location] => LOC1
+    [request_source] => JD_5
+    [request_product] => JD
+    [Tracking_No] => email_5
+    [Site] => Pre-Press | Digital | Mobile(Los Angeles)
+    [Advertiser] => Folsom Lake Honda
+    [Book title] => Folsom Lake Honda
+    [Sales_Person] => JAMILA SMITH 
+    [Ad_Category] => Other
+    [Proof_Date] => 2014-03-19
+    [Run_Date] => 2014-03-19
+    [Pickup_Ad] => New Build
+    [Delivery_Date] => Overnight
+    [Publication_Title] => www.sacbee.com
+    [Spec_Ad] => No
+    [Pickup_Ad_No] => 
+    [Studio_Job] => No
+    [Save_as_Template] => No
+    [Use_a_saved_Template] => No
+    [Template_Order_No] => 
+    [tmp_folder_path] => 
+    [WebSpecifications] => Array
+        (
+            [1] => Array
+                (
+                    [Product] => SacConnect
+                    [Output Type] => Animated Media Alert 
+                    [Type] => 900x400 
+                    [Width] => 900
+                    [Height] => 400 
+                    [Click Tag] => blank McCLATCHY clickTAG
+                    [Artistic Discretion] => Follow Layout(AD1)
+                    [Brief/Instructions] => Campaign Dollers :3000</br>Click to Location :</br>
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 3
+                    [Multiple Formats] => Yes
+                )
+
+            [2] => Array
+                (
+                    [Product] => SacConnect
+                    [Output Type] => Animated Media Alert 
+                    [Type] =>  300x150)
+                    [Width] =>  300
+                    [Height] => 150)
+                    [Click Tag] => blank McCLATCHY clickTAG
+                    [Artistic Discretion] => Follow Layout(AD1)
+                    [Brief/Instructions] => Campaign Dollers :3000</br>Click to Location :</br>
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 3
+                    [Multiple Formats] => Yes
+                )
+
+            [3] => Array
+                (
+                    [Product] => Mobile Banners
+                    [Output Type] => Standard 
+                    [Type] => 320x50 
+                    [Width] => 320
+                    [Height] => 50 
+                    [Click Tag] => blank McCLATCHY clickTAG
+                    [Artistic Discretion] => Follow Layout(AD1)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 3
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :3000</br>Click to Location :</br>
+                )
+
+            [4] => Array
+                (
+                    [Product] => Mobile Banners
+                    [Output Type] => Standard 
+                    [Type] =>  300x50)
+                    [Width] =>  300
+                    [Height] => 50)
+                    [Click Tag] => blank McCLATCHY clickTAG
+                    [Artistic Discretion] => Follow Layout(AD1)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 3
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :3000</br>Click to Location :</br>
+                )
+
+        )
+
+    [order_action] => Submit
+)
+<pre>	
+Response: {"Status":"Success","Job Number":"2291326","Input File Store Path":"2\/20140326\/2291326\/input","Input File Temp Path":null,"DeliveryDate":"Friday, March 28th 08:00 am","Pickup Input File Store Path":""}	
+Array
+(
+    [SALES_REP_NAME] => BLAIR DICKEY "bdickey"
+    [SALES_REP_EMAIL] => 
+    [CLIENT_NAME] => handyman network
+    [CAMPAIGN_DOLLARS] => 2500
+    [REVIEW_DATE] => 03/19/2014
+    [START_DATE] => 03/20/2014
+    [TURNAROUND_TIME] => Overnight
+    [HISTORY] => New Build
+    [ARTISTIC_DIRECTION] => Follow Layout (AD1)
+    [AD_COUNT] => 1 AD TOTAL
+    [TRACKING_NUMBER] => VENDASTA
+    [CAMPAIGN_KEYWORD] => handyman
+    [CLICK_TAG] => blank clickTAGs (various)
+    [CLICK-TO_LOCATION] => vendasta landing page
+    [BANNERS] => 
+    [Banner_#1] => * none *
+    [Banner_#2] => * none *
+    [Banner_#3] => * none *
+    [Banner_#4] => * none *
+    [Banner_#5] => * none *
+    [RICH_MEDIA] => 
+    [Rich_Media_#1] => * none *
+    [Rich_Media_#2] => * none *
+    [Rich_Media_#3] => * none *
+    [Rich_Media_(with_Video)] => * none *
+    [SACCONNECT] => 
+    [SacConnect_type] => * none *
+    [LANDING_PAGE] => 
+    [Landing_Page_needed?] => ImpressLOCAL/Vandasta
+    [Landing_Page_features] => * none *
+    [Add_click_to_client_email] => * none *
+    [MOBILE] => 
+    [Mobile_Banners] => * none *
+    [Mobile_Landing_Page_needed?] => * none *
+    [EMAIL_BLASTS] => 
+    [Select_which_Sacbee_category_or_E-target] => * none *
+    [AD_CONTENT] => 
+    [Instructions/Content] => Please make an impresslocal landing page from the ROP ad attached with the following changes-Move the phone number to the top, under the logo. Also, this number needs to be updated with the call tracking numbers. -There needs to be some kind of language about Call Now! Maybe we can say Call Now For a Free Estimate!-I want to add a tagline, something likeFamily Owned and Operated for 12 YearsorSacramento's Favorite Handyman Services- Lets switch the layout of the coupons and services bullet points in that black box. I think we should lead with coupons on top. Keep them stacked on each other, but make the box wider.Move the service bullet points beneath this, laid out horizontally in one line.-I'm thinking it doesn't have to be such a bright yellowBasically this needs to be a very funneled page where we are pushing them to call NOW. It will be part of an SEM campaign which we are using to try and drive phone calls. Any recommendations on how we can do that here are certainly welcome.NOTE On this Vendasta Page, it can be no wider than 700px wide, make sure all images are absolute paths.
+    [Attachment_#1] => 
+    [Attachment_#2] => 
+    [Attachment_#3] => 
+    [Attachment_#4] => 
+    [Attachment_#5] => 
+    [inputFiles] => Array
+        (
+            [0] => Array
+                (
+                    [name] => 1201342 Ad99.pdf
+                )
+
+        )
+
+    [tmp_folder_path] => tmp_53331f8e72e6b
+)
+<pre>Array
+(
+    [Order_Type] => Web
+    [requester] => demouser1
+    [location] => LOC1
+    [request_source] => JD_6
+    [request_product] => JD
+    [Tracking_No] => email_6
+    [Site] => Pre-Press | Digital | Mobile(Los Angeles)
+    [Advertiser] => handyman network
+    [Book title] => handyman network
+    [Sales_Person] => BLAIR DICKEY 
+    [Ad_Category] => Other
+    [Proof_Date] => 2014-03-19
+    [Run_Date] => 2014-03-20
+    [Pickup_Ad] => New Build
+    [Delivery_Date] => Overnight
+    [Publication_Title] => www.sacbee.com
+    [Spec_Ad] => No
+    [Pickup_Ad_No] => 
+    [Studio_Job] => No
+    [Save_as_Template] => No
+    [Use_a_saved_Template] => No
+    [Template_Order_No] => 
+    [tmp_folder_path] => tmp_53331f8e72e6b
+    [WebSpecifications] => Array
+        (
+            [1] => Array
+                (
+                    [Product] => Landing Page
+                    [Click Tag] => blank clickTAGs (various)
+                    [Artistic Discretion] => Follow Layout(AD1)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 0
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :2500</br>Click to Location :</br>
+                )
+
+        )
+
+    [order_action] => Submit
+    [FILES] => Array
+        (
+            [0] => Array
+                (
+                    [name] => 1201342 Ad99.pdf
+                )
+
+        )
+
+)
+<pre>	
+Response: {"Status":"Success","Job Number":"2291327","Input File Store Path":"2\/20140326\/2291327\/input","Input File Temp Path":"tmp_53331f8e72e6b","DeliveryDate":"Friday, March 28th 08:00 am","Pickup Input File Store Path":""}	
+Order created successfully..!
+Warning: simplexml_load_string(): Entity: line 1: parser error : Specification mandate value for attribute ht in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): <?xml version="1.0" encoding="utf-8"  ?><meta ht in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                 ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): Entity: line 1: parser error : attributes construct error in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): <?xml version="1.0" encoding="utf-8"  ?><meta ht in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                 ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): Entity: line 1: parser error : Couldn't find end of Start Tag meta line 1 in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): <?xml version="1.0" encoding="utf-8"  ?><meta ht in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                 ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: Invalid argument supplied for foreach() in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 119
+Array
+(
+)
+Array
+(
+    [SALES_REP_NAME] => JAMILA SMITH "jjsmith"
+    [SALES_REP_EMAIL] => 
+    [CLIENT_NAME] => Folsom Lake Ford
+    [CAMPAIGN_DOLLARS] => 2000
+    [REVIEW_DATE] => 03/20/2014
+    [START_DATE] => 03/20/2014
+    [TURNAROUND_TIME] => Overnight
+    [HISTORY] => Pick Up w/Change
+    [ARTISTIC_DIRECTION] => Follow Layout with Changes (AD2)
+    [AD_COUNT] => 1 AD TOTAL
+    [TRACKING_NUMBER] => EXP
+    [CAMPAIGN_KEYWORD] => 
+    [CLICK_TAG] => blank McCLATCHY clickTAG
+    [CLICK-TO_LOCATION] => 
+    [BANNERS] => 
+    [Banner_#1] => * none *
+    [Banner_#2] => * none *
+    [Banner_#3] => * none *
+    [Banner_#4] => * none *
+    [Banner_#5] => * none *
+    [RICH_MEDIA] => 
+    [Rich_Media_#1] => Expanding 300x250 (+ 560x300)
+    [Rich_Media_#2] => * none *
+    [Rich_Media_#3] => * none *
+    [Rich_Media_(with_Video)] => * none *
+    [SACCONNECT] => 
+    [SacConnect_type] => * none *
+    [LANDING_PAGE] => 
+    [Landing_Page_needed?] => * none *
+    [Landing_Page_features] => * none *
+    [Add_click_to_client_email] => * none *
+    [MOBILE] => 
+    [Mobile_Banners] => * none *
+    [Mobile_Landing_Page_needed?] => * none *
+    [EMAIL_BLASTS] => 
+    [Select_which_Sacbee_category_or_E-target] => * none *
+    [AD_CONTENT] => 
+    [Instructions/Content] => RUSH ORDER PLEASE! NEED TOMORROW!Please pick up this ad with changes Pick up the rollover message and the website message, but replace the rest of the copy in the 300X250 portion of the ad to the ad attached.Keep the Click Here, phone number and website on expanded ad but replace the rest of the copy with 2nd ad attached.
+    [Attachment_#1] => 
+    [Attachment_#2] => 
+    [Attachment_#3] => 
+    [Attachment_#4] => 
+    [Attachment_#5] => 
+    [inputFiles] => Array
+        (
+            [0] => Array
+                (
+                    [name] => 300X250 ad copy.jpg
+                )
+
+            [1] => Array
+                (
+                    [name] => Expanded ad copy.jpg
+                )
+
+        )
+
+    [tmp_folder_path] => tmp_53331f97d1365
+)
+<pre>Array
+(
+    [Order_Type] => Web
+    [requester] => demouser1
+    [location] => LOC1
+    [request_source] => JD_8
+    [request_product] => JD
+    [Tracking_No] => email_8
+    [Site] => Pre-Press | Digital | Mobile(Los Angeles)
+    [Advertiser] => Folsom Lake Ford
+    [Book title] => Folsom Lake Ford
+    [Sales_Person] => JAMILA SMITH 
+    [Ad_Category] => Other
+    [Proof_Date] => 2014-03-20
+    [Run_Date] => 2014-03-20
+    [Pickup_Ad] => Pick Up w/Change
+    [Delivery_Date] => Overnight
+    [Publication_Title] => www.sacbee.com
+    [Spec_Ad] => No
+    [Pickup_Ad_No] => 
+    [Studio_Job] => No
+    [Save_as_Template] => No
+    [Use_a_saved_Template] => No
+    [Template_Order_No] => 
+    [tmp_folder_path] => tmp_53331f97d1365
+    [WebSpecifications] => Array
+        (
+            [0] => Array
+                (
+                    [Product] => Rich Media
+                    [Output Type] => Expanding 300x250 (+ 560x300)
+                    [Type] => 
+                    [Width] => 
+                    [Height] => 
+                    [Click Tag] => blank McCLATCHY clickTAG
+                    [Artistic Discretion] => Follow Layout with Changes(AD2)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 0
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :2000</br>Click to Location :</br>
+                )
+
+        )
+
+    [order_action] => Submit
+    [FILES] => Array
+        (
+            [0] => Array
+                (
+                    [name] => 300X250 ad copy.jpg
+                )
+
+            [1] => Array
+                (
+                    [name] => Expanded ad copy.jpg
+                )
+
+        )
+
+)
+<pre>	
+Response: {"Status":"Success","Job Number":"2291328","Input File Store Path":"2\/20140326\/2291328\/input","Input File Temp Path":"tmp_53331f97d1365","DeliveryDate":"Friday, March 28th 08:00 am","Pickup Input File Store Path":""}	
+Order created successfully..!Array
+(
+    [SALES_REP_NAME] => VICKI PHILLIPS
+    [SALES_REP_EMAIL] => 
+    [CLIENT_NAME] => One Hour Heat and Air
+    [CAMPAIGN_KEYWORD] => Tune Up special
+    [CAMPAIGN_DOLLARS/SPEC] => $1000
+    [CLICK-TO_LOCATION] => none
+    [OVERVIEW] => 
+    [Review_Date] => 03/20/2014
+    [Start_Date] => 03/20/2014
+    [Delivery_Time] => 2 Biz Days
+    [Ad_History] => Pick Up w/Change
+    [Ad/Type_count] => 1 AD TOTAL
+    [clickTAG_INFO] => 
+    [Ads_Require] => blank McCLATCHY clickTAG
+    [BANNERS] => 
+    [Banner_#1] => Flash 728x90
+    [Banner_#2] => * none *
+    [Banner_#3] => * none *
+    [Banner_#4] => * none *
+    [Banner_#5] => * none *
+    [RICH_MEDIA] => 
+    [Rich_Media_#1] => * none *
+    [Rich_Media_#2] => * none *
+    [Rich_Media_#3] => * none *
+    [Rich_Media_(with_Video)] => * none *
+    [SACCONNECT] => 
+    [SacConnect_type] => * none *
+    [LANDING_PAGE] => 
+    [Landing_Page_needed?] => * none *
+    [Landing_Page_features] => * none *
+    [Add_click_to_client_email] => * none *
+    [MOBILE] => 
+    [Mobile_Banners] => * none *
+    [Mobile_Landing_Page_needed?] => * none *
+    [EMAIL_BLASTS] => 
+    [Select_which_Sacbee_category_or_E-target] => * none *
+    [AD_CONTENT] => 
+    [Instructions/Content] => pick up V1 V2 and change the phone number to
+    [Upload_Files_#1] => 
+    [Upload_Files_#2] => 
+    [Upload_Files_#3] => 
+    [Upload_Files_#4] => 
+    [Upload_Files_#5] => 
+)
+<pre>Array
+(
+    [Order_Type] => Web
+    [requester] => demouser1
+    [location] => LOC1
+    [request_source] => JD_9
+    [request_product] => JD
+    [Tracking_No] => email_9
+    [Site] => Pre-Press | Digital | Mobile(Los Angeles)
+    [Advertiser] => One Hour Heat and Air
+    [Book title] => One Hour Heat and Air
+    [Sales_Person] => VICKI PHILLIPS
+    [Ad_Category] => Other
+    [Proof_Date] => 1970-01-01
+    [Run_Date] => 1970-01-01
+    [Pickup_Ad] => 
+    [Delivery_Date] => 
+    [Publication_Title] => www.sacbee.com
+    [Spec_Ad] => No
+    [Pickup_Ad_No] => 
+    [Studio_Job] => No
+    [Save_as_Template] => No
+    [Use_a_saved_Template] => No
+    [Template_Order_No] => 
+    [tmp_folder_path] => 
+    [WebSpecifications] => Array
+        (
+            [1] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Animated Flash
+                    [Type] => Banner 728(728x90)
+                    [Width] => 728
+                    [Height] => 90
+                    [Click Tag] => 
+                    [Artistic Discretion] => 
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 0
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Click to Location :</br>
+                )
+
+        )
+
+    [order_action] => Submit
+)
+<pre>	
+Response: 
+Failed to create an order:Array
+(
+    [SALES_REP_NAME] => SUE PRICE "suep"
+    [SALES_REP_EMAIL] => 
+    [CLIENT_NAME] => Wild Bill's
+    [CAMPAIGN_DOLLARS] => $600
+    [REVIEW_DATE] => 03/21/2014
+    [START_DATE] => 03/21/2014
+    [TURNAROUND_TIME] => Overnight
+    [HISTORY] => Pick Up w/Change
+    [ARTISTIC_DIRECTION] => Follow Layout (AD1)
+    [AD_COUNT] => 2 ADS TOTAL
+    [TRACKING_NUMBER] => BAN_WEB
+    [CAMPAIGN_KEYWORD] => Wild Bill's
+    [CLICK_TAG] => not sure which clickTAG
+    [CLICK-TO_LOCATION] => United States
+    [BANNERS] => 
+    [Banner_#1] => Flash 300x250
+    [Banner_#2] => * none *
+    [Banner_#3] => * none *
+    [Banner_#4] => * none *
+    [Banner_#5] => * none *
+    [RICH_MEDIA] => 
+    [Rich_Media_#1] => * none *
+    [Rich_Media_#2] => * none *
+    [Rich_Media_#3] => * none *
+    [Rich_Media_(with_Video)] => * none *
+    [SACCONNECT] => 
+    [SacConnect_type] => * none *
+    [LANDING_PAGE] => 
+    [Landing_Page_needed?] => Standard
+    [Landing_Page_features] => * none *
+    [Add_click_to_client_email] => * none *
+    [MOBILE] => 
+    [Mobile_Banners] => * none *
+    [Mobile_Landing_Page_needed?] => * none *
+    [EMAIL_BLASTS] => 
+    [Select_which_Sacbee_category_or_E-target] => * none *
+    [AD_CONTENT] => 
+    [Instructions/Content] => nEW bUILD Need landing page print ad attached no urlpICK UP WITH CHANGENeed 300x250 ad picked up from SAC2070956Take out likeOver 200 AR TYPE...Change to Sale Prices Valid March 20- April 5, 2014
+    [Attachment_#1] => 
+    [Attachment_#2] => 
+    [Attachment_#3] => 
+    [Attachment_#4] => 
+    [Attachment_#5] => 
+)
+<pre>Array
+(
+    [Order_Type] => Web
+    [requester] => demouser1
+    [location] => LOC1
+    [request_source] => JD_10
+    [request_product] => JD
+    [Tracking_No] => email_10
+    [Site] => Pre-Press | Digital | Mobile(Los Angeles)
+    [Advertiser] => Wild Bill's
+    [Book title] => Wild Bill's
+    [Sales_Person] => SUE PRICE 
+    [Ad_Category] => Other
+    [Proof_Date] => 2014-03-21
+    [Run_Date] => 2014-03-21
+    [Pickup_Ad] => Pick Up w/Change
+    [Delivery_Date] => Overnight
+    [Publication_Title] => www.sacbee.com
+    [Spec_Ad] => No
+    [Pickup_Ad_No] => 
+    [Studio_Job] => No
+    [Save_as_Template] => No
+    [Use_a_saved_Template] => No
+    [Template_Order_No] => 
+    [tmp_folder_path] => 
+    [WebSpecifications] => Array
+        (
+            [1] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Animated Flash
+                    [Type] => Banner 300(300x250)
+                    [Width] => 300
+                    [Height] => 250
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Follow Layout(AD1)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 1
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :$600</br>Click to Location :</br>
+                )
+
+            [2] => Array
+                (
+                    [Product] => Landing Page
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Follow Layout(AD1)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 1
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :$600</br>Click to Location :</br>
+                )
+
+        )
+
+    [order_action] => Submit
+)
+<pre>	
+Response: {"Status":"Success","Job Number":"2291329","Input File Store Path":"2\/20140326\/2291329\/input","Input File Temp Path":null,"DeliveryDate":"Friday, March 28th 08:00 am","Pickup Input File Store Path":""}	
+
+Warning: simplexml_load_string(): Entity: line 1: parser error : Opening and ending tag mismatch: br line 1 and td in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): alue="&#43;19164355062" target="_blank">916-435-5062</a><br/><br/>thank you</td> in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                                                ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): Entity: line 1: parser error : Opening and ending tag mismatch: td line 1 and tr in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): "&#43;19164355062" target="_blank">916-435-5062</a><br/><br/>thank you</td></tr> in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                                                ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): Entity: line 1: parser error : Opening and ending tag mismatch: tr line 1 and tbody in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): oad Files #5:</td><td style="padding:7px 9px 7px 0;width:80%"></td></tr></tbody> in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                                                ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): Entity: line 1: parser error : Opening and ending tag mismatch: tbody line 1 and table in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): s #5:</td><td style="padding:7px 9px 7px 0;width:80%"></td></tr></tbody></table> in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                                                ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): Entity: line 1: parser error : Premature end of data in tag table line 1 in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): s #5:</td><td style="padding:7px 9px 7px 0;width:80%"></td></tr></tbody></table> in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                                                ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: Invalid argument supplied for foreach() in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 119
+Array
+(
+)
+
+Warning: simplexml_load_string(): Entity: line 1: parser error : Opening and ending tag mismatch: br line 1 and td in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): alue="&#43;19164355062" target="_blank">916-435-5062</a><br/><br/>thank you</td> in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                                                ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): Entity: line 1: parser error : Opening and ending tag mismatch: td line 1 and tr in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): "&#43;19164355062" target="_blank">916-435-5062</a><br/><br/>thank you</td></tr> in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                                                ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): Entity: line 1: parser error : Opening and ending tag mismatch: tr line 1 and tbody in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): oad Files #5:</td><td style="padding:7px 9px 7px 0;width:80%"></td></tr></tbody> in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                                                ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): Entity: line 1: parser error : Opening and ending tag mismatch: tbody line 1 and table in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): s #5:</td><td style="padding:7px 9px 7px 0;width:80%"></td></tr></tbody></table> in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                                                ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): Entity: line 1: parser error : Premature end of data in tag table line 1 in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): s #5:</td><td style="padding:7px 9px 7px 0;width:80%"></td></tr></tbody></table> in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                                                ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: Invalid argument supplied for foreach() in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 119
+Array
+(
+)
+Array
+(
+    [SALES_REP_NAME] => NATHAN KINNICK "nkinnick"
+    [SALES_REP_EMAIL] => 
+    [CLIENT_NAME] => Sacramento Infiniti
+    [CAMPAIGN_DOLLARS] => $1,000
+    [REVIEW_DATE] => 03/20/2014
+    [START_DATE] => 03/21/2014
+    [TURNAROUND_TIME] => Overnight
+    [HISTORY] => Pick Up w/Change
+    [ARTISTIC_DIRECTION] => Follow Layout (AD1)
+    [AD_COUNT] => 1 AD TOTAL
+    [TRACKING_NUMBER] => BAN
+    [CAMPAIGN_KEYWORD] => Cars.com power Position
+    [CLICK_TAG] => blank clickTAG
+    [CLICK-TO_LOCATION] => none
+    [BANNERS] => 
+    [Banner_#1] => Flash 160x600
+    [Banner_#2] => * none *
+    [Banner_#3] => * none *
+    [Banner_#4] => * none *
+    [Banner_#5] => * none *
+    [RICH_MEDIA] => 
+    [Rich_Media_#1] => * none *
+    [Rich_Media_#2] => * none *
+    [Rich_Media_#3] => * none *
+    [Rich_Media_(with_Video)] => * none *
+    [SACCONNECT] => 
+    [SacConnect_type] => * none *
+    [LANDING_PAGE] => 
+    [Landing_Page_needed?] => * none *
+    [Landing_Page_features] => * none *
+    [Add_click_to_client_email] => * none *
+    [MOBILE] => 
+    [Mobile_Banners] => * none *
+    [Mobile_Landing_Page_needed?] => * none *
+    [EMAIL_BLASTS] => 
+    [Select_which_Sacbee_category_or_E-target] => * none *
+    [AD_CONTENT] => 
+    [Instructions/Content] => Please pick up the 160x600 below for Sacramento Infiniti and make the ad copy changes indicated below. The photos in the ad will remain the same. 2013 Infiniti G37Journey SedanLease for$249permonthplus tax*(Details Tab Information)*$249 per month + Tax. 24 month lease $2,495 due at lease signing plus tax, dmv, & documentation fees. $0 security deposit required. Lessee responsible at lease end for mileage over 10,000 miles per year at 25 cents per mile. Subject to lender approval through IFS. 2 or more available at this offer. Example ID# 306063 and ID# 726224Offer expires 03/31/20142014 Infiniti Q50Journey SedanLease for$349permonthplus tax*(Details Tab Information)$349 per month + Tax. 39 month lease $1,995 due at lease signing plus tax, dmv, & documentation fees. $0 security deposit required. Lessee responsible at lease end for mileage over 10,000 miles per year at 25 cents per mile. Subject to lender approval through IFS. 2 or more available at this offer. Example ID# 685663Offer expires 03/31/2014
+    [Attachment_#1] => 
+    [Attachment_#2] => 
+    [Attachment_#3] => 
+    [Attachment_#4] => 
+    [Attachment_#5] => 
+)
+<pre>Array
+(
+    [Order_Type] => Web
+    [requester] => demouser1
+    [location] => LOC1
+    [request_source] => JD_13
+    [request_product] => JD
+    [Tracking_No] => email_13
+    [Site] => Pre-Press | Digital | Mobile(Los Angeles)
+    [Advertiser] => Sacramento Infiniti
+    [Book title] => Sacramento Infiniti
+    [Sales_Person] => NATHAN KINNICK 
+    [Ad_Category] => Other
+    [Proof_Date] => 2014-03-20
+    [Run_Date] => 2014-03-21
+    [Pickup_Ad] => Pick Up w/Change
+    [Delivery_Date] => Overnight
+    [Publication_Title] => www.sacbee.com
+    [Spec_Ad] => No
+    [Pickup_Ad_No] => 
+    [Studio_Job] => No
+    [Save_as_Template] => No
+    [Use_a_saved_Template] => No
+    [Template_Order_No] => 
+    [tmp_folder_path] => 
+    [WebSpecifications] => Array
+        (
+            [1] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Animated Flash
+                    [Type] => Banner 160(160x600)
+                    [Width] => 160
+                    [Height] => 600
+                    [Click Tag] => blank clickTAG
+                    [Artistic Discretion] => Follow Layout(AD1)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 0
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :$1,000</br>Click to Location :</br>
+                )
+
+        )
+
+    [order_action] => Submit
+)
+<pre>	
+Response: {"Status":"Success","Job Number":"2291330","Input File Store Path":"2\/20140326\/2291330\/input","Input File Temp Path":null,"DeliveryDate":"Friday, March 28th 08:00 am","Pickup Input File Store Path":""}	
+Array
+(
+    [SALES_REP_NAME] => BLAIR DICKEY "bdickey"
+    [SALES_REP_EMAIL] => 
+    [CLIENT_NAME] => Harris Center
+    [CAMPAIGN_DOLLARS] => 1000
+    [REVIEW_DATE] => 03/21/2014
+    [START_DATE] => 03/21/2014
+    [TURNAROUND_TIME] => Overnight
+    [HISTORY] => Pick Up w/Change
+    [ARTISTIC_DIRECTION] => Follow Layout (AD1)
+    [AD_COUNT] => 1 AD TOTAL
+    [TRACKING_NUMBER] => BAN
+    [CAMPAIGN_KEYWORD] => harris center
+    [CLICK_TAG] => blank clickTAGs (various)
+    [CLICK-TO_LOCATION] => 
+    [BANNERS] => 
+    [Banner_#1] => Flash 300x250
+    [Banner_#2] => * none *
+    [Banner_#3] => * none *
+    [Banner_#4] => * none *
+    [Banner_#5] => * none *
+    [RICH_MEDIA] => 
+    [Rich_Media_#1] => * none *
+    [Rich_Media_#2] => * none *
+    [Rich_Media_#3] => * none *
+    [Rich_Media_(with_Video)] => * none *
+    [SACCONNECT] => 
+    [SacConnect_type] => * none *
+    [LANDING_PAGE] => 
+    [Landing_Page_needed?] => * none *
+    [Landing_Page_features] => * none *
+    [Add_click_to_client_email] => * none *
+    [MOBILE] => 
+    [Mobile_Banners] => * none *
+    [Mobile_Landing_Page_needed?] => * none *
+    [EMAIL_BLASTS] => 
+    [Select_which_Sacbee_category_or_E-target] => * none *
+    [AD_CONTENT] => 
+    [Instructions/Content] => Pick up this ad but replace outdated events with info from attached.
+    [Attachment_#1] => 
+    [Attachment_#2] => 
+    [Attachment_#3] => 
+    [Attachment_#4] => 
+    [Attachment_#5] => 
+    [inputFiles] => Array
+        (
+            [0] => Array
+                (
+                    [name] => HarrisCenter_Ticket_03-21_GridAd_v3.pdf
+                )
+
+        )
+
+    [tmp_folder_path] => tmp_53331fac7c1e0
+)
+<pre>Array
+(
+    [Order_Type] => Web
+    [requester] => demouser1
+    [location] => LOC1
+    [request_source] => JD_14
+    [request_product] => JD
+    [Tracking_No] => email_14
+    [Site] => Pre-Press | Digital | Mobile(Los Angeles)
+    [Advertiser] => Harris Center
+    [Book title] => Harris Center
+    [Sales_Person] => BLAIR DICKEY 
+    [Ad_Category] => Other
+    [Proof_Date] => 2014-03-21
+    [Run_Date] => 2014-03-21
+    [Pickup_Ad] => Pick Up w/Change
+    [Delivery_Date] => Overnight
+    [Publication_Title] => www.sacbee.com
+    [Spec_Ad] => No
+    [Pickup_Ad_No] => 
+    [Studio_Job] => No
+    [Save_as_Template] => No
+    [Use_a_saved_Template] => No
+    [Template_Order_No] => 
+    [tmp_folder_path] => tmp_53331fac7c1e0
+    [WebSpecifications] => Array
+        (
+            [1] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Animated Flash
+                    [Type] => Banner 300(300x250)
+                    [Width] => 300
+                    [Height] => 250
+                    [Click Tag] => blank clickTAGs (various)
+                    [Artistic Discretion] => Follow Layout(AD1)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 0
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :1000</br>Click to Location :</br>
+                )
+
+        )
+
+    [order_action] => Submit
+    [FILES] => Array
+        (
+            [0] => Array
+                (
+                    [name] => HarrisCenter_Ticket_03-21_GridAd_v3.pdf
+                )
+
+        )
+
+)
+<pre>	
+Response: {"Status":"Success","Job Number":"2291331","Input File Store Path":"2\/20140326\/2291331\/input","Input File Temp Path":"tmp_53331fac7c1e0","DeliveryDate":"Friday, March 28th 08:00 am","Pickup Input File Store Path":""}	
+Order created successfully..!Array
+(
+    [SALES_REP_NAME] => NATHAN KINNICK "nkinnick"
+    [SALES_REP_EMAIL] => 
+    [CLIENT_NAME] => Maita NIssan
+    [CAMPAIGN_DOLLARS] => $1500
+    [REVIEW_DATE] => 03/21/2014
+    [START_DATE] => 03/21/2014
+    [TURNAROUND_TIME] => Overnight
+    [HISTORY] => Pick Up w/Change
+    [ARTISTIC_DIRECTION] => Follow Layout (AD1)
+    [AD_COUNT] => 2 ADS TOTAL
+    [TRACKING_NUMBER] => BAN2
+    [CAMPAIGN_KEYWORD] => Cars.com Power Position
+    [CLICK_TAG] => blank clickTAG
+    [CLICK-TO_LOCATION] => NONE
+    [BANNERS] => 
+    [Banner_#1] => Flash 728x90
+    [Banner_#2] => Flash 160x600
+    [Banner_#3] => * none *
+    [Banner_#4] => * none *
+    [Banner_#5] => * none *
+    [RICH_MEDIA] => 
+    [Rich_Media_#1] => * none *
+    [Rich_Media_#2] => * none *
+    [Rich_Media_#3] => * none *
+    [Rich_Media_(with_Video)] => * none *
+    [SACCONNECT] => 
+    [SacConnect_type] => * none *
+    [LANDING_PAGE] => 
+    [Landing_Page_needed?] => * none *
+    [Landing_Page_features] => * none *
+    [Add_click_to_client_email] => * none *
+    [MOBILE] => 
+    [Mobile_Banners] => * none *
+    [Mobile_Landing_Page_needed?] => * none *
+    [EMAIL_BLASTS] => 
+    [Select_which_Sacbee_category_or_E-target] => * none *
+    [AD_CONTENT] => 
+    [Instructions/Content] => Please pick up the 728x90 and 160x600 below for Maita Nissan and make the changes listed below. Please ad a second frame to the ads. On the second frame of the ads, the ad copy that reads “SACRAMENTO’S #1 NISSAN DEALER” will need to disappear, and the offer below will need to appear on the ads. 2014 NISSAN ALTIMA 2.5SNET PRICE$17,988(Details Tab Information)MSRP………………………..$19,488Nissan Customer Cash……...-$1,000NMAC Captive Cash……….-$5,000*Must finance with NMAC to receive $500 rebate. Actual vehicle may vary from picture shown. All prices subject to in stock. Plus government fees and taxes, and finance charges. Dealer documentation charge, and any emission testing charge. Financing subject to credit approval. See dealer for full details. Stk/ID#
+    [Attachment_#1] => 
+    [Attachment_#2] => 
+    [Attachment_#3] => 
+    [Attachment_#4] => 
+    [Attachment_#5] => 
+)
+<pre>Array
+(
+    [Order_Type] => Web
+    [requester] => demouser1
+    [location] => LOC1
+    [request_source] => JD_15
+    [request_product] => JD
+    [Tracking_No] => email_15
+    [Site] => Pre-Press | Digital | Mobile(Los Angeles)
+    [Advertiser] => Maita NIssan
+    [Book title] => Maita NIssan
+    [Sales_Person] => NATHAN KINNICK 
+    [Ad_Category] => Other
+    [Proof_Date] => 2014-03-21
+    [Run_Date] => 2014-03-21
+    [Pickup_Ad] => Pick Up w/Change
+    [Delivery_Date] => Overnight
+    [Publication_Title] => www.sacbee.com
+    [Spec_Ad] => No
+    [Pickup_Ad_No] => 
+    [Studio_Job] => No
+    [Save_as_Template] => No
+    [Use_a_saved_Template] => No
+    [Template_Order_No] => 
+    [tmp_folder_path] => 
+    [WebSpecifications] => Array
+        (
+            [1] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Animated Flash
+                    [Type] => Banner 728(728x90)
+                    [Width] => 728
+                    [Height] => 90
+                    [Click Tag] => blank clickTAG
+                    [Artistic Discretion] => Follow Layout(AD1)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 1
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :$1500</br>Click to Location :</br>
+                )
+
+            [2] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Animated Flash
+                    [Type] => Banner 160(160x600)
+                    [Width] => 160
+                    [Height] => 600
+                    [Click Tag] => blank clickTAG
+                    [Artistic Discretion] => Follow Layout(AD1)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 1
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :$1500</br>Click to Location :</br>
+                )
+
+        )
+
+    [order_action] => Submit
+)
+<pre>	
+Response: {"Status":"Success","Job Number":"2291332","Input File Store Path":"2\/20140326\/2291332\/input","Input File Temp Path":null,"DeliveryDate":"Friday, March 28th 08:00 am","Pickup Input File Store Path":""}	
+Array
+(
+    [SALES_REP_NAME] => MONICA AARON "maaron"
+    [SALES_REP_EMAIL] => 
+    [CLIENT_NAME] => BIRKENSTOCK MIDTOWN
+    [CAMPAIGN_DOLLARS] => 1200
+    [REVIEW_DATE] => 03/21/2014
+    [START_DATE] => 03/22/2014
+    [TURNAROUND_TIME] => Overnight
+    [HISTORY] => New Build
+    [ARTISTIC_DIRECTION] => Follow Layout (AD1)
+    [AD_COUNT] => 2 ADS TOTAL
+    [TRACKING_NUMBER] => BAN_WEB
+    [CAMPAIGN_KEYWORD] => 
+    [CLICK_TAG] => not sure which clickTAG
+    [CLICK-TO_LOCATION] => 
+    [BANNERS] => 
+    [Banner_#1] => Flash 300x250
+    [Banner_#2] => * none *
+    [Banner_#3] => * none *
+    [Banner_#4] => * none *
+    [Banner_#5] => * none *
+    [RICH_MEDIA] => 
+    [Rich_Media_#1] => * none *
+    [Rich_Media_#2] => * none *
+    [Rich_Media_#3] => * none *
+    [Rich_Media_(with_Video)] => * none *
+    [SACCONNECT] => 
+    [SacConnect_type] => * none *
+    [LANDING_PAGE] => 
+    [Landing_Page_needed?] => Standard
+    [Landing_Page_features] => * none *
+    [Add_click_to_client_email] => * none *
+    [MOBILE] => 
+    [Mobile_Banners] => * none *
+    [Mobile_Landing_Page_needed?] => * none *
+    [EMAIL_BLASTS] => 
+    [Select_which_Sacbee_category_or_E-target] => * none *
+    [AD_CONTENT] => 
+    [Instructions/Content] => attached ...
+    [Attachment_#1] => 
+    [Attachment_#2] => 
+    [Attachment_#3] => 
+    [Attachment_#4] => 
+    [Attachment_#5] => 
+    [inputFiles] => Array
+        (
+            [0] => Array
+                (
+                    [name] => TO send.zip
+                )
+
+        )
+
+    [tmp_folder_path] => tmp_53331fc545b11
+)
+<pre>Array
+(
+    [Order_Type] => Web
+    [requester] => demouser1
+    [location] => LOC1
+    [request_source] => JD_16
+    [request_product] => JD
+    [Tracking_No] => email_16
+    [Site] => Pre-Press | Digital | Mobile(Los Angeles)
+    [Advertiser] => BIRKENSTOCK MIDTOWN
+    [Book title] => BIRKENSTOCK MIDTOWN
+    [Sales_Person] => MONICA AARON 
+    [Ad_Category] => Other
+    [Proof_Date] => 2014-03-21
+    [Run_Date] => 2014-03-22
+    [Pickup_Ad] => New Build
+    [Delivery_Date] => Overnight
+    [Publication_Title] => www.sacbee.com
+    [Spec_Ad] => No
+    [Pickup_Ad_No] => 
+    [Studio_Job] => No
+    [Save_as_Template] => No
+    [Use_a_saved_Template] => No
+    [Template_Order_No] => 
+    [tmp_folder_path] => tmp_53331fc545b11
+    [WebSpecifications] => Array
+        (
+            [1] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Animated Flash
+                    [Type] => Banner 300(300x250)
+                    [Width] => 300
+                    [Height] => 250
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Follow Layout(AD1)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 1
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :1200</br>Click to Location :</br>
+                )
+
+            [2] => Array
+                (
+                    [Product] => Landing Page
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Follow Layout(AD1)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 1
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :1200</br>Click to Location :</br>
+                )
+
+        )
+
+    [order_action] => Submit
+    [FILES] => Array
+        (
+            [0] => Array
+                (
+                    [name] => TO send.zip
+                )
+
+        )
+
+)
+<pre>	
+Response: {"Status":"Success","Job Number":"2291333","Input File Store Path":"2\/20140326\/2291333\/input","Input File Temp Path":"tmp_53331fc545b11","DeliveryDate":"Friday, March 28th 08:00 am","Pickup Input File Store Path":""}	
+Order created successfully..!Array
+(
+    [SALES_REP_NAME] => BLAIR DICKEY "bdickey"
+    [SALES_REP_EMAIL] => 
+    [CLIENT_NAME] => avalon hearing
+    [CAMPAIGN_DOLLARS] => 500
+    [REVIEW_DATE] => 03/21/2014
+    [START_DATE] => 03/22/2014
+    [TURNAROUND_TIME] => Overnight
+    [HISTORY] => New Build
+    [ARTISTIC_DIRECTION] => Follow Layout (AD1)
+    [AD_COUNT] => 1 AD TOTAL
+    [TRACKING_NUMBER] => WEB
+    [CAMPAIGN_KEYWORD] => 
+    [CLICK_TAG] => blank clickTAGs (various)
+    [CLICK-TO_LOCATION] => 
+    [BANNERS] => 
+    [Banner_#1] => * none *
+    [Banner_#2] => * none *
+    [Banner_#3] => * none *
+    [Banner_#4] => * none *
+    [Banner_#5] => * none *
+    [RICH_MEDIA] => 
+    [Rich_Media_#1] => * none *
+    [Rich_Media_#2] => * none *
+    [Rich_Media_#3] => * none *
+    [Rich_Media_(with_Video)] => * none *
+    [SACCONNECT] => 
+    [SacConnect_type] => * none *
+    [LANDING_PAGE] => 
+    [Landing_Page_needed?] => Standard
+    [Landing_Page_features] => Add a "Click to Print" feature
+    [Add_click_to_client_email] => * none *
+    [MOBILE] => 
+    [Mobile_Banners] => * none *
+    [Mobile_Landing_Page_needed?] => * none *
+    [EMAIL_BLASTS] => 
+    [Select_which_Sacbee_category_or_E-target] => * none *
+    [AD_CONTENT] => 
+    [Instructions/Content] => Please create landing page from attached PDF. Use just the bottom portion starting at "Avalon Hearing Aid Centers" with the address and phone below it along with everything in the red box below that, coupon and text.
+    [Attachment_#1] => 
+    [Attachment_#2] => 
+    [Attachment_#3] => 
+    [Attachment_#4] => 
+    [Attachment_#5] => 
+    [inputFiles] => Array
+        (
+            [0] => Array
+                (
+                    [name] => SB16671.pdf
+                )
+
+        )
+
+    [tmp_folder_path] => tmp_53331fe7e560d
+)
+<pre>Array
+(
+    [Order_Type] => Web
+    [requester] => demouser1
+    [location] => LOC1
+    [request_source] => JD_17
+    [request_product] => JD
+    [Tracking_No] => email_17
+    [Site] => Pre-Press | Digital | Mobile(Los Angeles)
+    [Advertiser] => avalon hearing
+    [Book title] => avalon hearing
+    [Sales_Person] => BLAIR DICKEY 
+    [Ad_Category] => Other
+    [Proof_Date] => 2014-03-21
+    [Run_Date] => 2014-03-22
+    [Pickup_Ad] => New Build
+    [Delivery_Date] => Overnight
+    [Publication_Title] => www.sacbee.com
+    [Spec_Ad] => No
+    [Pickup_Ad_No] => 
+    [Studio_Job] => No
+    [Save_as_Template] => No
+    [Use_a_saved_Template] => No
+    [Template_Order_No] => 
+    [tmp_folder_path] => tmp_53331fe7e560d
+    [WebSpecifications] => Array
+        (
+            [1] => Array
+                (
+                    [Product] => Landing Page
+                    [Click Tag] => blank clickTAGs (various)
+                    [Artistic Discretion] => Follow Layout(AD1)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 0
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :500</br>Click to Location :</br>
+                )
+
+        )
+
+    [order_action] => Submit
+    [FILES] => Array
+        (
+            [0] => Array
+                (
+                    [name] => SB16671.pdf
+                )
+
+        )
+
+)
+<pre>	
+Response: {"Status":"Success","Job Number":"2291334","Input File Store Path":"2\/20140326\/2291334\/input","Input File Temp Path":"tmp_53331fe7e560d","DeliveryDate":"Friday, March 28th 08:00 am","Pickup Input File Store Path":""}	
+Order created successfully..!Array
+(
+    [SALES_REP_NAME] => SHEREEN AFRICA "safrica"
+    [SALES_REP_EMAIL] => 
+    [CLIENT_NAME] => CITY OF SACRAMENTO - PARKS AND RECREATION
+    [CAMPAIGN_DOLLARS] => 6000
+    [REVIEW_DATE] => 03/21/2014
+    [START_DATE] => 03/22/2014
+    [TURNAROUND_TIME] => Overnight
+    [HISTORY] => Client Supplied
+    [ARTISTIC_DIRECTION] => Follow Layout with Changes (AD2)
+    [AD_COUNT] => 8 ADS TOTAL
+    [TRACKING_NUMBER] => BAN6_MBL2
+    [CAMPAIGN_KEYWORD] => 
+    [CLICK_TAG] => not sure which clickTAG
+    [CLICK-TO_LOCATION] => United States
+    [BANNERS] => 
+    [Banner_#1] => Flash 300x250
+    [Banner_#2] => Flash 728x90
+    [Banner_#3] => Flash 160x600
+    [Banner_#4] => Flash 300x250
+    [Banner_#5] => Flash 728x90
+    [RICH_MEDIA] => 
+    [Rich_Media_#1] => * none *
+    [Rich_Media_#2] => * none *
+    [Rich_Media_#3] => * none *
+    [Rich_Media_(with_Video)] => * none *
+    [SACCONNECT] => 
+    [SacConnect_type] => * none *
+    [LANDING_PAGE] => 
+    [Landing_Page_needed?] => * none *
+    [Landing_Page_features] => * none *
+    [Add_click_to_client_email] => * none *
+    [MOBILE] => 
+    [Mobile_Banners] => * none *
+    [Mobile_Landing_Page_needed?] => * none *
+    [EMAIL_BLASTS] => 
+    [Select_which_Sacbee_category_or_E-target] => * none *
+    [AD_CONTENT] => 
+    [Instructions/Content] => attached ...SIZES NEEDED2 300x2502 160x6002 728x901 300x501 320x50SET #1 (300x250, 728x90, 160x600, 300x50, 320x50)ALL UNITS - REMOVE "REGISTER NOW" REPLACE WITH "Register Now! Deadline Approaching"WEB UNITS - ADD EFFECTS WEB UNITS ADD BUTTON WITH COPY "Click Here"MOBILE COPY FREE Programs. Register Now. Classes Almost Full. Tap HereSET #2 (300x250, 728x90, 160x600)ALL UNITS - REMOVE "SPORTS, YOUTH, & TEEN" REPLACE WITH "Adult & Senior"ALL UNITS - REMOVE "REGISTER NOW" REPLACE WITH "Register Now! Deadline Approaching"WEB UNITS - ADD EFFECTS WEB UNITS ADD BUTTON WITH COPY "Click Here"
+    [Attachment_#1] => 
+    [Attachment_#2] => 
+    [Attachment_#3] => 
+    [Attachment_#4] => 
+    [Attachment_#5] => 
+    [inputFiles] => Array
+        (
+            [0] => Array
+                (
+                    [name] => 160x600-cityofsacMeasU.pdf
+                )
+
+            [1] => Array
+                (
+                    [name] => 300x250-cityofsacMeasU.pdf
+                )
+
+            [2] => Array
+                (
+                    [name] => 728x90-cityofsacMeasU.pdf
+                )
+
+        )
+
+    [tmp_folder_path] => tmp_53331ff1e0936
+)
+<pre>Array
+(
+    [Order_Type] => Web
+    [requester] => demouser1
+    [location] => LOC1
+    [request_source] => JD_18
+    [request_product] => JD
+    [Tracking_No] => email_18
+    [Site] => Pre-Press | Digital | Mobile(Los Angeles)
+    [Advertiser] => CITY OF SACRAMENTO - PARKS AND RECREATION
+    [Book title] => CITY OF SACRAMENTO - PARKS AND RECREATION
+    [Sales_Person] => SHEREEN AFRICA 
+    [Ad_Category] => Other
+    [Proof_Date] => 2014-03-21
+    [Run_Date] => 2014-03-22
+    [Pickup_Ad] => Client Supplied
+    [Delivery_Date] => Overnight
+    [Publication_Title] => www.sacbee.com
+    [Spec_Ad] => No
+    [Pickup_Ad_No] => 
+    [Studio_Job] => No
+    [Save_as_Template] => No
+    [Use_a_saved_Template] => No
+    [Template_Order_No] => 
+    [tmp_folder_path] => tmp_53331ff1e0936
+    [WebSpecifications] => Array
+        (
+            [1] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Animated Flash
+                    [Type] => Banner 300(300x250)
+                    [Width] => 300
+                    [Height] => 250
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Follow Layout with Changes(AD2)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 4
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :6000</br>Click to Location :</br>
+                )
+
+            [2] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Animated Flash
+                    [Type] => Banner 728(728x90)
+                    [Width] => 728
+                    [Height] => 90
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Follow Layout with Changes(AD2)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 4
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :6000</br>Click to Location :</br>
+                )
+
+            [3] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Animated Flash
+                    [Type] => Banner 160(160x600)
+                    [Width] => 160
+                    [Height] => 600
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Follow Layout with Changes(AD2)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 4
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :6000</br>Click to Location :</br>
+                )
+
+            [4] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Animated Flash
+                    [Type] => Banner 300(300x250)
+                    [Width] => 300
+                    [Height] => 250
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Follow Layout with Changes(AD2)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 4
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :6000</br>Click to Location :</br>
+                )
+
+            [5] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Animated Flash
+                    [Type] => Banner 728(728x90)
+                    [Width] => 728
+                    [Height] => 90
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Follow Layout with Changes(AD2)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 4
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :6000</br>Click to Location :</br>
+                )
+
+        )
+
+    [order_action] => Submit
+    [FILES] => Array
+        (
+            [0] => Array
+                (
+                    [name] => 160x600-cityofsacMeasU.pdf
+                )
+
+            [1] => Array
+                (
+                    [name] => 300x250-cityofsacMeasU.pdf
+                )
+
+            [2] => Array
+                (
+                    [name] => 728x90-cityofsacMeasU.pdf
+                )
+
+        )
+
+)
+<pre>	
+Response: {"Status":"Success","Job Number":"2291335","Input File Store Path":"2\/20140326\/2291335\/input","Input File Temp Path":"tmp_53331ff1e0936","DeliveryDate":"Friday, March 28th 08:00 am","Pickup Input File Store Path":""}	
+Order created successfully..!Array
+(
+    [SALES_REP_NAME] => CAROL HAMILTON "carolhamilton"
+    [SALES_REP_EMAIL] => 
+    [CLIENT_NAME] => EDCEM
+    [CAMPAIGN_DOLLARS] => $1300.00
+    [REVIEW_DATE] => 03/21/2014
+    [START_DATE] => 03/24/2014
+    [TURNAROUND_TIME] => Overnight
+    [HISTORY] => New Build
+    [ARTISTIC_DIRECTION] => Follow Layout (AD1)
+    [AD_COUNT] => 1 AD TOTAL
+    [TRACKING_NUMBER] => BAN_WEB
+    [CAMPAIGN_KEYWORD] => Free filter exchange event
+    [CLICK_TAG] => blank clickTAGs (various)
+    [CLICK-TO_LOCATION] => landing page
+    [BANNERS] => 
+    [Banner_#1] => Flash 300x250
+    [Banner_#2] => * none *
+    [Banner_#3] => * none *
+    [Banner_#4] => * none *
+    [Banner_#5] => * none *
+    [RICH_MEDIA] => 
+    [Rich_Media_#1] => * none *
+    [Rich_Media_#2] => * none *
+    [Rich_Media_#3] => * none *
+    [Rich_Media_(with_Video)] => * none *
+    [SACCONNECT] => 
+    [SacConnect_type] => * none *
+    [LANDING_PAGE] => 
+    [Landing_Page_needed?] => Standard
+    [Landing_Page_features] => * none *
+    [Add_click_to_client_email] => * none *
+    [MOBILE] => 
+    [Mobile_Banners] => * none *
+    [Mobile_Landing_Page_needed?] => * none *
+    [EMAIL_BLASTS] => 
+    [Select_which_Sacbee_category_or_E-target] => * none *
+    [AD_CONTENT] => 
+    [Instructions/Content] => Please create 300x250 flash ad from the attached Two Sided Bee Note Use Same Color SchemeFREE OIL FILTER!with this ad -Limit 2 Per PersonBring in Your Used Oil Filter Get AComparable Filer FREE!Help Us Reach Our 100 Oil Filter Exchange Goals10am - ClosingClick Here For Your Local O'Reilly LocationsLanding Page-Use Both Attached Half Sheet Inserts
+    [Attachment_#1] => 
+    [Attachment_#2] => 
+    [Attachment_#3] => 
+    [Attachment_#4] => 
+    [Attachment_#5] => 
+)
+<pre>Array
+(
+    [Order_Type] => Web
+    [requester] => demouser1
+    [location] => LOC1
+    [request_source] => JD_19
+    [request_product] => JD
+    [Tracking_No] => email_19
+    [Site] => Pre-Press | Digital | Mobile(Los Angeles)
+    [Advertiser] => EDCEM
+    [Book title] => EDCEM
+    [Sales_Person] => CAROL HAMILTON 
+    [Ad_Category] => Other
+    [Proof_Date] => 2014-03-21
+    [Run_Date] => 2014-03-24
+    [Pickup_Ad] => New Build
+    [Delivery_Date] => Overnight
+    [Publication_Title] => www.sacbee.com
+    [Spec_Ad] => No
+    [Pickup_Ad_No] => 
+    [Studio_Job] => No
+    [Save_as_Template] => No
+    [Use_a_saved_Template] => No
+    [Template_Order_No] => 
+    [tmp_folder_path] => 
+    [WebSpecifications] => Array
+        (
+            [1] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Animated Flash
+                    [Type] => Banner 300(300x250)
+                    [Width] => 300
+                    [Height] => 250
+                    [Click Tag] => blank clickTAGs (various)
+                    [Artistic Discretion] => Follow Layout(AD1)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 1
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :$1300.00</br>Click to Location :</br>
+                )
+
+            [2] => Array
+                (
+                    [Product] => Landing Page
+                    [Click Tag] => blank clickTAGs (various)
+                    [Artistic Discretion] => Follow Layout(AD1)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 1
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :$1300.00</br>Click to Location :</br>
+                )
+
+        )
+
+    [order_action] => Submit
+)
+<pre>	
+Response: {"Status":"Success","Job Number":"2291336","Input File Store Path":"2\/20140326\/2291336\/input","Input File Temp Path":null,"DeliveryDate":"Friday, March 28th 08:00 am","Pickup Input File Store Path":""}	
+
+Warning: simplexml_load_string(): Entity: line 1: parser error : Specification mandate value for attribute ht in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): <?xml version="1.0" encoding="utf-8"  ?><meta ht in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                 ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): Entity: line 1: parser error : attributes construct error in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): <?xml version="1.0" encoding="utf-8"  ?><meta ht in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                 ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): Entity: line 1: parser error : Couldn't find end of Start Tag meta line 1 in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): <?xml version="1.0" encoding="utf-8"  ?><meta ht in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                 ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: Invalid argument supplied for foreach() in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 119
+Array
+(
+)
+Array
+(
+    [SALES_REP_NAME] => MONICA AARON "maaron"
+    [SALES_REP_EMAIL] => 
+    [CLIENT_NAME] => Harris center
+    [CAMPAIGN_DOLLARS] => 1000
+    [REVIEW_DATE] => 03/24/2014
+    [START_DATE] => 03/25/2014
+    [TURNAROUND_TIME] => Overnight
+    [HISTORY] => Pick Up w/Change
+    [ARTISTIC_DIRECTION] => Follow Layout (AD1)
+    [AD_COUNT] => 1 AD TOTAL
+    [TRACKING_NUMBER] => BAN
+    [CAMPAIGN_KEYWORD] => 
+    [CLICK_TAG] => blank clickTAGs (various)
+    [CLICK-TO_LOCATION] => 
+    [BANNERS] => 
+    [Banner_#1] => Flash 300x250
+    [Banner_#2] => * none *
+    [Banner_#3] => * none *
+    [Banner_#4] => * none *
+    [Banner_#5] => * none *
+    [RICH_MEDIA] => 
+    [Rich_Media_#1] => * none *
+    [Rich_Media_#2] => * none *
+    [Rich_Media_#3] => * none *
+    [Rich_Media_(with_Video)] => * none *
+    [SACCONNECT] => 
+    [SacConnect_type] => * none *
+    [LANDING_PAGE] => 
+    [Landing_Page_needed?] => * none *
+    [Landing_Page_features] => * none *
+    [Add_click_to_client_email] => * none *
+    [MOBILE] => 
+    [Mobile_Banners] => * none *
+    [Mobile_Landing_Page_needed?] => * none *
+    [EMAIL_BLASTS] => 
+    [Select_which_Sacbee_category_or_E-target] => * none *
+    [AD_CONTENT] => 
+    [Instructions/Content] => Please pickup and remove any shows with a date of 3/24 or sooner.
+    [Attachment_#1] => 
+    [Attachment_#2] => 
+    [Attachment_#3] => 
+    [Attachment_#4] => 
+    [Attachment_#5] => 
+)
+<pre>Array
+(
+    [Order_Type] => Web
+    [requester] => demouser1
+    [location] => LOC1
+    [request_source] => JD_21
+    [request_product] => JD
+    [Tracking_No] => email_21
+    [Site] => Pre-Press | Digital | Mobile(Los Angeles)
+    [Advertiser] => Harris center
+    [Book title] => Harris center
+    [Sales_Person] => MONICA AARON 
+    [Ad_Category] => Other
+    [Proof_Date] => 2014-03-24
+    [Run_Date] => 2014-03-25
+    [Pickup_Ad] => Pick Up w/Change
+    [Delivery_Date] => Overnight
+    [Publication_Title] => www.sacbee.com
+    [Spec_Ad] => No
+    [Pickup_Ad_No] => 
+    [Studio_Job] => No
+    [Save_as_Template] => No
+    [Use_a_saved_Template] => No
+    [Template_Order_No] => 
+    [tmp_folder_path] => 
+    [WebSpecifications] => Array
+        (
+            [1] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Animated Flash
+                    [Type] => Banner 300(300x250)
+                    [Width] => 300
+                    [Height] => 250
+                    [Click Tag] => blank clickTAGs (various)
+                    [Artistic Discretion] => Follow Layout(AD1)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 0
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :1000</br>Click to Location :</br>
+                )
+
+        )
+
+    [order_action] => Submit
+)
+<pre>	
+Response: {"Status":"Success","Job Number":"2291337","Input File Store Path":"2\/20140326\/2291337\/input","Input File Temp Path":null,"DeliveryDate":"Friday, March 28th 08:00 am","Pickup Input File Store Path":""}	
+Array
+(
+    [SALES_REP_NAME] => JAMILA SMITH "jjsmith"
+    [SALES_REP_EMAIL] => 
+    [CLIENT_NAME] => Folsom Lake Ford
+    [CAMPAIGN_DOLLARS] => 3000
+    [REVIEW_DATE] => 03/21/2014
+    [START_DATE] => 03/21/2014
+    [TURNAROUND_TIME] => 4 Hr Rush (get approval)
+    [HISTORY] => Pick Up w/Change
+    [ARTISTIC_DIRECTION] => Follow Layout with Changes (AD2)
+    [AD_COUNT] => 4 ADS TOTAL
+    [TRACKING_NUMBER] => BAN3_MBL2
+    [CAMPAIGN_KEYWORD] => 
+    [CLICK_TAG] => blank McCLATCHY clickTAG
+    [CLICK-TO_LOCATION] => 
+    [BANNERS] => 
+    [Banner_#1] => Flash 300x250
+    [Banner_#2] => Flash 728x90
+    [Banner_#3] => Flash 160x600
+    [Banner_#4] => * none *
+    [Banner_#5] => * none *
+    [RICH_MEDIA] => 
+    [Rich_Media_#1] => * none *
+    [Rich_Media_#2] => * none *
+    [Rich_Media_#3] => * none *
+    [Rich_Media_(with_Video)] => * none *
+    [SACCONNECT] => 
+    [SacConnect_type] => * none *
+    [LANDING_PAGE] => 
+    [Landing_Page_needed?] => * none *
+    [Landing_Page_features] => * none *
+    [Add_click_to_client_email] => * none *
+    [MOBILE] => 
+    [Mobile_Banners] => Standard (320x50 + 300x50)
+    [Mobile_Landing_Page_needed?] => * none *
+    [EMAIL_BLASTS] => 
+    [Select_which_Sacbee_category_or_E-target] => * none *
+    [AD_CONTENT] => 
+    [Instructions/Content] => RUSH ORDER PLEASE! BACK TODAY!Pick up this ad and make the following changes • Put “FOLSOM LAKE FORD” with logo symbol and website in reverse black box with white text• Change to and make bigger• Change “NEW, USED, AND CERTIFIED FORD VEHICLES!” to “WE HAVE NEW, USED, AND CERTIFIED FORD VEHICLES!” (keep on two lines)• Change PLUS MANY OTHER MAKES TO CHOOSE FROM!” to “Why Buy Used When You Can Buy New?” Add a thing white drop shadow to help visibility• Change “We are your source for the best quality pre-owned vehicles with every vehicle quality inspected!” to “Financing Available! Internet Specials!” in 2 separate yellow burstsPick up this ad and make the following changes • Put “FOLSOM LAKE FORD” with logo symbol in reverse black box with white text• Change to and make bigger, change to white• Change “NEW, USED, AND CERTIFIED FORD VEHICLES!” to “WE HAVE NEW, USED, AND CERTIFIED FORD VEHICLES!” (keep on all frames, don’t take out on last frame)• Change PLUS MANY OTHER MAKES TO CHOOSE FROM!” to “Why Buy Used When You Can Buy New?” Add a thing white drop shadow to help visibility• Change “We are your source for the best quality pre-owned vehicles with every vehicle quality inspected!” to “Financing Available! Internet Specials!” in 2 separate yellow burstsPick up this ad and make the following changes • Put “FOLSOM LAKE FORD” with logo symbol and website in reverse black box with white text• Change to and make bigger• Change “NEW, USED, AND CERTIFIED FORD VEHICLES!” to “WE HAVE NEW, USED, AND CERTIFIED FORD VEHICLES!” (keep on one line)• Change PLUS MANY OTHER MAKES TO CHOOSE FROM!” to “Why Buy Used When You Can Buy New?” Add a thing white drop shadow to help visibility• Change “We are your source for the best quality pre-owned vehicles with every vehicle quality inspected!” to “Financing Available! Internet Specials!” in 2 separate yellow burstsPlease create mobile banners with same color scheme that says"Folsom Lake Ford" (including logo symbol on the left of ad)"Tap Here for Huge Selection!" (use yellow mustang pic on the right)
+    [Attachment_#1] => 
+    [Attachment_#2] => 
+    [Attachment_#3] => 
+    [Attachment_#4] => 
+    [Attachment_#5] => 
+)
+<pre>Array
+(
+    [Order_Type] => Web
+    [requester] => demouser1
+    [location] => LOC1
+    [request_source] => JD_22
+    [request_product] => JD
+    [Tracking_No] => email_22
+    [Site] => Pre-Press | Digital | Mobile(Los Angeles)
+    [Advertiser] => Folsom Lake Ford
+    [Book title] => Folsom Lake Ford
+    [Sales_Person] => JAMILA SMITH 
+    [Ad_Category] => Other
+    [Proof_Date] => 2014-03-21
+    [Run_Date] => 2014-03-21
+    [Pickup_Ad] => Pick Up w/Change
+    [Delivery_Date] => 4 Hr Rush (get approval)
+    [Publication_Title] => www.sacbee.com
+    [Spec_Ad] => No
+    [Pickup_Ad_No] => 
+    [Studio_Job] => No
+    [Save_as_Template] => No
+    [Use_a_saved_Template] => No
+    [Template_Order_No] => 
+    [tmp_folder_path] => 
+    [WebSpecifications] => Array
+        (
+            [1] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Animated Flash
+                    [Type] => Banner 300(300x250)
+                    [Width] => 300
+                    [Height] => 250
+                    [Click Tag] => blank McCLATCHY clickTAG
+                    [Artistic Discretion] => Follow Layout with Changes(AD2)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 4
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :3000</br>Click to Location :</br>
+                )
+
+            [2] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Animated Flash
+                    [Type] => Banner 728(728x90)
+                    [Width] => 728
+                    [Height] => 90
+                    [Click Tag] => blank McCLATCHY clickTAG
+                    [Artistic Discretion] => Follow Layout with Changes(AD2)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 4
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :3000</br>Click to Location :</br>
+                )
+
+            [3] => Array
+                (
+                    [Product] => Mobile Banners
+                    [Output Type] => Standard 
+                    [Type] => 320x50 
+                    [Width] => 320
+                    [Height] => 50 
+                    [Click Tag] => blank McCLATCHY clickTAG
+                    [Artistic Discretion] => Follow Layout with Changes(AD2)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 4
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :3000</br>Click to Location :</br>
+                )
+
+            [4] => Array
+                (
+                    [Product] => Mobile Banners
+                    [Output Type] => Standard 
+                    [Type] =>  300x50)
+                    [Width] =>  300
+                    [Height] => 50)
+                    [Click Tag] => blank McCLATCHY clickTAG
+                    [Artistic Discretion] => Follow Layout with Changes(AD2)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 4
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :3000</br>Click to Location :</br>
+                )
+
+        )
+
+    [order_action] => Submit
+)
+<pre>	
+Response: {"Status":"Success","Job Number":"2291338","Input File Store Path":"2\/20140326\/2291338\/input","Input File Temp Path":null,"DeliveryDate":"Friday, March 28th 08:00 am","Pickup Input File Store Path":""}	
+Array
+(
+    [SALES_REP_NAME] => BLAIR DICKEY "bdickey"
+    [SALES_REP_EMAIL] => 
+    [CLIENT_NAME] => norcal ace
+    [CAMPAIGN_DOLLARS] => 1000
+    [REVIEW_DATE] => 03/24/2014
+    [START_DATE] => 03/25/2014
+    [TURNAROUND_TIME] => Overnight
+    [HISTORY] => New Build
+    [ARTISTIC_DIRECTION] => Follow Layout (AD1)
+    [AD_COUNT] => 1 AD TOTAL
+    [TRACKING_NUMBER] => BAN
+    [CAMPAIGN_KEYWORD] => 
+    [CLICK_TAG] => blank clickTAGs (various)
+    [CLICK-TO_LOCATION] => 
+    [BANNERS] => 
+    [Banner_#1] => Flash 300x250
+    [Banner_#2] => * none *
+    [Banner_#3] => * none *
+    [Banner_#4] => * none *
+    [Banner_#5] => * none *
+    [RICH_MEDIA] => 
+    [Rich_Media_#1] => * none *
+    [Rich_Media_#2] => * none *
+    [Rich_Media_#3] => * none *
+    [Rich_Media_(with_Video)] => * none *
+    [SACCONNECT] => 
+    [SacConnect_type] => * none *
+    [LANDING_PAGE] => 
+    [Landing_Page_needed?] => * none *
+    [Landing_Page_features] => * none *
+    [Add_click_to_client_email] => * none *
+    [MOBILE] => 
+    [Mobile_Banners] => * none *
+    [Mobile_Landing_Page_needed?] => * none *
+    [EMAIL_BLASTS] => 
+    [Select_which_Sacbee_category_or_E-target] => * none *
+    [AD_CONTENT] => 
+    [Instructions/Content] => Please turn attached PDF into 300x250.Leave the ACE Logo, Tomatomania Logo, and "Great Deals 4 Days Only" at the top throughout all animation. Same as the 'find a participating location" verbiage at the bottom.Instead of having all 5 items shown in the middle, please rotate through the items in 2 groups to allow more space1)Cage and Plant2) Planting Mix, Garden Soil, Plant Food
+    [Attachment_#1] => 
+    [Attachment_#2] => 
+    [Attachment_#3] => 
+    [Attachment_#4] => 
+    [Attachment_#5] => 
+    [inputFiles] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Tomatomania 2014 Post It.pdf
+                )
+
+        )
+
+    [tmp_folder_path] => tmp_533320039c899
+)
+<pre>Array
+(
+    [Order_Type] => Web
+    [requester] => demouser1
+    [location] => LOC1
+    [request_source] => JD_23
+    [request_product] => JD
+    [Tracking_No] => email_23
+    [Site] => Pre-Press | Digital | Mobile(Los Angeles)
+    [Advertiser] => norcal ace
+    [Book title] => norcal ace
+    [Sales_Person] => BLAIR DICKEY 
+    [Ad_Category] => Other
+    [Proof_Date] => 2014-03-24
+    [Run_Date] => 2014-03-25
+    [Pickup_Ad] => New Build
+    [Delivery_Date] => Overnight
+    [Publication_Title] => www.sacbee.com
+    [Spec_Ad] => No
+    [Pickup_Ad_No] => 
+    [Studio_Job] => No
+    [Save_as_Template] => No
+    [Use_a_saved_Template] => No
+    [Template_Order_No] => 
+    [tmp_folder_path] => tmp_533320039c899
+    [WebSpecifications] => Array
+        (
+            [1] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Animated Flash
+                    [Type] => Banner 300(300x250)
+                    [Width] => 300
+                    [Height] => 250
+                    [Click Tag] => blank clickTAGs (various)
+                    [Artistic Discretion] => Follow Layout(AD1)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 0
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :1000</br>Click to Location :</br>
+                )
+
+        )
+
+    [order_action] => Submit
+    [FILES] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Tomatomania 2014 Post It.pdf
+                )
+
+        )
+
+)
+<pre>	
+Response: {"Status":"Success","Job Number":"2291339","Input File Store Path":"2\/20140326\/2291339\/input","Input File Temp Path":"tmp_533320039c899","DeliveryDate":"Friday, March 28th 08:00 am","Pickup Input File Store Path":""}	
+Order created successfully..!
+Warning: simplexml_load_string(): Entity: line 1: parser error : Opening and ending tag mismatch: br line 1 and td in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): ober 5th 2013 at 4pm<br><br/>add a button that says click here for specials</td> in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                                                ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): Entity: line 1: parser error : Opening and ending tag mismatch: td line 1 and tr in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): 5th 2013 at 4pm<br><br/>add a button that says click here for specials</td></tr> in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                                                ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): Entity: line 1: parser error : Opening and ending tag mismatch: tr line 1 and tbody in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): oad Files #5:</td><td style="padding:7px 9px 7px 0;width:80%"></td></tr></tbody> in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                                                ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): Entity: line 1: parser error : Opening and ending tag mismatch: tbody line 1 and table in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): s #5:</td><td style="padding:7px 9px 7px 0;width:80%"></td></tr></tbody></table> in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                                                ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): Entity: line 1: parser error : Premature end of data in tag table line 1 in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): s #5:</td><td style="padding:7px 9px 7px 0;width:80%"></td></tr></tbody></table> in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                                                ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: Invalid argument supplied for foreach() in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 119
+Array
+(
+)
+
+Warning: simplexml_load_string(): Entity: line 1: parser error : Opening and ending tag mismatch: br line 1 and td in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): CALNOW.ORG" target="_blank">GIVELOCALNOW.ORG</a><br><br/>Click Here to Give</td> in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                                                ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): Entity: line 1: parser error : Opening and ending tag mismatch: td line 1 and tr in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): W.ORG" target="_blank">GIVELOCALNOW.ORG</a><br><br/>Click Here to Give</td></tr> in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                                                ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): Entity: line 1: parser error : Opening and ending tag mismatch: tr line 1 and tbody in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): ttachment #5:</td><td style="padding:7px 9px 7px 0;width:80%"></td></tr></tbody> in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                                                ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): Entity: line 1: parser error : Opening and ending tag mismatch: tbody line 1 and table in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): t #5:</td><td style="padding:7px 9px 7px 0;width:80%"></td></tr></tbody></table> in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                                                ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): Entity: line 1: parser error : Premature end of data in tag table line 1 in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): t #5:</td><td style="padding:7px 9px 7px 0;width:80%"></td></tr></tbody></table> in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                                                ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: Invalid argument supplied for foreach() in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 119
+Array
+(
+    [inputFiles] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Sac Regional Community Foundation Bee Notes.pdf
+                )
+
+        )
+
+    [tmp_folder_path] => tmp_5333200d024aa
+)
+Array
+(
+    [SALES_REP_NAME] => SHEREEN AFRICA "safrica"
+    [SALES_REP_EMAIL] => 
+    [CLIENT_NAME] => SUSAN G. KOMEN
+    [CAMPAIGN_DOLLARS] => 1500
+    [REVIEW_DATE] => 03/25/2014
+    [START_DATE] => 03/26/2014
+    [TURNAROUND_TIME] => Overnight
+    [HISTORY] => Client Supplied
+    [ARTISTIC_DIRECTION] => Follow Layout (AD1)
+    [AD_COUNT] => 5 ADS TOTAL
+    [TRACKING_NUMBER] => BAN5
+    [CAMPAIGN_KEYWORD] => 
+    [CLICK_TAG] => not sure which clickTAG
+    [CLICK-TO_LOCATION] => United States
+    [BANNERS] => 
+    [Banner_#1] => Static 300x250
+    [Banner_#2] => Static 728x90
+    [Banner_#3] => Static 160x600
+    [Banner_#4] => 300X50
+    [Banner_#5] => 320X50
+    [RICH_MEDIA] => 
+    [Rich_Media_#1] => * none *
+    [Rich_Media_#2] => * none *
+    [Rich_Media_#3] => * none *
+    [Rich_Media_(with_Video)] => * none *
+    [SACCONNECT] => 
+    [SacConnect_type] => * none *
+    [LANDING_PAGE] => 
+    [Landing_Page_needed?] => * none *
+    [Landing_Page_features] => * none *
+    [Add_click_to_client_email] => * none *
+    [MOBILE] => 
+    [Mobile_Banners] => * none *
+    [Mobile_Landing_Page_needed?] => * none *
+    [EMAIL_BLASTS] => 
+    [Select_which_Sacbee_category_or_E-target] => * none *
+    [AD_CONTENT] => 
+    [Instructions/Content] => attached ...
+    [Attachment_#1] => 
+    [Attachment_#2] => 
+    [Attachment_#3] => 
+    [Attachment_#4] => 
+    [Attachment_#5] => 
+)
+<pre>Array
+(
+    [Order_Type] => Web
+    [requester] => demouser1
+    [location] => LOC1
+    [request_source] => JD_26
+    [request_product] => JD
+    [Tracking_No] => email_26
+    [Site] => Pre-Press | Digital | Mobile(Los Angeles)
+    [Advertiser] => SUSAN G. KOMEN
+    [Book title] => SUSAN G. KOMEN
+    [Sales_Person] => SHEREEN AFRICA 
+    [Ad_Category] => Other
+    [Proof_Date] => 2014-03-25
+    [Run_Date] => 2014-03-26
+    [Pickup_Ad] => Client Supplied
+    [Delivery_Date] => Overnight
+    [Publication_Title] => www.sacbee.com
+    [Spec_Ad] => No
+    [Pickup_Ad_No] => 
+    [Studio_Job] => No
+    [Save_as_Template] => No
+    [Use_a_saved_Template] => No
+    [Template_Order_No] => 
+    [tmp_folder_path] => 
+    [WebSpecifications] => Array
+        (
+            [1] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Static
+                    [Type] => Banner 300(300x250)
+                    [Width] => 300
+                    [Height] => 250
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Follow Layout(AD1)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 4
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :1500</br>Click to Location :</br>
+                )
+
+            [2] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Static
+                    [Type] => Banner 728(728x90)
+                    [Width] => 728
+                    [Height] => 90
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Follow Layout(AD1)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 4
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :1500</br>Click to Location :</br>
+                )
+
+            [3] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Static
+                    [Type] => Banner 160(160x600)
+                    [Width] => 160
+                    [Height] => 600
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Follow Layout(AD1)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 4
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :1500</br>Click to Location :</br>
+                )
+
+            [4] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => 300X50
+                    [Type] => Banner ()
+                    [Width] => 
+                    [Height] => 
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Follow Layout(AD1)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 4
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :1500</br>Click to Location :</br>
+                )
+
+            [5] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => 320X50
+                    [Type] => Banner ()
+                    [Width] => 
+                    [Height] => 
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Follow Layout(AD1)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 4
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :1500</br>Click to Location :</br>
+                )
+
+        )
+
+    [order_action] => Submit
+)
+<pre>	
+Response: {"Status":"Success","Job Number":"2291340","Input File Store Path":"2\/20140326\/2291340\/input","Input File Temp Path":null,"DeliveryDate":"Friday, March 28th 08:00 am","Pickup Input File Store Path":""}	
+Array
+(
+    [SALES_REP_NAME] => MARIA REVERA "mravera"
+    [SALES_REP_EMAIL] => 
+    [CLIENT_NAME] => Maria Ravera
+    [CAMPAIGN_DOLLARS] => 0
+    [REVIEW_DATE] => 03/27/2014
+    [START_DATE] => 04/04/2014
+    [TURNAROUND_TIME] => 3-5 Biz Days
+    [HISTORY] => New Build
+    [ARTISTIC_DIRECTION] => Full Artistic Discretion (AD3)
+    [AD_COUNT] => 4 ADS TOTAL
+    [TRACKING_NUMBER] => BAN3_WEB
+    [CAMPAIGN_KEYWORD] => Sunday home delivery
+    [CLICK_TAG] => not sure which clickTAG
+    [CLICK-TO_LOCATION] => United States
+    [BANNERS] => 
+    [Banner_#1] => Static 300x250
+    [Banner_#2] => Static 300x100
+    [Banner_#3] => Static 300x600
+    [Banner_#4] => * none *
+    [Banner_#5] => * none *
+    [RICH_MEDIA] => 
+    [Rich_Media_#1] => * none *
+    [Rich_Media_#2] => * none *
+    [Rich_Media_#3] => * none *
+    [Rich_Media_(with_Video)] => * none *
+    [SACCONNECT] => 
+    [SacConnect_type] => * none *
+    [LANDING_PAGE] => 
+    [Landing_Page_needed?] => Standard
+    [Landing_Page_features] => * none *
+    [Add_click_to_client_email] => * none *
+    [MOBILE] => 
+    [Mobile_Banners] => * none *
+    [Mobile_Landing_Page_needed?] => * none *
+    [EMAIL_BLASTS] => 
+    [Select_which_Sacbee_category_or_E-target] => * none *
+    [AD_CONTENT] => 
+    [Instructions/Content] => Enjoy Sunday mornings.Image of a cup of coffee & the Sunday Bee.Link thru to
+    [Attachment_#1] => 
+    [Attachment_#2] => 
+    [Attachment_#3] => 
+    [Attachment_#4] => 
+    [Attachment_#5] => 
+)
+<pre>Array
+(
+    [Order_Type] => Web
+    [requester] => demouser1
+    [location] => LOC1
+    [request_source] => JD_27
+    [request_product] => JD
+    [Tracking_No] => email_27
+    [Site] => Pre-Press | Digital | Mobile(Los Angeles)
+    [Advertiser] => Maria Ravera
+    [Book title] => Maria Ravera
+    [Sales_Person] => MARIA REVERA 
+    [Ad_Category] => Other
+    [Proof_Date] => 2014-03-27
+    [Run_Date] => 2014-04-04
+    [Pickup_Ad] => New Build
+    [Delivery_Date] => 3-5 Biz Days
+    [Publication_Title] => www.sacbee.com
+    [Spec_Ad] => No
+    [Pickup_Ad_No] => 
+    [Studio_Job] => No
+    [Save_as_Template] => No
+    [Use_a_saved_Template] => No
+    [Template_Order_No] => 
+    [tmp_folder_path] => 
+    [WebSpecifications] => Array
+        (
+            [1] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Static
+                    [Type] => Banner 300(300x250)
+                    [Width] => 300
+                    [Height] => 250
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Full Artistic Discretion(AD3)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 3
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :0</br>Click to Location :</br>
+                )
+
+            [2] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Static
+                    [Type] => Banner 300(300x100)
+                    [Width] => 300
+                    [Height] => 100
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Full Artistic Discretion(AD3)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 3
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :0</br>Click to Location :</br>
+                )
+
+            [3] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Static
+                    [Type] => Banner 300(300x600)
+                    [Width] => 300
+                    [Height] => 600
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Full Artistic Discretion(AD3)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 3
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :0</br>Click to Location :</br>
+                )
+
+            [4] => Array
+                (
+                    [Product] => Landing Page
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Full Artistic Discretion(AD3)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 3
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :0</br>Click to Location :</br>
+                )
+
+        )
+
+    [order_action] => Submit
+)
+<pre>	
+Response: {"Status":"Success","Job Number":"2291341","Input File Store Path":"2\/20140326\/2291341\/input","Input File Temp Path":null,"DeliveryDate":"Friday, March 28th 08:00 am","Pickup Input File Store Path":""}	
+Array
+(
+    [SALES_REP_NAME] => MARIA REVERA "mravera"
+    [SALES_REP_EMAIL] => 
+    [CLIENT_NAME] => Maria Ravera
+    [CAMPAIGN_DOLLARS] => 0
+    [REVIEW_DATE] => 03/27/2014
+    [START_DATE] => 04/04/2014
+    [TURNAROUND_TIME] => 3-5 Biz Days
+    [HISTORY] => New Build
+    [ARTISTIC_DIRECTION] => Full Artistic Discretion (AD3)
+    [AD_COUNT] => 4 ADS TOTAL
+    [TRACKING_NUMBER] => BAN4
+    [CAMPAIGN_KEYWORD] => 
+    [CLICK_TAG] => not sure which clickTAG
+    [CLICK-TO_LOCATION] => United States
+    [BANNERS] => 
+    [Banner_#1] => Static 300x250
+    [Banner_#2] => Static 160x600
+    [Banner_#3] => Static 300x100
+    [Banner_#4] => Static 300x600
+    [Banner_#5] => * none *
+    [RICH_MEDIA] => 
+    [Rich_Media_#1] => * none *
+    [Rich_Media_#2] => * none *
+    [Rich_Media_#3] => * none *
+    [Rich_Media_(with_Video)] => * none *
+    [SACCONNECT] => 
+    [SacConnect_type] => * none *
+    [LANDING_PAGE] => 
+    [Landing_Page_needed?] => Standard
+    [Landing_Page_features] => * none *
+    [Add_click_to_client_email] => * none *
+    [MOBILE] => 
+    [Mobile_Banners] => * none *
+    [Mobile_Landing_Page_needed?] => * none *
+    [EMAIL_BLASTS] => 
+    [Select_which_Sacbee_category_or_E-target] => * none *
+    [AD_CONTENT] => 
+    [Instructions/Content] => Your Ticket to the Weekend.Every Friday in The Bee.insert image of Friday Ticketclick thru to
+    [Attachment_#1] => 
+    [Attachment_#2] => 
+    [Attachment_#3] => 
+    [Attachment_#4] => 
+    [Attachment_#5] => 
+)
+<pre>Array
+(
+    [Order_Type] => Web
+    [requester] => demouser1
+    [location] => LOC1
+    [request_source] => JD_28
+    [request_product] => JD
+    [Tracking_No] => email_28
+    [Site] => Pre-Press | Digital | Mobile(Los Angeles)
+    [Advertiser] => Maria Ravera
+    [Book title] => Maria Ravera
+    [Sales_Person] => MARIA REVERA 
+    [Ad_Category] => Other
+    [Proof_Date] => 2014-03-27
+    [Run_Date] => 2014-04-04
+    [Pickup_Ad] => New Build
+    [Delivery_Date] => 3-5 Biz Days
+    [Publication_Title] => www.sacbee.com
+    [Spec_Ad] => No
+    [Pickup_Ad_No] => 
+    [Studio_Job] => No
+    [Save_as_Template] => No
+    [Use_a_saved_Template] => No
+    [Template_Order_No] => 
+    [tmp_folder_path] => 
+    [WebSpecifications] => Array
+        (
+            [1] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Static
+                    [Type] => Banner 300(300x250)
+                    [Width] => 300
+                    [Height] => 250
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Full Artistic Discretion(AD3)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 4
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :0</br>Click to Location :</br>
+                )
+
+            [2] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Static
+                    [Type] => Banner 160(160x600)
+                    [Width] => 160
+                    [Height] => 600
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Full Artistic Discretion(AD3)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 4
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :0</br>Click to Location :</br>
+                )
+
+            [3] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Static
+                    [Type] => Banner 300(300x100)
+                    [Width] => 300
+                    [Height] => 100
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Full Artistic Discretion(AD3)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 4
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :0</br>Click to Location :</br>
+                )
+
+            [4] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Static
+                    [Type] => Banner 300(300x600)
+                    [Width] => 300
+                    [Height] => 600
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Full Artistic Discretion(AD3)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 4
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :0</br>Click to Location :</br>
+                )
+
+            [5] => Array
+                (
+                    [Product] => Landing Page
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Full Artistic Discretion(AD3)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 4
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :0</br>Click to Location :</br>
+                )
+
+        )
+
+    [order_action] => Submit
+)
+<pre>	
+Response: {"Status":"Success","Job Number":"2291342","Input File Store Path":"2\/20140326\/2291342\/input","Input File Temp Path":null,"DeliveryDate":"Friday, March 28th 08:00 am","Pickup Input File Store Path":""}	
+Array
+(
+    [SALES_REP_NAME] => MARIA REVERA "mravera"
+    [SALES_REP_EMAIL] => 
+    [CLIENT_NAME] => Maria Ravera
+    [CAMPAIGN_DOLLARS] => 0
+    [REVIEW_DATE] => 03/27/2014
+    [START_DATE] => 04/01/2014
+    [TURNAROUND_TIME] => 3-5 Biz Days
+    [HISTORY] => New Build
+    [ARTISTIC_DIRECTION] => Full Artistic Discretion (AD3)
+    [AD_COUNT] => 5 ADS TOTAL
+    [TRACKING_NUMBER] => BAN5
+    [CAMPAIGN_KEYWORD] => 
+    [CLICK_TAG] => not sure which clickTAG
+    [CLICK-TO_LOCATION] => United States
+    [BANNERS] => 
+    [Banner_#1] => Static 300x250
+    [Banner_#2] => Static 160x600
+    [Banner_#3] => Static 300x100
+    [Banner_#4] => Static 300x600
+    [Banner_#5] => Static 728x90
+    [RICH_MEDIA] => 
+    [Rich_Media_#1] => * none *
+    [Rich_Media_#2] => * none *
+    [Rich_Media_#3] => * none *
+    [Rich_Media_(with_Video)] => * none *
+    [SACCONNECT] => 
+    [SacConnect_type] => * none *
+    [LANDING_PAGE] => 
+    [Landing_Page_needed?] => Standard
+    [Landing_Page_features] => * none *
+    [Add_click_to_client_email] => * none *
+    [MOBILE] => 
+    [Mobile_Banners] => * none *
+    [Mobile_Landing_Page_needed?] => * none *
+    [EMAIL_BLASTS] => 
+    [Select_which_Sacbee_category_or_E-target] => * none *
+    [AD_CONTENT] => 
+    [Instructions/Content] => Save 74% Insert image of The Bee and digital productsBee blue backgroundClick thru to
+    [Attachment_#1] => 
+    [Attachment_#2] => 
+    [Attachment_#3] => 
+    [Attachment_#4] => 
+    [Attachment_#5] => 
+)
+<pre>Array
+(
+    [Order_Type] => Web
+    [requester] => demouser1
+    [location] => LOC1
+    [request_source] => JD_29
+    [request_product] => JD
+    [Tracking_No] => email_29
+    [Site] => Pre-Press | Digital | Mobile(Los Angeles)
+    [Advertiser] => Maria Ravera
+    [Book title] => Maria Ravera
+    [Sales_Person] => MARIA REVERA 
+    [Ad_Category] => Other
+    [Proof_Date] => 2014-03-27
+    [Run_Date] => 2014-04-01
+    [Pickup_Ad] => New Build
+    [Delivery_Date] => 3-5 Biz Days
+    [Publication_Title] => www.sacbee.com
+    [Spec_Ad] => No
+    [Pickup_Ad_No] => 
+    [Studio_Job] => No
+    [Save_as_Template] => No
+    [Use_a_saved_Template] => No
+    [Template_Order_No] => 
+    [tmp_folder_path] => 
+    [WebSpecifications] => Array
+        (
+            [1] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Static
+                    [Type] => Banner 300(300x250)
+                    [Width] => 300
+                    [Height] => 250
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Full Artistic Discretion(AD3)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 5
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :0</br>Click to Location :</br>
+                )
+
+            [2] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Static
+                    [Type] => Banner 160(160x600)
+                    [Width] => 160
+                    [Height] => 600
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Full Artistic Discretion(AD3)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 5
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :0</br>Click to Location :</br>
+                )
+
+            [3] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Static
+                    [Type] => Banner 300(300x100)
+                    [Width] => 300
+                    [Height] => 100
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Full Artistic Discretion(AD3)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 5
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :0</br>Click to Location :</br>
+                )
+
+            [4] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Static
+                    [Type] => Banner 300(300x600)
+                    [Width] => 300
+                    [Height] => 600
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Full Artistic Discretion(AD3)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 5
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :0</br>Click to Location :</br>
+                )
+
+            [5] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Static
+                    [Type] => Banner 728(728x90)
+                    [Width] => 728
+                    [Height] => 90
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Full Artistic Discretion(AD3)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 5
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :0</br>Click to Location :</br>
+                )
+
+            [6] => Array
+                (
+                    [Product] => Landing Page
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Full Artistic Discretion(AD3)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 5
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :0</br>Click to Location :</br>
+                )
+
+        )
+
+    [order_action] => Submit
+)
+<pre>	
+Response: {"Status":"Success","Job Number":"2291343","Input File Store Path":"2\/20140326\/2291343\/input","Input File Temp Path":null,"DeliveryDate":"Friday, March 28th 08:00 am","Pickup Input File Store Path":""}	
+Array
+(
+    [SALES_REP_NAME] => MARIA REVERA "mravera"
+    [SALES_REP_EMAIL] => 
+    [CLIENT_NAME] => Maria ravera
+    [CAMPAIGN_DOLLARS] => 0
+    [REVIEW_DATE] => 03/27/2014
+    [START_DATE] => 04/02/2014
+    [TURNAROUND_TIME] => 3-5 Biz Days
+    [HISTORY] => New Build
+    [ARTISTIC_DIRECTION] => Full Artistic Discretion (AD3)
+    [AD_COUNT] => 5 ADS TOTAL
+    [TRACKING_NUMBER] => BAN5
+    [CAMPAIGN_KEYWORD] => 
+    [CLICK_TAG] => not sure which clickTAG
+    [CLICK-TO_LOCATION] => United States
+    [BANNERS] => 
+    [Banner_#1] => Static 300x250
+    [Banner_#2] => Static 160x600
+    [Banner_#3] => Static 300x100
+    [Banner_#4] => Static 300x600
+    [Banner_#5] => Static 728x90
+    [RICH_MEDIA] => 
+    [Rich_Media_#1] => * none *
+    [Rich_Media_#2] => * none *
+    [Rich_Media_#3] => * none *
+    [Rich_Media_(with_Video)] => * none *
+    [SACCONNECT] => 
+    [SacConnect_type] => * none *
+    [LANDING_PAGE] => 
+    [Landing_Page_needed?] => * none *
+    [Landing_Page_features] => * none *
+    [Add_click_to_client_email] => * none *
+    [MOBILE] => 
+    [Mobile_Banners] => * none *
+    [Mobile_Landing_Page_needed?] => * none *
+    [EMAIL_BLASTS] => 
+    [Select_which_Sacbee_category_or_E-target] => * none *
+    [AD_CONTENT] => 
+    [Instructions/Content] => SUBSCRIBE TODAY (LARGER PRINT ALL CAPS)AND SAVE (LARGER PRINT ALL CAPS)on Northern California's (SMALLER PRINT, UPPER / LOWER)best journalism. (SMALLER PRINT , UPPER / LOWER)image of print, iPad, iPhoneclick thru to
+    [Attachment_#1] => 
+    [Attachment_#2] => 
+    [Attachment_#3] => 
+    [Attachment_#4] => 
+    [Attachment_#5] => 
+)
+<pre>Array
+(
+    [Order_Type] => Web
+    [requester] => demouser1
+    [location] => LOC1
+    [request_source] => JD_30
+    [request_product] => JD
+    [Tracking_No] => email_30
+    [Site] => Pre-Press | Digital | Mobile(Los Angeles)
+    [Advertiser] => Maria ravera
+    [Book title] => Maria ravera
+    [Sales_Person] => MARIA REVERA 
+    [Ad_Category] => Other
+    [Proof_Date] => 2014-03-27
+    [Run_Date] => 2014-04-02
+    [Pickup_Ad] => New Build
+    [Delivery_Date] => 3-5 Biz Days
+    [Publication_Title] => www.sacbee.com
+    [Spec_Ad] => No
+    [Pickup_Ad_No] => 
+    [Studio_Job] => No
+    [Save_as_Template] => No
+    [Use_a_saved_Template] => No
+    [Template_Order_No] => 
+    [tmp_folder_path] => 
+    [WebSpecifications] => Array
+        (
+            [1] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Static
+                    [Type] => Banner 300(300x250)
+                    [Width] => 300
+                    [Height] => 250
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Full Artistic Discretion(AD3)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 4
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :0</br>Click to Location :</br>
+                )
+
+            [2] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Static
+                    [Type] => Banner 160(160x600)
+                    [Width] => 160
+                    [Height] => 600
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Full Artistic Discretion(AD3)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 4
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :0</br>Click to Location :</br>
+                )
+
+            [3] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Static
+                    [Type] => Banner 300(300x100)
+                    [Width] => 300
+                    [Height] => 100
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Full Artistic Discretion(AD3)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 4
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :0</br>Click to Location :</br>
+                )
+
+            [4] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Static
+                    [Type] => Banner 300(300x600)
+                    [Width] => 300
+                    [Height] => 600
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Full Artistic Discretion(AD3)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 4
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :0</br>Click to Location :</br>
+                )
+
+            [5] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Static
+                    [Type] => Banner 728(728x90)
+                    [Width] => 728
+                    [Height] => 90
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Full Artistic Discretion(AD3)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 4
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :0</br>Click to Location :</br>
+                )
+
+        )
+
+    [order_action] => Submit
+)
+<pre>	
+Response: {"Status":"Success","Job Number":"2291344","Input File Store Path":"2\/20140326\/2291344\/input","Input File Temp Path":null,"DeliveryDate":"Friday, March 28th 08:00 am","Pickup Input File Store Path":""}	
+Array
+(
+    [SALES_REP_NAME] => MARIA REVERA "mravera"
+    [SALES_REP_EMAIL] => 
+    [CLIENT_NAME] => Maria Ravera
+    [CAMPAIGN_DOLLARS] => 0
+    [REVIEW_DATE] => 03/27/2014
+    [START_DATE] => 04/02/2014
+    [TURNAROUND_TIME] => 3-5 Biz Days
+    [HISTORY] => New Build
+    [ARTISTIC_DIRECTION] => Full Artistic Discretion (AD3)
+    [AD_COUNT] => 4 ADS TOTAL
+    [TRACKING_NUMBER] => BAN4
+    [CAMPAIGN_KEYWORD] => 
+    [CLICK_TAG] => not sure which clickTAG
+    [CLICK-TO_LOCATION] => United States
+    [BANNERS] => 
+    [Banner_#1] => Static 300x250
+    [Banner_#2] => Static 160x600
+    [Banner_#3] => Static 300x600
+    [Banner_#4] => Static 728x90
+    [Banner_#5] => * none *
+    [RICH_MEDIA] => 
+    [Rich_Media_#1] => * none *
+    [Rich_Media_#2] => * none *
+    [Rich_Media_#3] => * none *
+    [Rich_Media_(with_Video)] => * none *
+    [SACCONNECT] => 
+    [SacConnect_type] => * none *
+    [LANDING_PAGE] => 
+    [Landing_Page_needed?] => * none *
+    [Landing_Page_features] => * none *
+    [Add_click_to_client_email] => * none *
+    [MOBILE] => 
+    [Mobile_Banners] => * none *
+    [Mobile_Landing_Page_needed?] => * none *
+    [EMAIL_BLASTS] => 
+    [Select_which_Sacbee_category_or_E-target] => * none *
+    [AD_CONTENT] => 
+    [Instructions/Content] => Read all of for only 99c.(insert images of desktop, iPad, iPhone, android)- Unlimited access to - Exclusive news coverage, videos and photo galleries- Breaking news as it happensAccess for 99c.(link to )
+    [Attachment_#1] => 
+    [Attachment_#2] => 
+    [Attachment_#3] => 
+    [Attachment_#4] => 
+    [Attachment_#5] => 
+)
+<pre>Array
+(
+    [Order_Type] => Web
+    [requester] => demouser1
+    [location] => LOC1
+    [request_source] => JD_31
+    [request_product] => JD
+    [Tracking_No] => email_31
+    [Site] => Pre-Press | Digital | Mobile(Los Angeles)
+    [Advertiser] => Maria Ravera
+    [Book title] => Maria Ravera
+    [Sales_Person] => MARIA REVERA 
+    [Ad_Category] => Other
+    [Proof_Date] => 2014-03-27
+    [Run_Date] => 2014-04-02
+    [Pickup_Ad] => New Build
+    [Delivery_Date] => 3-5 Biz Days
+    [Publication_Title] => www.sacbee.com
+    [Spec_Ad] => No
+    [Pickup_Ad_No] => 
+    [Studio_Job] => No
+    [Save_as_Template] => No
+    [Use_a_saved_Template] => No
+    [Template_Order_No] => 
+    [tmp_folder_path] => 
+    [WebSpecifications] => Array
+        (
+            [1] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Static
+                    [Type] => Banner 300(300x250)
+                    [Width] => 300
+                    [Height] => 250
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Full Artistic Discretion(AD3)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 3
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :0</br>Click to Location :</br>
+                )
+
+            [2] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Static
+                    [Type] => Banner 160(160x600)
+                    [Width] => 160
+                    [Height] => 600
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Full Artistic Discretion(AD3)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 3
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :0</br>Click to Location :</br>
+                )
+
+            [3] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Static
+                    [Type] => Banner 300(300x600)
+                    [Width] => 300
+                    [Height] => 600
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Full Artistic Discretion(AD3)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 3
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :0</br>Click to Location :</br>
+                )
+
+            [4] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Static
+                    [Type] => Banner 728(728x90)
+                    [Width] => 728
+                    [Height] => 90
+                    [Click Tag] => not sure which clickTAG
+                    [Artistic Discretion] => Full Artistic Discretion(AD3)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 3
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :0</br>Click to Location :</br>
+                )
+
+        )
+
+    [order_action] => Submit
+)
+<pre>	
+Response: {"Status":"Success","Job Number":"2291345","Input File Store Path":"2\/20140326\/2291345\/input","Input File Temp Path":null,"DeliveryDate":"Friday, March 28th 08:00 am","Pickup Input File Store Path":""}	
+
+Warning: simplexml_load_string(): Entity: line 1: parser error : Opening and ending tag mismatch: br line 1 and td in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): W SALES EVENT LOGO<br/>IN THE ELK GROVE AUTOMALL 1.888.ELK.GROVE CLICK HERE</td> in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                                                ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): Entity: line 1: parser error : Opening and ending tag mismatch: td line 1 and tr in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): ES EVENT LOGO<br/>IN THE ELK GROVE AUTOMALL 1.888.ELK.GROVE CLICK HERE</td></tr> in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                                                ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): Entity: line 1: parser error : Opening and ending tag mismatch: tr line 1 and tbody in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): ttachment #5:</td><td style="padding:7px 9px 7px 0;width:80%"></td></tr></tbody> in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                                                ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): Entity: line 1: parser error : Opening and ending tag mismatch: tbody line 1 and table in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): t #5:</td><td style="padding:7px 9px 7px 0;width:80%"></td></tr></tbody></table> in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                                                ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): Entity: line 1: parser error : Premature end of data in tag table line 1 in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): t #5:</td><td style="padding:7px 9px 7px 0;width:80%"></td></tr></tbody></table> in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                                                ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: Invalid argument supplied for foreach() in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 119
+Array
+(
+    [inputFiles] => Array
+        (
+            [0] => Array
+                (
+                    [name] => NissanEG Mon 1214770 R3 (1).pdf
+                )
+
+        )
+
+    [tmp_folder_path] => tmp_5333202568cae
+)
+Array
+(
+    [SALES_REP_NAME] => JAMILA SMITH "jjsmith"
+    [SALES_REP_EMAIL] => 
+    [CLIENT_NAME] => Folsom Lake Honda
+    [CAMPAIGN_DOLLARS] => 2000
+    [REVIEW_DATE] => 03/24/2014
+    [START_DATE] => 03/24/2014
+    [TURNAROUND_TIME] => 4 Hr Rush (get approval)
+    [HISTORY] => Pick Up w/Change
+    [ARTISTIC_DIRECTION] => Follow Layout with Changes (AD2)
+    [AD_COUNT] => 1 AD TOTAL
+    [TRACKING_NUMBER] => BAN
+    [CAMPAIGN_KEYWORD] => 
+    [CLICK_TAG] => blank McCLATCHY clickTAG
+    [CLICK-TO_LOCATION] => 
+    [BANNERS] => 
+    [Banner_#1] => Flash 300x250
+    [Banner_#2] => * none *
+    [Banner_#3] => * none *
+    [Banner_#4] => * none *
+    [Banner_#5] => * none *
+    [RICH_MEDIA] => 
+    [Rich_Media_#1] => * none *
+    [Rich_Media_#2] => * none *
+    [Rich_Media_#3] => * none *
+    [Rich_Media_(with_Video)] => * none *
+    [SACCONNECT] => 
+    [SacConnect_type] => * none *
+    [LANDING_PAGE] => 
+    [Landing_Page_needed?] => * none *
+    [Landing_Page_features] => * none *
+    [Add_click_to_client_email] => * none *
+    [MOBILE] => 
+    [Mobile_Banners] => * none *
+    [Mobile_Landing_Page_needed?] => * none *
+    [EMAIL_BLASTS] => 
+    [Select_which_Sacbee_category_or_E-target] => * none *
+    [AD_CONTENT] => 
+    [Instructions/Content] => Please submit a rush order for this small change!Pick up this ad ad and change "10 Used Hondas for Under $10,000!" to upper/ lower case, instead of all caps
+    [Attachment_#1] => 
+    [Attachment_#2] => 
+    [Attachment_#3] => 
+    [Attachment_#4] => 
+    [Attachment_#5] => 
+)
+<pre>Array
+(
+    [Order_Type] => Web
+    [requester] => demouser1
+    [location] => LOC1
+    [request_source] => JD_33
+    [request_product] => JD
+    [Tracking_No] => email_33
+    [Site] => Pre-Press | Digital | Mobile(Los Angeles)
+    [Advertiser] => Folsom Lake Honda
+    [Book title] => Folsom Lake Honda
+    [Sales_Person] => JAMILA SMITH 
+    [Ad_Category] => Other
+    [Proof_Date] => 2014-03-24
+    [Run_Date] => 2014-03-24
+    [Pickup_Ad] => Pick Up w/Change
+    [Delivery_Date] => 4 Hr Rush (get approval)
+    [Publication_Title] => www.sacbee.com
+    [Spec_Ad] => No
+    [Pickup_Ad_No] => 
+    [Studio_Job] => No
+    [Save_as_Template] => No
+    [Use_a_saved_Template] => No
+    [Template_Order_No] => 
+    [tmp_folder_path] => 
+    [WebSpecifications] => Array
+        (
+            [1] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Animated Flash
+                    [Type] => Banner 300(300x250)
+                    [Width] => 300
+                    [Height] => 250
+                    [Click Tag] => blank McCLATCHY clickTAG
+                    [Artistic Discretion] => Follow Layout with Changes(AD2)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 0
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :2000</br>Click to Location :</br>
+                )
+
+        )
+
+    [order_action] => Submit
+)
+<pre>	
+Response: {"Status":"Success","Job Number":"2291346","Input File Store Path":"2\/20140326\/2291346\/input","Input File Temp Path":null,"DeliveryDate":"Friday, March 28th 08:00 am","Pickup Input File Store Path":""}	
+Array
+(
+    [SALES_REP_NAME] => JAMILA SMITH "jjsmith"
+    [SALES_REP_EMAIL] => 
+    [CLIENT_NAME] => Elk Grove Ford
+    [CAMPAIGN_DOLLARS] => 2000
+    [REVIEW_DATE] => 03/25/2014
+    [START_DATE] => 03/25/2014
+    [TURNAROUND_TIME] => Overnight
+    [HISTORY] => New Build
+    [ARTISTIC_DIRECTION] => Follow Layout with Changes (AD2)
+    [AD_COUNT] => 1 AD TOTAL
+    [TRACKING_NUMBER] => SCA
+    [CAMPAIGN_KEYWORD] => 
+    [CLICK_TAG] => blank McCLATCHY clickTAG
+    [CLICK-TO_LOCATION] => 
+    [BANNERS] => 
+    [Banner_#1] => * none *
+    [Banner_#2] => * none *
+    [Banner_#3] => * none *
+    [Banner_#4] => * none *
+    [Banner_#5] => * none *
+    [RICH_MEDIA] => 
+    [Rich_Media_#1] => * none *
+    [Rich_Media_#2] => * none *
+    [Rich_Media_#3] => * none *
+    [Rich_Media_(with_Video)] => * none *
+    [SACCONNECT] => 
+    [SacConnect_type] => Animated Media Alert (900x400 + 300x150)
+    [LANDING_PAGE] => 
+    [Landing_Page_needed?] => * none *
+    [Landing_Page_features] => * none *
+    [Add_click_to_client_email] => * none *
+    [MOBILE] => 
+    [Mobile_Banners] => * none *
+    [Mobile_Landing_Page_needed?] => * none *
+    [EMAIL_BLASTS] => 
+    [Select_which_Sacbee_category_or_E-target] => * none *
+    [AD_CONTENT] => 
+    [Instructions/Content] => 900X400 ad using silver background shown on attached. ELK GROVE FORD (WITH FORD LOGO AND ELK ANIMAL, SEE ATTACHED)MAD SAVINGS IN MARCH! (bold, animated heading)NEW 2013 FORD F-150 4X2 SUPERCREW LARIAT PLATINUM6 Speed Auto Trans, SYNC System, 20 Polished Aluminum Wheels, Power Moonroof & More!(FACTORY ART PIC)0% APR FOR 60 MONTHS! (in large burst)$15,000 NET SAVINGS! (BIG 15,000)CLICK HERE FOR ALL SPECIALS ElkGroveFord.com Elk Grove AutomallIn rollover details On approved credit in lieu of all incentives. $16.67 per month per $1000 financed based on $0 down. MSRP $52095 Dealer Discount off MSRP $9500 Sale Price $42595 Ford Factory Rebate $1500 Ford Credit Bonus* $1500 Trade In Assist* $2500 Net Cost $37095 *Must trade in 1996 or newer vehicle registered in customer’s name for minimum 30 days. **Must finance thru Ford Credit on approved credit. 1 at this offer. Stk/VIN# 14967-D49048300X150Elk Grove Ford (with elk and logo)(picture of F-150 truck)$15,000 NET SAVINGS ON NEW FORD F-150!
+    [Attachment_#1] => 
+    [Attachment_#2] => 
+    [Attachment_#3] => 
+    [Attachment_#4] => 
+    [Attachment_#5] => 
+    [inputFiles] => Array
+        (
+            [0] => Array
+                (
+                    [name] => EGFord Sat 1214644 R1.pdf
+                )
+
+        )
+
+    [tmp_folder_path] => tmp_5333202ea5886
+)
+<pre>Array
+(
+    [Order_Type] => Web
+    [requester] => demouser1
+    [location] => LOC1
+    [request_source] => JD_34
+    [request_product] => JD
+    [Tracking_No] => email_34
+    [Site] => Pre-Press | Digital | Mobile(Los Angeles)
+    [Advertiser] => Elk Grove Ford
+    [Book title] => Elk Grove Ford
+    [Sales_Person] => JAMILA SMITH 
+    [Ad_Category] => Other
+    [Proof_Date] => 2014-03-25
+    [Run_Date] => 2014-03-25
+    [Pickup_Ad] => New Build
+    [Delivery_Date] => Overnight
+    [Publication_Title] => www.sacbee.com
+    [Spec_Ad] => No
+    [Pickup_Ad_No] => 
+    [Studio_Job] => No
+    [Save_as_Template] => No
+    [Use_a_saved_Template] => No
+    [Template_Order_No] => 
+    [tmp_folder_path] => tmp_5333202ea5886
+    [WebSpecifications] => Array
+        (
+            [1] => Array
+                (
+                    [Product] => SacConnect
+                    [Output Type] => Animated Media Alert 
+                    [Type] => 900x400 
+                    [Width] => 900
+                    [Height] => 400 
+                    [Click Tag] => blank McCLATCHY clickTAG
+                    [Artistic Discretion] => Follow Layout with Changes(AD2)
+                    [Brief/Instructions] => Campaign Dollers :2000</br>Click to Location :</br>
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 1
+                    [Multiple Formats] => Yes
+                )
+
+            [2] => Array
+                (
+                    [Product] => SacConnect
+                    [Output Type] => Animated Media Alert 
+                    [Type] =>  300x150)
+                    [Width] =>  300
+                    [Height] => 150)
+                    [Click Tag] => blank McCLATCHY clickTAG
+                    [Artistic Discretion] => Follow Layout with Changes(AD2)
+                    [Brief/Instructions] => Campaign Dollers :2000</br>Click to Location :</br>
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 1
+                    [Multiple Formats] => Yes
+                )
+
+        )
+
+    [order_action] => Submit
+    [FILES] => Array
+        (
+            [0] => Array
+                (
+                    [name] => EGFord Sat 1214644 R1.pdf
+                )
+
+        )
+
+)
+<pre>	
+Response: {"Status":"Success","Job Number":"2291347","Input File Store Path":"2\/20140326\/2291347\/input","Input File Temp Path":"tmp_5333202ea5886","DeliveryDate":"Friday, March 28th 08:00 am","Pickup Input File Store Path":""}	
+Order created successfully..!Array
+(
+    [SALES_REP_NAME] => JAMILA SMITH "jjsmith"
+    [SALES_REP_EMAIL] => 
+    [CLIENT_NAME] => Folsom Lake Ford
+    [CAMPAIGN_DOLLARS] => 2000
+    [REVIEW_DATE] => 03/25/2014
+    [START_DATE] => 03/25/2014
+    [TURNAROUND_TIME] => Overnight
+    [HISTORY] => Pick Up w/Change
+    [ARTISTIC_DIRECTION] => Follow Layout (AD1)
+    [AD_COUNT] => 2 ADS TOTAL
+    [TRACKING_NUMBER] => BAN3-cars360
+    [CAMPAIGN_KEYWORD] => 
+    [CLICK_TAG] => blank CARS360 clickTAG
+    [CLICK-TO_LOCATION] => 
+    [BANNERS] => 
+    [Banner_#1] => Flash 300x250
+    [Banner_#2] => Flash 728x90
+    [Banner_#3] => Flash 160x600
+    [Banner_#4] => * none *
+    [Banner_#5] => * none *
+    [RICH_MEDIA] => 
+    [Rich_Media_#1] => * none *
+    [Rich_Media_#2] => * none *
+    [Rich_Media_#3] => * none *
+    [Rich_Media_(with_Video)] => * none *
+    [SACCONNECT] => 
+    [SacConnect_type] => * none *
+    [LANDING_PAGE] => 
+    [Landing_Page_needed?] => * none *
+    [Landing_Page_features] => * none *
+    [Add_click_to_client_email] => * none *
+    [MOBILE] => 
+    [Mobile_Banners] => * none *
+    [Mobile_Landing_Page_needed?] => * none *
+    [EMAIL_BLASTS] => 
+    [Select_which_Sacbee_category_or_E-target] => * none *
+    [AD_CONTENT] => 
+    [Instructions/Content] => Please pick up and use Cars360 tags V1 V2 V3
+    [Attachment_#1] => 
+    [Attachment_#2] => 
+    [Attachment_#3] => 
+    [Attachment_#4] => 
+    [Attachment_#5] => 
+)
+<pre>Array
+(
+    [Order_Type] => Web
+    [requester] => demouser1
+    [location] => LOC1
+    [request_source] => JD_35
+    [request_product] => JD
+    [Tracking_No] => email_35
+    [Site] => Pre-Press | Digital | Mobile(Los Angeles)
+    [Advertiser] => Folsom Lake Ford
+    [Book title] => Folsom Lake Ford
+    [Sales_Person] => JAMILA SMITH 
+    [Ad_Category] => Other
+    [Proof_Date] => 2014-03-25
+    [Run_Date] => 2014-03-25
+    [Pickup_Ad] => Pick Up w/Change
+    [Delivery_Date] => Overnight
+    [Publication_Title] => www.sacbee.com
+    [Spec_Ad] => No
+    [Pickup_Ad_No] => 
+    [Studio_Job] => No
+    [Save_as_Template] => No
+    [Use_a_saved_Template] => No
+    [Template_Order_No] => 
+    [tmp_folder_path] => 
+    [WebSpecifications] => Array
+        (
+            [1] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Animated Flash
+                    [Type] => Banner 300(300x250)
+                    [Width] => 300
+                    [Height] => 250
+                    [Click Tag] => blank CARS360 clickTAG
+                    [Artistic Discretion] => Follow Layout(AD1)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 2
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :2000</br>Click to Location :</br>
+                )
+
+            [2] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Animated Flash
+                    [Type] => Banner 728(728x90)
+                    [Width] => 728
+                    [Height] => 90
+                    [Click Tag] => blank CARS360 clickTAG
+                    [Artistic Discretion] => Follow Layout(AD1)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 2
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :2000</br>Click to Location :</br>
+                )
+
+            [3] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Animated Flash
+                    [Type] => Banner 160(160x600)
+                    [Width] => 160
+                    [Height] => 600
+                    [Click Tag] => blank CARS360 clickTAG
+                    [Artistic Discretion] => Follow Layout(AD1)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 2
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :2000</br>Click to Location :</br>
+                )
+
+        )
+
+    [order_action] => Submit
+)
+<pre>	
+Response: {"Status":"Success","Job Number":"2291348","Input File Store Path":"2\/20140326\/2291348\/input","Input File Temp Path":null,"DeliveryDate":"Friday, March 28th 08:00 am","Pickup Input File Store Path":""}	
+
+Warning: simplexml_load_string(): Entity: line 1: parser error : Opening and ending tag mismatch: br line 1 and td in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): m/ads/folsom_lake_ford/SAC_folsomlakeford_SAC2280078_160x600/index.html</a></td> in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                                                ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): Entity: line 1: parser error : Opening and ending tag mismatch: td line 1 and tr in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): /folsom_lake_ford/SAC_folsomlakeford_SAC2280078_160x600/index.html</a></td></tr> in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                                                ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): Entity: line 1: parser error : Opening and ending tag mismatch: tr line 1 and tbody in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): ttachment #5:</td><td style="padding:7px 9px 7px 0;width:80%"></td></tr></tbody> in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                                                ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): Entity: line 1: parser error : Opening and ending tag mismatch: tbody line 1 and table in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): t #5:</td><td style="padding:7px 9px 7px 0;width:80%"></td></tr></tbody></table> in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                                                ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): Entity: line 1: parser error : Premature end of data in tag table line 1 in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string(): t #5:</td><td style="padding:7px 9px 7px 0;width:80%"></td></tr></tbody></table> in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: simplexml_load_string():                                                                                ^ in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 70
+
+Warning: Invalid argument supplied for foreach() in /mnt/das/2adpro.com/jd3/jdmail/public/CreateJobsThroughMail.php on line 119
+Array
+(
+)
+Array
+(
+    [SALES_REP_NAME] => BLAIR DICKEY "bdickey"
+    [SALES_REP_EMAIL] => 
+    [CLIENT_NAME] => Sutter
+    [CAMPAIGN_DOLLARS] => 1500
+    [REVIEW_DATE] => 03/26/2014
+    [START_DATE] => 03/31/2014
+    [TURNAROUND_TIME] => Overnight
+    [HISTORY] => New Build
+    [ARTISTIC_DIRECTION] => Follow Layout with Changes (AD2)
+    [AD_COUNT] => 5 ADS TOTAL
+    [TRACKING_NUMBER] => 
+    [CAMPAIGN_KEYWORD] => arthritis
+    [CLICK_TAG] => blank clickTAGs (various)
+    [CLICK-TO_LOCATION] => 
+    [BANNERS] => 
+    [Banner_#1] => Flash 300x250
+    [Banner_#2] => Flash 728x90
+    [Banner_#3] => Flash 160x600
+    [Banner_#4] => Flash 300x250
+    [Banner_#5] => Flash 728x90
+    [RICH_MEDIA] => 
+    [Rich_Media_#1] => * none *
+    [Rich_Media_#2] => * none *
+    [Rich_Media_#3] => * none *
+    [Rich_Media_(with_Video)] => * none *
+    [SACCONNECT] => 
+    [SacConnect_type] => * none *
+    [LANDING_PAGE] => 
+    [Landing_Page_needed?] => * none *
+    [Landing_Page_features] => * none *
+    [Add_click_to_client_email] => * none *
+    [MOBILE] => 
+    [Mobile_Banners] => * none *
+    [Mobile_Landing_Page_needed?] => * none *
+    [EMAIL_BLASTS] => 
+    [Select_which_Sacbee_category_or_E-target] => * none *
+    [AD_CONTENT] => 
+    [Instructions/Content] => I would like to setup a new series for our run of site ads for the month of April. These ads will follow the same type of format that we did for Heart Disease in February. April is Arthritis Awareness month and I attached an infographic that I would like you to use for the ad creative’s. Here are some possible ideas for the adsB7 1 out of every 5 people has arthritis in the United States – Learn what you can do to stay active!B7 1 in 3 people with arthritis have work limitations – Don’t let Arthritis STOP you from being active!B7 Annually, arthritis results ino 44 million outpatient visitso 992,100 hospitalizationso 9,367 deathso 21 million people with activity limitationsLearn what you can do to stay active!B7 Arthritis affects both Genders – 25.9% of women & 18.3% of men are diagnosis with Arthritis.B7 Arthritis affects people of all ages – more than 300,000 children are diagnosis with juvenile arthritis (1 in every 250 children)Here are the ads from Heart Month we're following the style of V1 V2 V3 V4 V5
+    [Attachment_#1] => 
+    [Attachment_#2] => 
+    [Attachment_#3] => 
+    [Attachment_#4] => 
+    [Attachment_#5] => 
+    [inputFiles] => Array
+        (
+            [0] => Array
+                (
+                    [name] => SS0012_arthritis infographic 032514.pdf
+                )
+
+        )
+
+    [tmp_folder_path] => tmp_5333203d3f84d
+)
+<pre>Array
+(
+    [Order_Type] => Web
+    [requester] => demouser1
+    [location] => LOC1
+    [request_source] => JD_37
+    [request_product] => JD
+    [Tracking_No] => email_37
+    [Site] => Pre-Press | Digital | Mobile(Los Angeles)
+    [Advertiser] => Sutter
+    [Book title] => Sutter
+    [Sales_Person] => BLAIR DICKEY 
+    [Ad_Category] => Other
+    [Proof_Date] => 2014-03-26
+    [Run_Date] => 2014-03-31
+    [Pickup_Ad] => New Build
+    [Delivery_Date] => Overnight
+    [Publication_Title] => www.sacbee.com
+    [Spec_Ad] => No
+    [Pickup_Ad_No] => 
+    [Studio_Job] => No
+    [Save_as_Template] => No
+    [Use_a_saved_Template] => No
+    [Template_Order_No] => 
+    [tmp_folder_path] => tmp_5333203d3f84d
+    [WebSpecifications] => Array
+        (
+            [1] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Animated Flash
+                    [Type] => Banner 300(300x250)
+                    [Width] => 300
+                    [Height] => 250
+                    [Click Tag] => blank clickTAGs (various)
+                    [Artistic Discretion] => Follow Layout with Changes(AD2)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 4
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :1500</br>Click to Location :</br>
+                )
+
+            [2] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Animated Flash
+                    [Type] => Banner 728(728x90)
+                    [Width] => 728
+                    [Height] => 90
+                    [Click Tag] => blank clickTAGs (various)
+                    [Artistic Discretion] => Follow Layout with Changes(AD2)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 4
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :1500</br>Click to Location :</br>
+                )
+
+            [3] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Animated Flash
+                    [Type] => Banner 160(160x600)
+                    [Width] => 160
+                    [Height] => 600
+                    [Click Tag] => blank clickTAGs (various)
+                    [Artistic Discretion] => Follow Layout with Changes(AD2)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 4
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :1500</br>Click to Location :</br>
+                )
+
+            [4] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Animated Flash
+                    [Type] => Banner 300(300x250)
+                    [Width] => 300
+                    [Height] => 250
+                    [Click Tag] => blank clickTAGs (various)
+                    [Artistic Discretion] => Follow Layout with Changes(AD2)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 4
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :1500</br>Click to Location :</br>
+                )
+
+            [5] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Animated Flash
+                    [Type] => Banner 728(728x90)
+                    [Width] => 728
+                    [Height] => 90
+                    [Click Tag] => blank clickTAGs (various)
+                    [Artistic Discretion] => Follow Layout with Changes(AD2)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 4
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :1500</br>Click to Location :</br>
+                )
+
+        )
+
+    [order_action] => Submit
+    [FILES] => Array
+        (
+            [0] => Array
+                (
+                    [name] => SS0012_arthritis infographic 032514.pdf
+                )
+
+        )
+
+)
+<pre>	
+Response: {"Status":"Success","Job Number":"2291349","Input File Store Path":"2\/20140326\/2291349\/input","Input File Temp Path":"tmp_5333203d3f84d","DeliveryDate":"Friday, March 28th 08:00 am","Pickup Input File Store Path":""}	
+Order created successfully..!Array
+(
+    [SALES_REP_NAME] => MONICA AARON "maaron"
+    [SALES_REP_EMAIL] => 
+    [CLIENT_NAME] => folsom cordova unified
+    [CAMPAIGN_DOLLARS] => $1000
+    [REVIEW_DATE] => 03/26/2014
+    [START_DATE] => 03/28/2014
+    [TURNAROUND_TIME] => Overnight
+    [HISTORY] => New Build
+    [ARTISTIC_DIRECTION] => Follow Layout with Changes (AD2)
+    [AD_COUNT] => 3 ADS TOTAL
+    [TRACKING_NUMBER] => 
+    [CAMPAIGN_KEYWORD] => Enrollment
+    [CLICK_TAG] => blank McCLATCHY clickTAG
+    [CLICK-TO_LOCATION] => landing page
+    [BANNERS] => 
+    [Banner_#1] => Flash 300x250
+    [Banner_#2] => Flash 728x90
+    [Banner_#3] => * none *
+    [Banner_#4] => * none *
+    [Banner_#5] => * none *
+    [RICH_MEDIA] => 
+    [Rich_Media_#1] => * none *
+    [Rich_Media_#2] => * none *
+    [Rich_Media_#3] => * none *
+    [Rich_Media_(with_Video)] => * none *
+    [SACCONNECT] => 
+    [SacConnect_type] => * none *
+    [LANDING_PAGE] => 
+    [Landing_Page_needed?] => Standard
+    [Landing_Page_features] => * none *
+    [Add_click_to_client_email] => * none *
+    [MOBILE] => 
+    [Mobile_Banners] => * none *
+    [Mobile_Landing_Page_needed?] => * none *
+    [EMAIL_BLASTS] => 
+    [Select_which_Sacbee_category_or_E-target] => * none *
+    [AD_CONTENT] => 
+    [Instructions/Content] => see attached ... for layout and pick up.
+    [Attachment_#1] => 
+    [Attachment_#2] => 
+    [Attachment_#3] => 
+    [Attachment_#4] => 
+    [Attachment_#5] => 
+    [inputFiles] => Array
+        (
+            [0] => Array
+                (
+                    [name] => FCUSD layout.pdf
+                )
+
+            [1] => Array
+                (
+                    [name] => FCUSD REV INSERT SB16692 (1).pdf
+                )
+
+        )
+
+    [tmp_folder_path] => tmp_53332045aa783
+)
+<pre>Array
+(
+    [Order_Type] => Web
+    [requester] => demouser1
+    [location] => LOC1
+    [request_source] => JD_38
+    [request_product] => JD
+    [Tracking_No] => email_38
+    [Site] => Pre-Press | Digital | Mobile(Los Angeles)
+    [Advertiser] => folsom cordova unified
+    [Book title] => folsom cordova unified
+    [Sales_Person] => MONICA AARON 
+    [Ad_Category] => Other
+    [Proof_Date] => 2014-03-26
+    [Run_Date] => 2014-03-28
+    [Pickup_Ad] => New Build
+    [Delivery_Date] => Overnight
+    [Publication_Title] => www.sacbee.com
+    [Spec_Ad] => No
+    [Pickup_Ad_No] => 
+    [Studio_Job] => No
+    [Save_as_Template] => No
+    [Use_a_saved_Template] => No
+    [Template_Order_No] => 
+    [tmp_folder_path] => tmp_53332045aa783
+    [WebSpecifications] => Array
+        (
+            [1] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Animated Flash
+                    [Type] => Banner 300(300x250)
+                    [Width] => 300
+                    [Height] => 250
+                    [Click Tag] => blank McCLATCHY clickTAG
+                    [Artistic Discretion] => Follow Layout with Changes(AD2)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 2
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :$1000</br>Click to Location :</br>
+                )
+
+            [2] => Array
+                (
+                    [Product] => Banner
+                    [Output Type] => Animated Flash
+                    [Type] => Banner 728(728x90)
+                    [Width] => 728
+                    [Height] => 90
+                    [Click Tag] => blank McCLATCHY clickTAG
+                    [Artistic Discretion] => Follow Layout with Changes(AD2)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 2
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :$1000</br>Click to Location :</br>
+                )
+
+            [3] => Array
+                (
+                    [Product] => Landing Page
+                    [Click Tag] => blank McCLATCHY clickTAG
+                    [Artistic Discretion] => Follow Layout with Changes(AD2)
+                    [Creative Attached] => 
+                    [Change Colors] => 
+                    [Add Elements] => 
+                    [Resize Elements] => 
+                    [Copy Translation] => No
+                    [Additional Versions] => 2
+                    [Multiple Formats] => Yes
+                    [Brief/Instructions] => Campaign Dollers :$1000</br>Click to Location :</br>
+                )
+
+        )
+
+    [order_action] => Submit
+    [FILES] => Array
+        (
+            [0] => Array
+                (
+                    [name] => FCUSD layout.pdf
+                )
+
+            [1] => Array
+                (
+                    [name] => FCUSD REV INSERT SB16692 (1).pdf
+                )
+
+        )
+
+)
+<pre>	
+Response: {"Status":"Success","Job Number":"2291350","Input File Store Path":"2\/20140326\/2291350\/input","Input File Temp Path":"tmp_53332045aa783","DeliveryDate":"Friday, March 28th 08:00 am","Pickup Input File Store Path":""}	
+Order created successfully..!
