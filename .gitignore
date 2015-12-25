@@ -1,0 +1,6 @@
+conf/conf.xml
+.buildpath
+.settings/*
+.settings
+.project
+

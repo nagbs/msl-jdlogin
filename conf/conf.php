@@ -1,9 +1,8 @@
 <?php
-define('SERVICE_HTTP_PATH','http://jdws100.2adpro.com');
+$config_vars = simplexml_load_file(realpath(__DIR__.'/conf.xml'));
 
-define('HTTP_PATH','http://jd.2adpro.com');
-
-define('INSTALL_PATH','/mnt/das/2adpro.com/jd3/jdlogin/public');
-
-define('CUSTOMER_PIC_PATH','/images/customer_logos/');
-
+foreach($config_vars as $config_name => $config_val)
+{
+	define($config_name, $config_val);
+}
+?>
