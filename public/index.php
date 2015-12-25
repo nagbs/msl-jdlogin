@@ -14,7 +14,6 @@ date_default_timezone_set('America/Phoenix');
 /*----------Set Include path to Zend Library and application controllers, modules-------*/
 set_include_path ('.' . PATH_SEPARATOR . '../library/' . PATH_SEPARATOR . '../application/models/' . PATH_SEPARATOR . get_include_path());
 
-include_once('../conf/db.conf.php');
 include_once('../conf/db_tables.php');
 include_once('../conf/conf.php');
 
@@ -42,23 +41,10 @@ $params = array(
     'driver_options' => $pdoParams
 );
 
-if(substr_count($_SERVER['REQUEST_URI'],'reports/')>0)
-{
-	ini_set('memory_limit','2048M');
-	$params = array(
-			'host'           => REPORT_HOST,
-			'username'       => REPORT_USER,
-			'password'       => REPORT_PWD,
-			'dbname'         => REPORT_DB,
-			//'charset'	     => 'utf8',
-			'driver_options' => $pdoParams
-	);
-}
-
 $db = Zend_Db::factory('Pdo_Mysql', $params);
 Zend_Db_Table::setDefaultAdapter($db);
 
-ini_set('session.cookie_domain', '.2adpro.com' );
+ini_set('session.cookie_domain', SESSION_COOKIE_DOMAIN );
 include_once('../application/includes/session_mysql.php');
 session_start();
 
