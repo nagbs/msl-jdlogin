@@ -174,6 +174,8 @@ class IndexController extends Zend_Controller_Action
 				$_SESSION['privilege']   ='C';
 				
 				$_SESSION['UserRoles'] = (string)$rest_obj->response->MMBaseRole;
+				$_SESSION['download_file_access'] = (string)$rest_obj->response->uc_download_file_access;
+				$_SESSION['WorkloadTab'] = (string)$rest_obj->response->corp_workload_tab;
 				//MM
 				
 				$this->_redirect('/view/index');
