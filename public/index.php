@@ -54,13 +54,23 @@ defined('APPLICATION_PATH') || define('APPLICATION_PATH', realpath(dirname(__FIL
 
 set_include_path ('.' . PATH_SEPARATOR . '../library/' . PATH_SEPARATOR . '../application/models/' . PATH_SEPARATOR . get_include_path());
 
-if(substr_count($_SERVER['REQUEST_URI'],'/orders/viewjob')==0
-        && substr_count($_SERVER['REQUEST_URI'],'/view/print') == 0
-        && substr_count($_SERVER['REQUEST_URI'],'orders/downloadallfiles')==0
-        && substr_count($_SERVER['REQUEST_URI'],'file/download')==0
-	&& substr_count($_SERVER['REQUEST_URI'],'file/filesize')==0
-	&& substr_count($_SERVER['REQUEST_URI'],'orders/emailproofget')==0
-        && substr_count($_SERVER['REQUEST_URI'],'/profile/contactphoto') == 0)
+//45.56.122.248 -> eproofjd-qc.2adpro.com
+//45.56.122.248 -> jdxproof-qc.2adpro.com
+//52.70.138.176 -> eproofjd.2adpro.com
+//52.207.79.142 -> jdxproof.com
+
+if( !((substr_count($_SERVER['REQUEST_URI'],'orders/downloadallfiles')!=0
+    || substr_count($_SERVER['REQUEST_URI'],'file/download')!=0
+	|| substr_count($_SERVER['REQUEST_URI'],'file/filesize')!=0
+	|| substr_count($_SERVER['REQUEST_URI'],'file/preview')!=0
+	|| substr_count($_SERVER['REQUEST_URI'],'orders/emailproofget')!=0
+    || substr_count($_SERVER['REQUEST_URI'],'/profile/contactphoto') != 0
+	|| substr_count($_SERVER['REQUEST_URI'],'/Serverstatus/serveravailability') != 0
+	|| substr_count($_SERVER['REQUEST_URI'],'/chk_session.php') != 0) 
+	&& (stripos($_SERVER['HTTP_REFERER'],'2adpro.com') !== FALSE || stripos($_SERVER['HTTP_REFERER'],'jdxproof.com') !== FALSE
+		 || $_SERVER['REMOTE_ADDR'] == '52.207.79.142' || $_SERVER['REMOTE_ADDR'] == '52.70.138.176'
+		 || $_SERVER['REMOTE_ADDR'] == '45.56.122.248' || $_SERVER['REMOTE_ADDR'] == '45.56.122.248'))
+)
 {
                 include_once('../application/includes/checksessionstate.php');
 }
