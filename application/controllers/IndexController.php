@@ -144,7 +144,7 @@ class IndexController extends Zend_Controller_Action
 				$_SESSION['site_uom'] = (string)$rest_obj->response->SiteUom;
 				
 				$_SESSION['DisplayTimeZone']	=(string)$rest_obj->response->DisplayTimeZone;
-
+				$_SESSION['SiteDST']	=(string)$rest_obj->response->site_dst_savings;
 				$_SESSION['UserCityId']           =       (string)$rest_obj->response->UserCityId;
 				$_SESSION['UserCorpId']           =       (string)$rest_obj->response->UserCorpId;
 				$_SESSION['UserClustId']          =       (string)$rest_obj->response->UserClustId;
@@ -168,17 +168,29 @@ class IndexController extends Zend_Controller_Action
 				//MM
 				$_SESSION['UserSiteId']=(string)$rest_obj->response->SiteId;
 				$_SESSION['UserSites']=(array)$rest_obj->response->Sites;
-				
+				$_SESSION['UserCorpId'] = $rest_obj->response->Corp_id;
+				$_SESSION['SiteAbbreviations'] = (array)$rest_obj->response->SiteAbbreviations;
 				$_SESSION['UserPublisherId']=(string)$rest_obj->response->SiteId;
 				
 				$_SESSION['privilege']   ='C';
+				
+				$_SESSION['Is_Billing_Estimates_Enabled'] = $rest_obj->response->Is_Billing_Estimates_Enabled;
 				
 				$_SESSION['UserRoles'] = (string)$rest_obj->response->MMBaseRole;
 				
 				$_SESSION['Corp_id']           =       (string)$rest_obj->response->CorporateId;
 				$_SESSION['download_file_access'] = (string)$rest_obj->response->uc_download_file_access;
 				$_SESSION['WorkloadTab'] = (string)$rest_obj->response->corp_workload_tab;
-				//MM
+				
+				$_SESSION['MMBaseRole'] = (string)$rest_obj->response->MMBaseRole;
+				$_SESSION['MMAccessibleFunctions'] = (array)$rest_obj->response->MMAccessibleFunctions;
+				$_SESSION['Categories'] = $rest_obj->response->Categories;
+					//MM
+					
+				$functionalities = $rest_obj->response->functionalities;
+				foreach ($functionalities as $key => $functions){
+					$_SESSION[$key] = $functions;
+				}
 				
 				$this->_redirect('/view/index');
 				
