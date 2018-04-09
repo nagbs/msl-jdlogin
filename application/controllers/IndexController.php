@@ -154,6 +154,7 @@ class IndexController extends Zend_Controller_Action
 
 				$_SESSION['JdFlowLogo']	=	CUSTOMER_PIC_PATH.(string)$rest_obj->response->JdFlowLogo;
 				
+				$_SESSION['SiteNormal']	=	(string)$rest_obj->response->SiteNormal;
 				$_SESSION['SiteMagazine']	=	(string)$rest_obj->response->SiteMagazine;
 				$_SESSION['SiteCampaign']	=	(string)$rest_obj->response->SiteCampaign;
 
