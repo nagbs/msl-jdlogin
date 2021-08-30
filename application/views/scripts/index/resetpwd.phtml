@@ -22,10 +22,14 @@
 			else if ( pwd == repwd )
 			{
 				$.post('/index/resettingpwd',$("#reset_form").serialize(),function(data){
-						$("#reset_form").hide();	
-						$(".msg").html(data+'<br/> Redirecting to Login Page');
-						$(".msg").css('color','#006400');
+					var obj = jQuery.parseJSON(data);
+					$("#reset_form").hide();
+					$(".msg").html(obj.msg+'<br/> Redirecting to Login Page');
+					$(".msg").css('color','#006400');
+
+					setTimeout(function() {
 						document.location.href='/';
+					}, 2000);
 				});
 			}
 			else
@@ -54,8 +58,9 @@
 			<div class="error">Reset Your Password Here</div>
 		    <input name="pwd" id="pwd" type="password" placeholder="Password"  class="login-input"/>
 		    <input name="repwd" id="repwd" type="password" placeholder="Re-Enter Password" class="login-input"/>
-		    <img id="reset_Submit" class="login-btn" />
-			<input name="id"  type="hidden" value="<?php echo ($this->id); ?>"/>		
+		    <img id="reset_Submit" class="reset-btn" />
+			<input name="id"  type="hidden" value="<?php echo ($this->id); ?>"/>
+			<input name="token"  type="hidden" value="<?php echo ($this->token); ?>"/>
 			</form>
 			
 	 	<?php }

@@ -24,7 +24,7 @@ class IndexController extends Zend_Controller_Action
 	*/
 	public function indexAction() {
 		
-		if (isset ($_SESSION['UserId']) && $_SESSION['UserId']!='') {
+		if (isset($_SESSION['UserId']) && $_SESSION['UserId']!='') {
 			$this->_redirect('/view/index');
 		} else {
 			$this->_redirect('/index/login');
@@ -335,68 +335,55 @@ class IndexController extends Zend_Controller_Action
 					$randomno .= $string{$pos};
 				}
 				
+				$commonFnObj = new JD_CommonFunctions();
+				$stringToEncrypt = $post_data['id'] . ',' . $randomno;
+				$token           = $commonFnObj->getEncriptedToken($stringToEncrypt);
 				
-				$msg="Please click the below link to reset your password \r\n \t \"". HTTP_PATH . "/index/resetpwd/auth/".$randomno."/id/".$post_data['id']."\"";
-				/*try{	
-				
-				$config = array(
-				"ssl" => "ssl",
-				'auth' =>  "login",
-				'port' =>  "465",
-				'username' => 'AKIAIEBO2M2KYFKWT2IQ',
-				'password' =>  "AlCXQyz++ojmu6+vdyvYJEIyCZv3BlWDA+j2ul4aN4So",
-				);
-
-				$transport = new Zend_Mail_Transport_Smtp('email-smtp.eu-west-1.amazonaws.com', $config);
-				Zend_Mail::setDefaultTransport($transport);*/
+				$msg = "Please click the below link to reset your password \r\n \t \"". HTTP_PATH . "/index/resetpwd/auth/".$token."\"";
 
 
 				try{  
                                 
-                                $config = array(
-                                "ssl" => "ssl",
-                                'auth' =>  "plain",
-                                'port' =>  "465",
-                                'username' => 'webmaster@2adproalerts.com',
-                                'password' =>  "2@pro_wmg1",
-                                );
+                    $config = array(
+                    "ssl" => "ssl",
+                    'auth' =>  "plain",
+                    'port' =>  "465",
+                    'username' => 'webmaster@2adproalerts.com',
+                    'password' =>  "2@pro_wmg1",
+                    );
 
-                                $transport = new Zend_Mail_Transport_Smtp('smtp.gmail.com', $config);
-                                Zend_Mail::setDefaultTransport($transport);
+                    $transport = new Zend_Mail_Transport_Smtp('smtp.gmail.com', $config);
+                    Zend_Mail::setDefaultTransport($transport);
 
-				$mail = new Zend_Mail();
-				$mail->setFrom('webmaster@2adproalerts.com', '2ADPro Customer Service');	
+					$mail = new Zend_Mail();
+					$mail->setFrom('webmaster@2adproalerts.com', '2ADPro Customer Service');	
 
-				if(is_array($sendermailid2))
-				{
-					foreach($sendermailid2 as $to_email)
+					if(is_array($sendermailid2))
 					{
-						$mail->addTo(trim($to_email));
+						foreach($sendermailid2 as $to_email)
+						{
+							$mail->addTo(trim($to_email));
+						}
 					}
-				}
-				else
-				{
-					$mail->addTo(trim($sendermailid2));
-				}
+					else
+					{
+						$mail->addTo(trim($sendermailid2));
+					}
 
-				$mail->setSubject('Password Reset for JD');
-				$mail->setBodyText($msg);
-				$mail->send();
-
-				}
-				catch(Zend_Exception $mze)
-				{
+					$mail->setSubject('Password Reset for JD');
+					$mail->setBodyText($msg);
+					$mail->send();
+				} catch(Zend_Exception $mze) {
 					echo $mze->getMessage();
 				}
-			   
-				$rest_objForUserAuth = new JD_RestService(SERVICE_HTTP_PATH,'','');
-				$rest_objForUserAuth->requestName = 'users';
-				$rest_objForUserAuth->requestData = '';
-				$rest_objForUserAuth->requestType = 'html';
-				$rest_objForUserAuth->responseType = 'json';
-				$rest_objForUserAuth->requestParams = array('userid'=>$post_data['id'],'token'=>$randomno,'request_action'=>'UPDATE_AUTH');
-				$rest_objForUserAuth->updateData();
-		    	
+			   	
+			   	$userAuth = new JD_RestService(SERVICE_HTTP_PATH,'','');
+				$userAuth->requestName   = 'users';
+				$userAuth->requestData   = '';
+				$userAuth->requestType   = 'html';
+				$userAuth->responseType  = 'json';
+				$userAuth->requestParams = array('userid'=>$post_data['id'],'token'=>$randomno,'request_action'=>'CREATE_UC_RESET_TOKEN');
+				$userAuth->updateData();
 		    	
 				echo "Please check the registered email address for further instructions to reset password <br /><div class='button float-right'><a id='forgot_Ok' class='home' href='#'><span>Ok</span></a></div>";
 				//}
@@ -413,55 +400,93 @@ class IndexController extends Zend_Controller_Action
 	
 	public function resetpwdAction()
 	{
-		$post_data = $this->_request->getParams();
-		//print_r ($post_data);
-		$token = $post_data['auth'];
-		$id = $post_data['id'];
-		$rest_objForUserCheckAuth = new JD_RestService(SERVICE_HTTP_PATH,'','');
-		$rest_objForUserCheckAuth->requestName = 'users';
-		$rest_objForUserCheckAuth->requestData = $post_data['id'];
-		$rest_objForUserCheckAuth->requestType = 'html';
-		$rest_objForUserCheckAuth->responseType = 'json';
-		$rest_objForUserCheckAuth->getData();
-		
-		if ($rest_objForUserCheckAuth->response->status == '1')
-		{
-			if ($rest_objForUserCheckAuth->response->authtoken == $token)
-			{
-				$this->view->msg = "Success";
-				$this->view->id = $post_data['id'];
+		$getData   = $this->_request->getParams();
+		$authToken = $getData['auth'];
+
+		$commonFnObj    = new JD_CommonFunctions();
+		$decryptedToken = $commonFnObj->getDecryptedToken($authToken);
+
+		$decryptedInfo = explode(',', $decryptedToken);
+		$userId        = $decryptedInfo[0];
+		$token         = $decryptedInfo[1];
+
+		$userCheckAuth = new JD_RestService(SERVICE_HTTP_PATH,'','');
+		$userCheckAuth->requestName  = 'users';
+		$userCheckAuth->requestData  = $userId;
+		$userCheckAuth->requestType  = 'html';
+		$userCheckAuth->responseType = 'json';
+		$userCheckAuth->querydata = array('token' => $token, 'request_action' => 'GET_UC_RESET_TOKEN');
+		$userCheckAuth->getData();
+
+		if (isset($_SESSION['UserId']) && !empty($_SESSION['UserId'])) {
+			$this->_redirect('/view/index');
+		} else if ($userCheckAuth->response->status == '1') {
+			if ($userCheckAuth->response->token != $token) {
+				$this->view->msg = "This is not a valid password reset token.";
+			} else if ($userCheckAuth->response->isTokenExpired == 1) {
+				$this->view->msg = "Password reset token is expired, please try again.";
+			} else if ($userCheckAuth->response->token == $token) {
+				$this->view->msg    = "Success";
+				$this->view->id     = $userId;
+				$this->view->token  = $token;
+			} else {
+				$this->view->msg = "Invalid Token";
 			}
-			else
-			{
-				$this->view->msg = "Wrong Token";
-			}
-		}
-		else
-		{
-			$this->view->msg = "This is not a valid Username";
-		}
+		} else {
+			$this->view->msg = "This is not a valid password reset token, please try again.";
+		}//end if
 	}
 	
 	
 	public function resettingpwdAction()
 	{
-		if($this->_request->isPost())
-		{
+		if($this->_request->isPost()) {
 			$data = $this->_request->getPost();
-			$rest_objForChangePwd = new JD_RestService(SERVICE_HTTP_PATH,'','');
-			$rest_objForChangePwd->requestName = 'users';
-			$rest_objForChangePwd->requestData = '';
-			$rest_objForChangePwd->requestType = 'html';
-			$rest_objForChangePwd->responseType = 'json';
-			$rest_objForChangePwd->requestParams = array('userid'=>$data['id'],'pwd'=>$data['pwd'],'request_action'=>'RESET_PWD');
-			$rest_objForChangePwd->updateData();
-				
-			if ($rest_objForChangePwd->response->status == '1');
-			{
-				echo $rest_objForChangePwd->response->message;
-			}	
-			
-		}
+
+			$userCheckAuth = new JD_RestService(SERVICE_HTTP_PATH,'','');
+			$userCheckAuth->requestName  = 'users';
+			$userCheckAuth->requestData  = $data['id'];
+			$userCheckAuth->requestType  = 'html';
+			$userCheckAuth->responseType = 'json';
+			$userCheckAuth->querydata    = array('token' => $data['token'], 'request_action'=>'GET_UC_RESET_TOKEN');
+			$userCheckAuth->getData();
+
+			if ($userCheckAuth->response->status == '1') {
+				if ($userCheckAuth->response->token == $data['token']) {
+					$changePwd = new JD_RestService(SERVICE_HTTP_PATH,'','');
+					$changePwd->requestName   = 'users';
+					$changePwd->requestData   = '';
+					$changePwd->requestType   = 'html';
+					$changePwd->responseType  = 'json';
+					$changePwd->requestParams = array('userid'=>$data['id'],'pwd'=>$data['pwd'], 'token' => $data['token'], 'request_action'=>'RESET_PWD');
+					$changePwd->updateData();
+
+					if ($changePwd->response->status == '1') {
+						$msg = [
+							'status' => 'Success',
+							'msg'    => $changePwd->response->message
+						];
+					} else {
+						$msg = [
+							'status' => 'Failed',
+							'msg'    => 'Could not change the password, please try again later.'
+						];
+					}
+				} else {
+					$msg = [
+						'status' => 'Failed',
+						'msg'    => 'Password reset token is invalid.'
+					];
+				}
+			} else {
+				$msg = [
+					'status' => 'Failed',
+					'msg'    => 'Invalid Username.'
+				];
+			}//end if
+
+			echo json_encode($msg); exit;
+		}//end if
 		exit();
 	}
 	
