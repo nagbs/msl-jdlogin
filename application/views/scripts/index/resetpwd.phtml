@@ -5,22 +5,35 @@
 <title>Job Direct 3 - Enterprise</title>
 <meta name="description" content="" />
 <meta charset="utf-8">
-<link href="/css/login.css" rel="stylesheet" type="text/css"/>
+<link href="/css/resetpwd.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="<?php echo $this->baseUrl();?>/js/jquery.js"></script>
+<script type="text/javascript" src="<?php echo $this->baseUrl();?>/js/password-validater.js"></script>
 <script type="text/javascript">
 	$(document).ready(function(){
 				
 		$('#reset_Submit').click(function(){
-			var pwd = $('#pwd').val().trim();
+			var pwd   = $('#pwd').val().trim();
 			var repwd = $('#repwd').val();
+
+			checkUserPwd      = checkUserPassword(pwd);
+			checkValidUserPwd = checkValidUserPassword(pwd);
+
 			$(".error").html('');
 			if(pwd==""){
-				$(".error").html("Password should be character,no space allowed");
+				$(".error").html("Password should not be empty.");
 				$(".error").css('color','#d41812');
 				return false;
-			}
-			else if ( pwd == repwd )
-			{
+			} else if (!checkUserPwd.status) {
+				$(".error").html(checkUserPwd.msg);
+				$(".error").css('color','#d41812');
+
+				return false;
+			} else if (!checkValidUserPwd.status) {
+				$(".error").html(checkValidUserPwd.msg);
+				$(".error").css('color','#d41812');
+
+				return false;
+			} else if ( pwd == repwd ) {
 				$.post('/index/resettingpwd',$("#reset_form").serialize(),function(data){
 					var obj = jQuery.parseJSON(data);
 					$("#reset_form").hide();
@@ -34,7 +47,7 @@
 			}
 			else
 			{
-				$(".error").html("Password not Matched");
+				$(".error").html("Passwords are not matching.");
 				$(".error").css('color','#d41812');
 				return false;
 			}
@@ -70,8 +83,18 @@
 	 	
 	 	<?php } ?>
 	 	</div>
-		
-		</div>
+	</div>
+	<?php if ($this->msg == 'Success') { ?>
+	<div class="login-box-info">
+		<b>Password must Contain:</b>
+		<ul>
+			<li id="pwd-length">8 to 32 characters in length</li>
+			<li id="pwd-upperlower">At least 1 lowercase and 1 uppercase letter</li>
+			<li id="pwd-number">At least 1 number</li>
+			<li id="pwd-special">At least 1 symbol (!@#$%^&()’[]“?+-/*)</li>
+		</ul>
+	</div>
+	<?php } ?>
 		 
       <div class="add-box"><a href="#"></a></div>
 	
