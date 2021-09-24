@@ -36,13 +36,19 @@
 			} else if ( pwd == repwd ) {
 				$.post('/index/resettingpwd',$("#reset_form").serialize(),function(data){
 					var obj = jQuery.parseJSON(data);
-					$("#reset_form").hide();
-					$(".msg").html(obj.msg+'<br/> Redirecting to Login Page');
-					$(".msg").css('color','#006400');
+					if (obj.status == 0) {
+						$(".error").html(obj.msg);
+						$(".error").css('color','#d41812');
+						return false;
+					} else {
+						$("#reset_form").hide();
+						$(".msg").html(obj.msg+'<br/> Redirecting to Login Page');
+						$(".msg").css('color','#006400');
 
-					setTimeout(function() {
-						document.location.href='/';
-					}, 2000);
+						setTimeout(function() {
+						  document.location.href='/';
+						}, 2000);
+					}
 				});
 			}
 			else

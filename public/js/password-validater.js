@@ -6,6 +6,12 @@
  *
  */
 
+var restrictedWords = 'welcome|welcome@123|admin|@123|123';
+$.get('/index/restrictedwords',function(data) {
+	var obj = jQuery.parseJSON(data);
+
+	restrictedWords = obj.words;
+});
 var userPwdValidation      = {status: '', msg: ''};
 var validUserPwdValidation = {status: '', msg: ''};
 
@@ -14,7 +20,6 @@ var pwdUpper        = /[A-Z]+/;
 var pwdLower        = /[a-z]+/;
 var pwdNumber       = /[0-9]+/;
 var pwdSpecial      = /[!@#$%^&()'[\]"?+-/*={}.,;:_]+/;
-var restrictedWords = ['welcome', 'welcome@123', 'admin', '@123'];
 
 
 function checkUserPassword(userPwd) 
@@ -68,7 +73,7 @@ function checkValidUserPassword(userPwd)
 		return validUserPwdValidation;
 	}
 
-	var matchFound = userPassword.match(new RegExp(restrictedWords.join("|"), "g"));
+	var matchFound = userPassword.match(new RegExp(restrictedWords, "g"));
 
 	if (matchFound != null){
 	    validUserPwdValidation.status = false;

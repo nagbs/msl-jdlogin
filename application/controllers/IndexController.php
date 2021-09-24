@@ -466,6 +466,11 @@ class IndexController extends Zend_Controller_Action
 							'status' => 'Success',
 							'msg'    => $changePwd->response->message
 						];
+					} else if ($changePwd->response->status == 0) {
+						$msg = [
+							'status' => '0',
+							'msg'    => $changePwd->response->message
+						];
 					} else {
 						$msg = [
 							'status' => 'Failed',
@@ -489,7 +494,23 @@ class IndexController extends Zend_Controller_Action
 		}//end if
 		exit();
 	}
-	
+	public function restrictedwordsAction()
+	{
+		$userCheckAuth = new JD_RestService(SERVICE_HTTP_PATH,'','');
+		$userCheckAuth->requestName = 'users';
+		$userCheckAuth->requestData = 'demouser1';
+		$userCheckAuth->requestType = 'html';
+		$userCheckAuth->responseType = 'json';
+		$userCheckAuth->querydata = array('request_action' => 'GET_USER_PWD_RESTRICTED_WORDS');
+		$userCheckAuth->getData();
+
+		$msg = [
+			'status' => $userCheckAuth->response->status,
+			'words'  => $userCheckAuth->response->restrictedWords
+		];
+
+		echo json_encode($msg); exit;
+	}
 	
 	
 
