@@ -84,6 +84,22 @@ class IndexController extends Zend_Controller_Action
 			$rest_obj->querydata = $request_params;
 			$rest_obj->getData();		
 			
+			if ($rest_obj->response->Status == 'Success' && isset($rest_obj->response->password_policy)) {
+				$commonFnObj     = new JD_CommonFunctions();
+				$randomno        = $commonFnObj->getRandomStr();
+				$stringToEncrypt = $username . ',' . $randomno;
+				$token           = $commonFnObj->getEncriptedToken($stringToEncrypt);
+
+				$rest_objForUserAuth = new JD_RestService(SERVICE_HTTP_PATH,'','');
+				$rest_objForUserAuth->requestName = 'users';
+				$rest_objForUserAuth->requestData = '';
+				$rest_objForUserAuth->requestType = 'html';
+				$rest_objForUserAuth->responseType = 'json';
+				$rest_objForUserAuth->requestParams = array('userid'=>$username,'token'=>$randomno,'request_action'=>'CREATE_UC_RESET_TOKEN');
+				$rest_objForUserAuth->updateData();
+
+				$this->_redirect('/index/resetpwd/auth/' . $token);
+			}
 			
 			if($rest_obj->response->Status == 'Success')
 			{				
