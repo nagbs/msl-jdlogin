@@ -18,7 +18,6 @@ input:focus {outline:none;}
 .announcement p {margin:8px 0; font-size:14px; line-height:19px; color:#fff; width:800px; text-align:justify;}
 .announcement:last-child {margin:0;}
 .announcement a { color:#b3d9ff; }
-.nano {height: 250px !important;}
 .add-box {width:270px; float:left; display:block; padding:0; margin-right:27px; margin-bottom:27px;}
 .scroll-div {display:block; margin:10px 0; height:180px;}
 .scroll-job-div{display:block; margin:10px 0 0 0; height:650px;}
