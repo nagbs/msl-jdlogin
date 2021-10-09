@@ -145,6 +145,7 @@ margin:2px 0px;
 input:-webkit-autofill{
 background-color:none;
 }
+.nano {height: 250px !important;}
 </style>
 <script type="text/javascript" src="/js/jquery.min.js"></script>
 <script type="text/javascript" src="<?php echo $this->baseUrl();?>/js/jquery.js"></script>
@@ -258,20 +259,15 @@ background-color:none;
 		
 		</div>
 		<?php if (isset($this->announcements) && $this->announcements !='') { ?>
-		 <div class="announcement"  tabindex="0" style="right: -13px;">
-
-                    
-
-			    <h2>ANNOUNCEMENT</h2>
+		<div class="announcement"  tabindex="0" style="right: -13px;">
 				<div class="scroll-div">
-				<div class="nano">
-				<div class="overthrow content description">
-			    <p>
-			   <?php echo $this->announcements; ?>  
-			</p>
-			   </div>
-			 </div>
-			  </div>
+					<div class="nano">
+						<div class="overthrow content description">
+							<h1>ANNOUNCEMENT</h1><br>
+							<?php echo htmlspecialchars_decode(stripslashes($this->announcements)); ?>
+					   </div>
+				 	</div>
+			  	</div>
 		</div>
 		<?php } ?>
      

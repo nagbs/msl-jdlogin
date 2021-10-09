@@ -48,4 +48,23 @@ class JD_CommonFunctions
 		return openssl_decrypt($encryptedUrlSafeStr, self::ENCRYPTION_METHOD, self::SECRET_HASH);
 	}
 
+	/**
+	 * To get the random string
+	 * Date : 2021-10-27
+	 *
+	 * @author Malayan K
+	 *
+	 * @return string
+	 */
+	public function getRandomStr()
+	{
+		$string   = "abcdefghijklmnopqrstuvwxyz0123456789";
+		$randomno = '';
+		for($i=0;$i<7;$i++) {
+			$pos       = rand(0,36);
+			$randomno .= $string{$pos};
+		}
+
+		return $randomno;
+	}
 }

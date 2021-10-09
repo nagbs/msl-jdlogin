@@ -12,10 +12,12 @@ input:focus {outline:none;}
 .reset-btn {background:url(/images/reset-btn.png) center center no-repeat; padding:13px; width:110px; height:43px; border:none; float:right; margin-top:8px; cursor:pointer;}
 .reset-btn:hover {background:url(/images/reset-btn.png) center center no-repeat; border:none;}
 
-.announcement {width:508px; float:left; height:215px; padding:30px 30px 27px 30px; background:#de6826; margin-right:27px;}
-.announcement h2 {margin:0; color:#fff; text-transform:uppercase; font-size:21px;}
-.announcement p {margin:8px 0; font-size:14px; line-height:19px; color:#fff; width:490px; text-align:justify;}
+.announcement {width:806px; float:left; height:250px; padding:0px 30px 27px 30px; background:#004080; margin-right:27px;}
+.announcement h1 {margin:0; color:#fff; text-transform:uppercase; font-size:21px; font-weight: bold;}
+.announcement h2 {margin:0; color:#fff; text-transform:uppercase; font-size:16px; font-weight: bold;}
+.announcement p {margin:8px 0; font-size:14px; line-height:19px; color:#fff; width:800px; text-align:justify;}
 .announcement:last-child {margin:0;}
+.announcement a { color:#b3d9ff; }
 .add-box {width:270px; float:left; display:block; padding:0; margin-right:27px; margin-bottom:27px;}
 .scroll-div {display:block; margin:10px 0; height:180px;}
 .scroll-job-div{display:block; margin:10px 0 0 0; height:650px;}

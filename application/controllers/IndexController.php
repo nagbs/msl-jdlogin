@@ -84,6 +84,22 @@ class IndexController extends Zend_Controller_Action
 			$rest_obj->querydata = $request_params;
 			$rest_obj->getData();		
 			
+			if ($rest_obj->response->Status == 'Success' && isset($rest_obj->response->password_policy)) {
+				$commonFnObj     = new JD_CommonFunctions();
+				$randomno        = $commonFnObj->getRandomStr();
+				$stringToEncrypt = $username . ',' . $randomno;
+				$token           = $commonFnObj->getEncriptedToken($stringToEncrypt);
+
+				$rest_objForUserAuth = new JD_RestService(SERVICE_HTTP_PATH,'','');
+				$rest_objForUserAuth->requestName = 'users';
+				$rest_objForUserAuth->requestData = '';
+				$rest_objForUserAuth->requestType = 'html';
+				$rest_objForUserAuth->responseType = 'json';
+				$rest_objForUserAuth->requestParams = array('userid'=>$username,'token'=>$randomno,'request_action'=>'CREATE_UC_RESET_TOKEN');
+				$rest_objForUserAuth->updateData();
+
+				$this->_redirect('/index/resetpwd/auth/' . $token);
+			}
 			
 			if($rest_obj->response->Status == 'Success')
 			{				
@@ -466,6 +482,11 @@ class IndexController extends Zend_Controller_Action
 							'status' => 'Success',
 							'msg'    => $changePwd->response->message
 						];
+					} else if ($changePwd->response->status == 0) {
+						$msg = [
+							'status' => '0',
+							'msg'    => $changePwd->response->message
+						];
 					} else {
 						$msg = [
 							'status' => 'Failed',
@@ -489,7 +510,23 @@ class IndexController extends Zend_Controller_Action
 		}//end if
 		exit();
 	}
-	
+	public function restrictedwordsAction()
+	{
+		$userCheckAuth = new JD_RestService(SERVICE_HTTP_PATH,'','');
+		$userCheckAuth->requestName = 'users';
+		$userCheckAuth->requestData = 'demouser1';
+		$userCheckAuth->requestType = 'html';
+		$userCheckAuth->responseType = 'json';
+		$userCheckAuth->querydata = array('request_action' => 'GET_USER_PWD_RESTRICTED_WORDS');
+		$userCheckAuth->getData();
+
+		$msg = [
+			'status' => $userCheckAuth->response->status,
+			'words'  => $userCheckAuth->response->restrictedWords
+		];
+
+		echo json_encode($msg); exit;
+	}
 	
 	
 

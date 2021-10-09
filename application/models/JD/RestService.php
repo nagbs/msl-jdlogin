@@ -22,6 +22,8 @@ class JD_RestService
 	
 	function __construct($service_url, $username, $password, $auth=0)
 	{
+		$commonFnObj = new JD_CommonFunctions();
+
 		$this->serviceUrl = $service_url;
 		$this->requestObject = curl_init();
 		curl_setopt($this->requestObject, CURLOPT_RETURNTRANSFER, true);
@@ -41,15 +43,15 @@ class JD_RestService
 		
 		if($auth==0)
 		{
-			$password = md5($password.$time);
+			$password = $commonFnObj->getEncriptedToken($password.$time);
 		}
 		else if($auth==2)
                 {
-                        $password = $password;
+                        $password = $commonFnObj->getEncriptedToken($password);
                 }
 		else
 		{
-			$password = md5($password);
+			$password = $commonFnObj->getEncriptedToken($password);
 		}
 		
 		curl_setopt($this->requestObject, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
