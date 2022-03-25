@@ -1,4 +1,5 @@
 conf/conf.xml
+conf/credentials.xml
 .buildpath
 .settings/*
 .settings

@@ -363,16 +363,16 @@ class IndexController extends Zend_Controller_Action
                     $config = array(
                     "ssl" => "ssl",
                     'auth' =>  "plain",
-                    'port' =>  "465",
-                    'username' => 'webmaster@2adproalerts.com',
-                    'password' =>  "2@pro_wmg1",
+                    'port' =>  GMAIL_PORT,
+                    'username' => GMAIL_USER,
+                    'password' =>  GMAIL_PASSWORD,
                     );
 
-                    $transport = new Zend_Mail_Transport_Smtp('smtp.gmail.com', $config);
+                    $transport = new Zend_Mail_Transport_Smtp(GMAIL_HOST, $config);
                     Zend_Mail::setDefaultTransport($transport);
 
 					$mail = new Zend_Mail();
-					$mail->setFrom('webmaster@2adproalerts.com', '2ADPro Customer Service');	
+					$mail->setFrom(GMAIL_USER, '2ADPro Customer Service');	
 
 					if(is_array($sendermailid2))
 					{

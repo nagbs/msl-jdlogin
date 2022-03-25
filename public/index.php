@@ -16,6 +16,7 @@ set_include_path ('.' . PATH_SEPARATOR . '../library/' . PATH_SEPARATOR . '../ap
 
 include_once('../conf/db_tables.php');
 include_once('../conf/conf.php');
+include_once('../conf/credentials.php');
 
 /*----------Include and register autoload *  Zend Loader-------*/
 include "Zend/Loader/Autoloader.php";
