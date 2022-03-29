@@ -1,9 +1,12 @@
 <?php
 ini_set('display_errors',1);
-$host = "localhost";
-$user = "adpro";
-$password = "xC6x7pg992";
-$database = "jobdirect_qa";
+chdir(dirname(__file__));
+include_once('../conf/credentials.php');
+
+$host = SEND_MAIL_DB_HOST;
+$user = SEND_MAIL_DB_USER;
+$password = SEND_MAIL_DB_PASSWORD;
+$database = SEND_MAIL_DB_NAME;
 set_include_path(get_include_path().PATH_SEPARATOR.'/mnt/das/2adpro.com/jd3/prod3/library/');
 require_once 'Zend/Rest/Client.php';
 require_once 'Zend/Mail.php';
@@ -36,17 +39,17 @@ while ($row= mysql_fetch_array($email_trigger_res))
 	$config = array(
                                                 "ssl" => "ssl",
                                                 'auth' =>  "login",
-                                                'port' =>  "465",
-                                                'username' => 'AKIAJ3DLEI2UAS4RFSGQ',
-                                                'password' =>  "ApvNM4DnCium23dp8Zmzzi2YyF8wa6iCwZUpopJ5MmIS",
+                                                'port' =>  SMTP_MAIL_PORT,
+                                                'username' => SMTP_MAIL_USER,
+                                                'password' =>  SMTP_MAIL_PASSWORD,
 
                                 );
 
-        $transport = new Zend_Mail_Transport_Smtp('email-smtp.us-east-1.amazonaws.com', $config);
+        $transport = new Zend_Mail_Transport_Smtp(SMTP_MAIL_HOST, $config);
         Zend_Mail::setDefaultTransport($transport);
 
         $mail = new Zend_Mail();
-        $mail->setFrom('webmaster@2adproalerts.com', 'JD New Mail Notification System');
+        $mail->setFrom(SMTP_MAIL_FROM, 'JD New Mail Notification System');
         $mail->addTo($mailid);
         $mail->setSubject('JD NEW - ' . $row['etl_subject']);
         $mail->setBodyText($msg);
@@ -89,9 +92,9 @@ while ($row= mysql_fetch_array($email_trigger_res))
         $config = array(
 						"ssl" => "ssl",
                                                 'auth' =>  "login",
-                                                'port' =>  "465",
-                                                'username' => 'AKIAJ3DLEI2UAS4RFSGQ',
-                                                'password' =>  "ApvNM4DnCium23dp8Zmzzi2YyF8wa6iCwZUpopJ5MmIS",
+                                                'port' =>  SMTP_MAIL_PORT,
+                                                'username' => SMTP_MAIL_USER,
+                                                'password' =>  SMTP_MAIL_PASSWORD,
 
                                 );
 
@@ -99,7 +102,7 @@ while ($row= mysql_fetch_array($email_trigger_res))
         Zend_Mail::setDefaultTransport($transport);                        
 
         $mail = new Zend_Mail();
-        $mail->setFrom('webmaster@2adproalerts.com', 'JD New Mail Notification System');
+        $mail->setFrom(SMTP_MAIL_FROM, 'JD New Mail Notification System');
         $mail->addTo($mailid);
 	//$mail->addBcc("uat@2adpro.com");
 	$mail->addBcc("support@2adpro.com");

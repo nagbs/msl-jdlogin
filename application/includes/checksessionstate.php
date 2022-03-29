@@ -8,6 +8,7 @@ if( (!isset($_SESSION['UserId']) || $_SESSION['UserId']=='') && isset($_SERVER['
 {				
 	#if((substr_count($_SERVER['REQUEST_URI'],'index/login')==0) && (substr_count($_SERVER['REQUEST_URI'],'/')==0))
 	if((substr_count($_SERVER['REQUEST_URI'],'index/login')==0) 
+		&& (substr_count($_SERVER['REQUEST_URI'],'index/restrictedwords')==0)
 		&& (substr_count($_SERVER['REQUEST_URI'],'index/forgotpwd')==0) 
 		&& (substr_count($_SERVER['REQUEST_URI'],'index/resetpwd')==0)
 		&& (substr_count($_SERVER['REQUEST_URI'],'index/resettingpwd')==0)

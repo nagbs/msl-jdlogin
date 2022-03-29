@@ -1,6 +1,9 @@
 <?php
-mysql_connect('192.168.100.187','clientaccess','clientpwd');
-mysql_select_db('2adpro');
+chdir(dirname(__file__));
+include_once('../conf/credentials.php');
+
+mysql_connect(CLIENT_DB_HOST,CLIENT_DB_USER,CLIENT_DB_PASSWORD);
+mysql_select_db(CLIENT_DB_NAME);
 
 $jobs_sql = "select om_job_no, pub_name, om_revision_cnt from orders_main_info 
 		join publishers on (pub_id = om_site_id and pub_corp_id='3')

@@ -1,8 +1,11 @@
 <?php
 ini_set('display_errors',0);
 error_reporting(0);
-mysql_connect("192.168.100.187",'clientaccess','clientpwd');
-mysql_select_db("2adpro");
+chdir(dirname(__file__));
+include_once('../conf/credentials.php');
+
+mysql_connect(CLIENT_DB_HOST,CLIENT_DB_USER,CLIENT_DB_PASSWORD);
+mysql_select_db(CLIENT_DB_NAME);
 
 
 $jobs_sql = "SELECT om_job_no, concat(om_site_id,'/',date_format(om_submit_dt,'%Y%m%d'),'/',om_job_no,'/output/',if(om_ord_type=1,'print','web'),'/V',oof_version,'/R',oof_revision) as filepath, oof_filename,om_ord_type, oof_uploaded_time
